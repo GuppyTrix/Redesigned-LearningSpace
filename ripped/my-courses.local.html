@@ -1,0 +1,808 @@
+<html dir="ltr" lang="en" xml:lang="en" class="yui3-js-enabled"><head>
+    <title>My modules | Learning Space</title>
+    <link rel="shortcut icon" href="/site/theme/image.php/rosehill/theme/1792480653/favicon">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="moodle, My modules | Learning Space">
+<link rel="stylesheet" type="text/css" href="/site/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css"><script type="text/javascript" async="" src="https://cdn.elev.io/sdk/main/v4/1783408025408/elevio-main.js"></script><script type="text/javascript" async="" src="https://cdn.elev.io/sdk/bootloader/v4/elevio-bootloader.js?cid=5669817b1ed49"></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="/site/theme/styles.php/rosehill/1792480653_1792191985/all">
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/learningspace.falmouth.ac.uk","apibase":"https:\/\/learningspace.falmouth.ac.uk\/r.php\/api","homeurl":{},"sesskey":"nkCRrDq6cj","sessiontimeout":"7200","sessiontimeoutwarning":1200,"themerev":"1792480653","slasharguments":1,"theme":"rosehill","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1792191942","admin":"admin","svgicons":true,"usertimezone":"Europe\/London","language":"en","courseId":1,"courseContextId":4,"contextid":1,"contextInstanceId":0,"langrev":1792191942,"templaterev":"1792191942","siteId":1,"userId":45385};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/learningspace.falmouth.ac.uk\/lib\/yuilib\/3.18.1\/","comboBase":"https:\/\/learningspace.falmouth.ac.uk\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/learningspace.falmouth.ac.uk\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/learningspace.falmouth.ac.uk\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/learningspace.falmouth.ac.uk\/theme\/yui_combo.php?m\/1792191942\/","combine":true,"comboBase":"https:\/\/learningspace.falmouth.ac.uk\/theme\/yui_combo.php?","ext":false,"root":"m\/1792191942\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_aspirelists-inline_display":{"requires":["base","node","event","event-delegate"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form","datatype-date-format"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-event","moodle-core-notification-dialogue","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_panoptoltibutton-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_styles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/learningspace.falmouth.ac.uk\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/learningspace.falmouth.ac.uk\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1792191942\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/learningspace.falmouth.ac.uk\/lib\/javascript.php\/1792191942\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/learningspace.falmouth.ac.uk\/lib\/javascript.php\/1792191942\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}},"logInclude":[],"logExclude":[],"logLevel":null};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<style>
+/* Refinements to theme (after 4.5.5 upgrade) – 07/2025 */
+body {
+	background-attachment: fixed;
+}
+#page {
+	min-height: calc( 100vh - 60px );
+}
+.course-section .summarytext img:not(.userpicture),
+.activity-item .activity-altcontent img:not(.userpicture) {
+	border-radius: 0;
+}
+.btn.btn-icon.icons-collapse-expand {
+	color: #116a6c;
+	background-color: #E2ECED;
+}
+.btn.btn-icon.icons-collapse-expand:hover {
+	outline: 2px solid #88B3B5;
+}
+.activityiconcontainer {
+	margin-right: 1em;
+	background: #666;
+}
+.activityiconcontainer .icon,
+.activityiconcontainer .activityicon {
+	filter: brightness(0) invert(1) !important;
+}
+.activityiconcontainer.administration .icon,
+.activityiconcontainer.administration .activityicon {
+	width: 22px;
+}
+
+/* BUTTON FIXES 09/2025 */
+.btn.add-section {
+	color: #fff;
+	border: 2px solid #116a6c;
+}
+.btn.add-section .icon {
+	margin: 0;
+}
+.btn.add-section:hover, 
+.btn.add-section:focus {
+	background-color: #E6F0F0;
+	border: 2px solid #116a6c;
+	color: #116a6c;
+}
+.btn.add-content {
+	color: #116a6c;
+	background-color: #E6F0F0;
+}
+.btn.add-content:hover, 
+.btn.add-content:focus {
+	color: #fff;
+	background-color: #116a6c;
+}
+.changenumsections a::before {
+	content: '';
+}
+.text-primary {
+	color: #116a6c !important;
+}
+.editing .activity-item:hover:not(:has(.activity:hover)), 
+.editing .activity-item.selected {
+	outline: 2px solid #116a6c;
+}
+.divider:has(.btn.add-content:hover) hr {
+	border-color:#116a6c;
+}
+.drawer-right .block-add {
+	background-color: #E6F0F0;
+	border-color: #116a6c;
+}
+.editing .divider .divider-content,
+.editing .divider.always-hidden hr {
+	opacity: 1;
+	visibility: visible;
+}
+.btn:not(:disabled):not(.disabled) {
+	border: none;
+}
+
+/* Talis icon colour - 31/07/23 - DevOps ref: #21764 */ 
+.modicon_lti_type_4 .icon {
+    filter: brightness(0) invert(1);
+}
+
+.path-mod-assign [data-region="grade-panel"] .gradingform_rubric .criterion .levels .level .level-wrapper {
+  white-space: normal;
+}
+.path-mod-assign [data-region="grade-panel"] .gradingform_rubric .criteria td {
+    vertical-align: top;
+}
+
+/* Temp fix - scheduler calendar - 20240604 */
+div#dateselector-calendar-panel {
+    z-index: 3100 !important;
+}
+
+/* Temp fix - Hide add cohort to course, module - 15/8/24 - needs adding to theme in next update. (AM) */
+#fitem_id_cohortlist {display: none}
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>:root .inset-x-0[x-data="adblockBanner()"], :root #hero a[download="Unicore.zip"], :root body > div[data-captcha-enable="true"] > div.cleanslate[id^="google-captcha-"] > div.captcha-box, :root html > #__cf_challenge_host__, :root html[data-scrapbook-source][data-scrapbook-create][data-scrapbook-title] > body.no-js > div.main-wrapper[role="main"] > div.main-content, :root html > body.body > div.container > div.content > form > table.optoutForm, :root html > body > div.container > form#unsubscribe-form[onsubmit="submitUnsubscribeForm(event)"], :root html[lang] > body:not([class]):not([id]):not([style]) > div.background-container > div.container > div.captcha-box, :root #plcontent > #bw-cf-root, :root body[data-m][style] > footer ~ #plcontent > #plgate, :root div.grid[aria-hidden="true"]:not([id]):not([style]) + main:not([class]):not([id]):not([style]) ~ div[style="position: fixed; inset: 0px; z-index: 2147483647;"]:not([class]):not([id]), :root html[data-page="macos-download"] > body[data-platform="macos"] > .app_wrap, :root body > .main-wrapper > .main-content > .intro > .checkbox-window, :root html > .cfmd-shadow-host, :root .wp-singular > iframe[srcdoc][allowfullscreen][allow*="clipboard-write"][style*="2147483647"], :root html > #nc-cover:not(body), :root body > .cf-root, :root .cjs-container > #checkbox-window, :root .wp-singular > div[data-sm][style*="2147483647"] > iframe[style*="100%"][allow*="clipboard-write"], :root #ipBar + .main, :root #mainBtn[onclick="startVerify()"], :root #turnstile[onclick="handleClick()"], :root body > .page > .verify-row, :root body > .page > #mainVerifyRow, :root body.wp-singular > div[id$="-overlay"] > div[id$="-container"] > div[class*="-container"] > div[id$="-checkbox-window"], :root html[lang] > body.ishome > div.adult + main.main, :root .flex a[href^="https://s.smartfloralab.com/"], :root div[data-ad-slot-name], :root .post-template-default a[href^="https://go."][href*="/smartpop/"], :root .container a[title="AI Jerk OFF"][href][target="_blank"], :root body > #mdl-register.modal.anm-e.regnow, :root .flex a[href^="http://adpostup.com/"], :root #app-root ~ a[href][target="_blank"][style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto"], :root #wrapper ~ a[href][target="_blank"][style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto"], :root .header ~ div[style^="position:fixed;inset:0;z-index:2147483647;background:black;opacity:0.01;height:"], :root #app a[href^="https://t.nettrck.store/"], :root img[width="728"][height="90"], :root button.btn[data-openuri*="/4/"], :root #adbtm[onclick="badr();"], :root a[href^="https://www.polybuzz.ai/"] img.responsive-image, :root .kln > a[href^="https://www.polybuzz.ai/"], :root html[lang][style^="--main-bg-color"] > body:not([class]):not([id]) > div#container[style="visibility: visible;"] > div#banner[style="opacity:0"] ~ main:not([class]):not([id]) > div#message, :root #donate > a[href][style][onclick="thank_you()"][target="_blank"][rel="nofollow"], :root .container a[href^="https://insensitiveshoweraudible.com/"], :root .jwplayer ~ div[style="position:absolute;top:0;left:0;width: 100%;height: 100%;z-index:2147483647"], :root iframe.lazyloaded[data-src^="https://rcm-fe.amazon-adsystem.com/"], :root div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"], :root .skel-layers-fixed a[href*=".com/smartpop/"], :root [style^="position: fixed; inset: 0px; z-index: 2147483647; background-color: transparent; pointer-events: auto; cursor: auto; margin: 0px; padding: 0px; display: block;"], :root body.glue-body > #cf-modal-overlay, :root .ads-iframe:not([style="position: absolute; left: -10px; top: -10px;"]), :root .ad-content:not(:empty), :root div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"], :root #weatherad:not(:empty), :root #topbannerad:not(:empty), :root #topBannerAd:not(:empty), :root #ad_img:not(:empty), :root #adContext:not(:empty), :root .ad-300x250:not(.ads), :root [data-ad-width]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle), :root .adunit:not(.text-ad), :root .adslot_1:not(.text-ad), :root #ads-footer:not([style^="position: absolute; left: -5000px"]), :root a.tdn[href^="https://landing.brazzersnetwork.com/"], :root #ads-1:not([style^="position: absolute; left: -5000px"]), :root #adframe:not(frameset):not([style^="position: absolute; left: -5000px"]), :root #ad_slot:not([style^="position: absolute; left: -5000px"]), :root #ad_big:not([style^="position: absolute; left: -5000px"]), :root #ad_area:not([style^="position: absolute; left: -5000px"]), :root #ad_300:not([style^="position: absolute; left: -5000px"]), :root a[dontfo=""][style$="position: absolute; z-index: 2147483647;"], :root [href^="https://join.enjoyx.com/track/"], :root a[href*=".click/?z="][href*="&n"], :root [href^="//taghaugh.com/"], :root div[class$="player-promo-col"], :root [href^="https://www.safestcontentgate.com/"], :root [href^="//cadsecs.com/"], :root [href^="//mellowads.com/"], :root .cjs-container > #verify-window, :root [href^="https://fireads.online/"], :root html[lang="vi"] .sspp-area, :root html[lang="tr"] > body.has-footer-ad.has-pageskin-desktop a.pageskin-desktop-wrapper, :root html[lang="tr"] #aa-wp .container-ads-adjustment, :root body > a.visible[id][href][target="_blank"], :root body > div[style="position: fixed; inset: 0px; z-index: 2147483647; background: transparent; cursor: pointer;"], :root #videojs ~ div[style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483646;"], :root html > #bw-rc-host, :root .close-btn4[onclick="closeAd4()"], :root .close-btn3[onclick="closeAd3()"], :root .close-btn[onclick="closeAd()"], :root #go-to-top + div[id][class], :root .bb ~ main#container .containerAds, :root #midadd:not(:empty), :root #adzerk:not(:empty), :root #advert-header:not(:empty), :root div.card > div#cbRow.checkbox-row[onclick="startVerify()"], :root #tongkatlol ~ script[src^="/shrinke/js/"] ~ .main-content-box > div[style="width:100%;height:110px"], :root body > div[style$="z-index: 2147483647; top: 0px; left: 0px; position: fixed; display: block;"], :root html > body > div.container.m-p > #checkbox-window.checkbox-window, :root .container a[href^="https://seduced.com"][href*="ref="], :root #kt_player .fp-brand, :root a[id][href="https://toolkitspro.com"][rel^="noopener noreferrer"], :root #kt_player #ads_iframe, :root .header-container a[href^="https://candyai.gg/"], :root [src^="//dombnrs.com/"], :root #kt_player ~ #sp-player, :root [href^="https://klsdee.com/"], :root [href^="//producebreed.com/"], :root #modern-player-root ~ div[id^="custom-invisible-overlay-"][class^="custom-popup-overlay-"], :root [href="//xxxrevpushclcdu.com/app.webp"], :root [href^="https://adult.xyz/"], :root .code-block a[href^="https://ewxerd.site/"], :root [href^="https://popcash.net/"], :root a[href^="http://www.poweredbyliquidfire.mobi/"], :root [href^="https://t.mobtyb.com/"], :root [data-lnguri*="vipbox"], :root .reklama:not(.ads), :root a[href^="https://syndication.exdynsrv.com/splash.php"], :root [href*="/afu.php"], :root span[id^="ezoic-pub-ad-placeholder-"], :root ins.adsbygoogle[data-ad-slot], :root ins.adsbygoogle[data-ad-client], :root img[src^="https://s-img.adskeeper.com/"], :root #download a[download="Unicore.zip"], :root guj-ad, :root body[data-clipboard-code] > .main-wrapper, :root gpt-ad, :root div#spot-holder.spot-holder[style="display: block;"], :root div[ow-ad-unit-wrapper], :root div[id^="zergnet-widget"], :root html[lang] > body:not([class]):not([id]):not([style]) > div.container > div.recaptcha-box, :root div[id^="vuukle-ad-"], :root div[id^="taboola-stream-"], :root div[id^="sticky_ad_"], :root div[id^="st"][style^="z-index: 999999999;"], :root div[id^="rc-widget-"], :root html > body > div.content > dl > dd.dd1 > div.min_sider > form#form1[action="unsubscribe.php"], :root div[id^="mrec-leaderboard-"], :root div[id^="gpt_ad_"], :root div[id^="ezoic-pub-ad-"], :root .code-block a[target="_blank"][href^="https://"][href*=".com/"][href*="?key="], :root div[id^="dfp-ad-"], :root div[id^="crt-"][style], :root div[id^="adspot-"], :root a[onclick="openAuc();"], :root ps-connatix-module, :root div[id^="ad_position_"], :root [data-ad-module]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle), :root a[id][href="https://chpadblock.com/"][rel^="noopener noreferrer"], :root div[id^="ad-div-"], :root div[id*="ScriptRoot"], :root div[id*="MarketGid"], :root #banner468:not([style^="position: absolute; left: -5000px"]), :root div[data-id-advertdfpconf], :root div[data-dfp-id], :root div[style="top: 0px; left: 0px; width: 1287px; height: 500px; position: fixed; z-index: 2147483647;"], :root hl-adsense, :root div[data-contentexchange-widget], :root div[data-alias="300x250 Ad 2"], :root div[data-adzone], :root #buy-sell-ads:not(:empty), :root div[data-adunit-path], :root div[data-adname], :root div[data-ad-targeting], :root div[data-ad-region], :root div[data-ad-placeholder], :root div[aria-label="Ads"], :root .google-ad:not(.testAd), :root display-ads, :root #ad_space:not([style^="position: absolute; left: -5000px"]), :root display-ad-component, :root atf-ad-slot, :root aside[id^="adrotate_widgets-"], :root div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"], :root aside[aria-label="retailmedia.complimentarySponsored"], :root html[lang] > body#body > * > div.cvh.BlockClicksActivityBusy, :root amp-fx-flying-carpet, :root amp-embed[type="taboola"], :root html > #nochain-demo-frame:not(body), :root html[lang="tr"] #aa-wp .rnd-ads-adjustment, :root amp-connatix-player, :root div[id^="google_dfp_"], :root ad-slot, :root a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"], :root a[href^="https://www.onlineusershielder.com/"], :root html[lang="tr"] > body.has-footer-ad.has-pageskin-desktop a.pageskin-click-right, :root a[href^="https://financeads.net/tc.php?"], :root a[href^="https://www.mrskin.com/tour"], :root a[href^="https://www.infowarsstore.com/"] > img, :root a[href^="https://www.highperformancecpmgate.com/"], :root amp-ad, :root a[href^="https://www.highcpmrevenuenetwork.com/"], :root a[href^="https://www.get-express-vpn.com/offer/"], :root a[href^="https://lnkxt.bannerator.com/"], :root a[href^="https://www.geekbuying.com/dynamic-ads/"], :root #cmdTextDisplay ~ *, :root [href^="https://groorsoa.net/"], :root a[href*=".sadbaguette.com/"], :root a[href^="https://www.financeads.net/tc.php?"], :root a[href^="https://www.effectiveratecpm.com/"], :root [href^="https://www.herbanomic.com/"] > img, :root a[href^="https://www.dql2clk.com/"], :root [data-template-type="nativead"], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root a[href^="https://www.nutaku.net/signup/landing/"], :root a[href^="https://www.dating-finder.com/signup/?ai_d="], :root a[href^="https://wolf-327b.com/"], :root body > .content-wrapper > .cf-wrap, :root [data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle), :root a[href^="https://voluum.prom-xcams.com/"], :root a[href^="https://twinrdsyte.com/"], :root .category-ads:not(html):not(body):not(.post), :root a[href^="https://twinrdsrv.com/"], :root [href="https://snvhost.com/"], :root a[href^="https://trk.nfl-online-streams.club/"], :root a[href^="https://tracking.avapartner.com/"], :root a[href^="https://track.wg-aff.com"], :root a[href^="https://track.ultravpn.com/"], :root a[href^="https://track.afcpatrk.com/"], :root [href="https://t.me/Russia_Vs_Ukraine_War3"], :root a[href^="https://track.adform.net/"], :root a[href^="https://torguard.net/aff.php"] > img, :root .menu-item a[href^="https://go.rmhfrtnd.com"], :root [data-identity="adhesive-ad"], :root a[href^="https://tc.tradetracker.net/"] > img, :root a[href^="https://tatrck.com/"], :root [href^="https://zstacklife.com/"] img, :root a[href^="https://click.candyoffers.com/"], :root a[href^="https://t.aslnk.link/"], :root .container a[href^="https://go.mavrtracktor.com/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"], :root a[href^="https://t.ajump1.com/"], :root a[href^="https://t.adating.link/"], :root a[href^="https://go.trackitalltheway.com/"], :root [href^="https://track.fiverr.com/visit/"] > img, :root a[href^="https://syndication.exoclick.com/"], :root a[href^="https://syndication.dynsrvtbg.com/"], :root div[data-alias="300x250 Ad 1"], :root a[href^="https://syndicate.contentsserved.com/"], :root a[href^="https://svb-analytics.trackerrr.com/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"] + .ob_source, :root a[href^="http://www.iyalc.com/"], :root a[href^="https://claring-loccelkin.com/"], :root a[href^="https://stardomcoit.com/"], :root a[href^="https://track.aftrk5.com/"], :root a[href^="https://slkmis.com/"], :root a[href^="https://myclick-2.com/"], :root a[href^="https://sexynearme.com/"], :root a[href^="https://s.zlinkt.com/"], :root a[href^="https://s.zlinkr.com/"], :root bottomadblock, :root a[href^="https://s.zlinkd.com/"], :root a[href^="https://ad.doubleclick.net/"], :root a[href^="https://static.fleshlight.com/images/banners/"], :root a[href^="https://s.zlink7.com/"], :root a[href^="https://s.ma3ion.com/"], :root a[href^="https://www.privateinternetaccess.com/"] > img, :root a[href^="https://s.gentlefieldpattern.com/"], :root a[href^="https://s.eunow4u.com/"], :root a[href^="https://random-affiliate.atimaze.com/"], :root #downloadAd:not(:empty), :root #kt_player > div[style$="display: block;"][style*="inset: 0px;"], :root a[href^="https://quotationfirearmrevision.com/"], :root a[href^="https://pubads.g.doubleclick.net/"], :root a[href^="https://prf.hn/click/"][href*="/camref:"] > img, :root a[href^="https://www.dating-finder.com/?ai_d="], :root a[href^="https://serve.awmdelivery.com/"], :root a[href^="https://prf.hn/click/"][href*="/adref:"] > img, :root .page-layout a[href^="https://hashcounts.com/"], :root app-ad, :root [href^="https://ap.octopuspop.com/click/"] > img, :root a[href^="https://postback1win.com/"], :root html[lang] > body#body > * > div.cv-xwrapper > div.cvc > div.cv-inner, :root [href^="https://go.mavrtracktor.com/"], :root a[href^="https://a.adtng.com/"], :root a[href^="https://playnano.online/offerwalls/?ref="], :root a[href^="https://mmwebhandler.aff-online.com/"], :root a[href^="https://www.bet365.com/"][href*="affiliate="], :root a[href^="https://pb-track.com/"], :root a[href^="https://pb-front.com/"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="https://streamate.com/landing/click/"], :root div[class^="Adstyled__AdWrapper-"], :root a[href^="https://osfultrbriolenai.info/"], :root a[href^="https://upsups.click/"], :root .ad-placeholder:not(#detect, #detect_ad_empire, #filter_ads_by_classname, .adsbox), :root a[href^="https://ndt5.net/"], :root a[href^="https://natour.naughtyamerica.com/track/"], :root a.poly-title[href^="https://www.polybuzz.ai/"], :root a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"], :root [data-ad-name], :root a[href^="https://loboclick.com/"], :root a[href^="https://lead1.pl/"], :root .cta-button[onclick="openUpdateModal()"], :root a[href^="https://landing.brazzersnetwork.com/"], :root a[href^="https://join.bannedsextapes.com/track/"], :root [href^="https://exi8ef83z9.com/"], :root a[href^="https://jaxofuna.com/"], :root a[href^="https://italarizege.xyz/"], :root .category-ad:not(html):not(body):not(.post), :root a[href^="https://s.happyleafmotion.com/"], :root a[href^="https://identicaldrench.com/"], :root a[href^="https://helmethomicidal.com/"], :root #adsquare:not([style^="position: absolute; left: -5000px"]), :root a[href^="https://golinks.work/"], :root a[href^="https://go.xxxjmp.com"], :root [class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]), :root a[href^="https://zirdough.net/"], :root [class^="tile-picker__CitrusBannerContainer-sc-"], :root a[href^="https://go.xxxiijmp.com"], :root .ad-link:not(.adsbox), :root a[href^="https://go.xtbaffiliates.com/"], :root a[href^="https://go.xlviirdr.com"], :root div[class$="-adlabel"], :root a[href^="https://go.xlviiirdr.com"], :root a[href^="https://go.xlivrdr.com"], :root a[href^="https://ismlks.com/"], :root .flex a[href^="https://tt.culinar9sync.com/"], :root [href^="https://www.mypillow.com/"] > img, :root a[href^="https://go.xlirdr.com"], :root [data-css-class="dfp-inarticle"], :root a[href^="https://go.tmrjmp.com"], :root a[href^="https://go.markets.com/visit/?bta="], :root a[href^="https://billing.purevpn.com/aff.php"] > img, :root a[href^="https://go.hpyrdr.com/"], :root [data-lnguri^="https://s3.amazonaws.com"], :root a[href^="https://lijavaxa.com/"], :root a[href^="https://go.goaserv.com/"], :root a[href^="https://go.etoro.com/"] > img, :root a[href^="https://go.dmzjmp.com"], :root a[href^="https://www.bang.com/?aff="], :root #mgb-container > #mgb, :root a[href^="https://go.admjmp.com"], :root a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img, :root a[href^="https://datewhisper.life/"], :root a[href^="https://click.linksynergy.com/fs-bin/"] > img, :root a[href^="https://get-link.xyz/"], :root a[href^="https://www.mrskin.com/account/"], :root a[id][href="https://hamrocsit.com"][rel^="noopener noreferrer"], :root a[href^="https://www.adskeeper.com"], :root #vidcloud-player > #overlay-container, :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root [href^="https://clicks.affstrack.com/"] > img, :root a[href^="https://engine.phn.doublepimp.com/"], :root a[href^="https://dl-protect.net/"], :root a[href*=".foxqck.com/"], :root a[href^="https://ctosrd.com/"], :root a[href^="https://clixtrac.com/"], :root a[href^="https://clicks.pipaffiliates.com/"], :root #ad_footer:not([style^="position: absolute; left: -5000px"]), :root app-advertisement, :root a[href^="https://getmatchedlocally.com/"], :root a[href^="https://clickins.slixa.com/"], :root a[href^="https://combodef.com/"], :root a[href^="https://click.hoolig.app/"], :root a[href^="https://track.totalav.com/"], :root a[href^="https://ctrdwm.com/"], :root img[src^="https://images.purevpnaffiliates.com"], :root a[href^="https://porntubemate.com/"], :root a[href^="https://clickadilla.com/"], :root a[href^="https://click.dtiserv2.com/"], :root a[href^="https://www.adxsrve.com/"], :root a[href^="https://click.Ggpickaff.com/"], :root a[href^="https://go.awdeliverynet.com/"], :root a[href^="https://go.xlvirdr.com"], :root a[href^="https://cam4com.go2cloud.org/"], :root a[onclick^="window.location.replace('https://random-affiliate.atimaze.com/"], :root a[href^="https://bongacams2.com/track?"], :root a[href^="https://t.ajrkm1.com/"], :root #main-content a[href^="https://hub.buzzaffiliates.com/"], :root a[href^="https://bongacams10.com/track?"], :root a[href^="//hoodingluster.com/"], :root a[href^="https://black77854.com/"], :root a[href^="https://rixofa.com/"], :root a[href^="https://best-experience-cool.com/"], :root [data-taboola-options], :root a[href^="https://believessway.com/"], :root a[href^="https://Click.ggpickaff.com/"], :root a[href^="https://banners.livepartners.com/"], :root a[href^="http://revolvemockerycopper.com/"], :root a[href^="https://awptjmp.com/"], :root a[href^="https://join.sexworld3d.com/track/"], :root a[href^="https://track.cam4tracking.com/"], :root a[href^="https://aweptjmp.com/"], :root a[href^="https://ausoafab.net/"], :root #tabVideo > .rmedia, :root a[href^="https://aj1070.online/"], :root a[href^="https://ads.planetwin365affiliate.com/"], :root a[href^="https://ads.leovegas.com/"], :root a[href^="https://a.medfoodhome.com/"], :root .nya-slot[style], :root a[href^="https://a.bestcontentweb.top/"], :root a[href^="https://adultfriendfinder.com/go/"], :root a[href^="https://a.bestcontentoperation.top/"], :root a[href^="https://a2.adform.net/"], :root a[href^="https://a.candyai.love/"], :root .banner-img > .pbl, :root [data-m-ad-id], :root a[href^="https://a-ads.com/"], :root [data-testid^="section-AdRowBillboard"], :root .ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox), :root broadstreet-zone-container, :root a[href^="https://ak.psaltauw.net/"], :root a[href^="https://1winpb.com/"], :root div[id^="optidigital-adslot"], :root [href^="https://wsup.ai/"], :root a[href^="https://123-stream.org/"], :root a[href^="https://in.rabbtrk.com/"], :root a[href^="http://www.h4trck.com/"], :root [href^="https://a.acebet.com/api/click?"], :root #video_player ~ div[id] div[style^="position:fixed;inset:0px;z-index:"], :root a[href^="http://www.friendlyduck.com/AF_"], :root .btn-primary[onclick="showVerification()"], :root a[href^="http://partners.etoro.com/"], :root [href="https://chaturbate.jjgirls.com/"] > img, :root body div#notificationPopup.notificationPopupBlock, :root a[href^="http://cam4com.go2cloud.org/aff_c?"], :root a[href^="https://ads.betfair.com/redirect.aspx?"], :root #leader_ad:not(:empty), :root amp-ad-custom, :root .home a[href^="https://s.zline0.com/"], :root a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img, :root a[href*="&maxads="], :root a[href^="https://1betandgonow.com/"], :root a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="], :root [href^="http://referrer.website/"], :root a[href^="http://trk.globwo.online/"], :root a-ad, :root a[href^="https://offhandpump.com/"], :root a[href^="http://stickingrepute.com/"], :root #slashboxes > .deals-rail, :root [href^="http://mypillow.com/"] > img, :root a[href^="http://bongacams.com/track?"], :root .fp-ui > a[href][target="_blank"][style^="position: absolute; inset: 0px;"], :root a[href^="//startgaming.net/tienda/" i], :root a[href^="https://a.medfoodsafety.com/"], :root a[href^="//go.eabids.com/"], :root a[href^=" https://www.friendlyduck.com/AF_"], :root [data-cl-spot-id], :root a[href*="/jump/next.php?r="], :root a[href^="https://chaturbate.com/in/?"], :root div[style^="z-index: 999999; background-image: url(\"data:image/gif;base64,"][style$="position: absolute;"], :root [href^="https://affiliate.fastcomet.com/"] > img, :root #banner728x90:not([style^="position: absolute; left: -5000px"]), :root div[id^="lazyad-"], :root a[href^="http://com-1.pro/"], :root [href^="https://www.profitablegatecpm.com/"], :root a[href*=".cfm?domain="][href*="&fp="], :root #vstr ~ #overlay, :root [id^="section-ad-banner"], :root a[href^="https://go.bushheel.com/"], :root a[href^="https://ctjdwm.com/"], :root body > div.mw[role="main"] > .mc, :root a[href^="https://camfapr.com/landing/click/"], :root div[data-ad-wrapper], :root .gnt_em_vp_c[data-g-s="vp_dk"], :root [href="//sexcams.plus/"], :root a[href*="/go.php?a_aid="], :root [id^="google_ads_iframe_"], :root [id^="ad_slider"], :root html#html[sti][vic][lang] > body#allbody, :root [href^="https://www.onclickperformance.com/"], :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[href^="https://wmctjd.com/"], :root a[href*="//jjgirls.com/sex/Chaturbate"], :root [id^="ad-wrap-"], :root a[href^="http://sarcasmadvisor.com/"], :root .ad-slot:not(.adsbox):not(.adsbygoogle), :root [href^="https://www.restoro.com/"], :root [href^="https://www.targetingpartner.com/"], :root .close-btn2[onclick="closeAd2()"], :root a[href^="https://join.virtuallust3d.com/"], :root .section-subheader > .section-hotel-prices-header, :root [href^="https://www.hostg.xyz/"] > img, :root [href*="passtechusa.com"], :root a[href^="https://bngpt.com/"], :root a[href^="http://adultfriendfinder.com/go/"], :root a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="], :root a[href^="https://tour.mrskin.com/"], :root a[href^="https://s.zlink3.com/"], :root a[href^="http://sneakyadministration.com/"], :root .wrapper a[rel~="sponsored"][href^="https://"][href*=".com/"][href*="?key="], :root [href^="https://www.brighteonstore.com/products/"] img, :root citrus-ad-wrapper, :root a[href^="https://go.grinsbest.com/"], :root [href^="https://www.avantlink.com/click.php"] img, :root html.canvas > body.wp-singular + div[popover="manual"], :root #app a[href^="https://s.smartfloralab.com/"], :root a[href^="https://t.acam.link/"], :root a[href^="https://go.strpjmp.com/"], :root [href^="https://url.totaladblock.com/"], :root div[id^="ad-position-"], :root a[href^="https://www.toprevenuegate.com/"], :root a[href^="https://bc.game/"], :root a[href^="https://bngprm.com/"], :root [href^="https://shiftnetwork.infusionsoft.com/go/"] > img, :root a[href^="https://trk.softonixs.xyz/"], :root [href^="https://wct.link/click?"], :root [href^="//look.utndln.com/offer"], :root div[data-adunit], :root app-large-ad, :root [href^="https://turtlebids.irauctions.com/"] img, :root a[href^="https://iqbroker.com/"][href*="?aff="], :root .p-post-ad:not(html):not(body), :root #vplayer ~ img[id][onclick], :root [href^="https://rpwmct.com/"], :root a[href^="https://go.cmtaffiliates.com/"], :root [href^="https://mylead.global/stl/"] > img, :root [data-testid="adBanner-wrapper"], :root [href^="https://optimizedelite.com/"] > img, :root a[href^="https://go.rmishe.com/"], :root [href^="https://ilovemyfreedoms.com/landing-"], :root a[href^="https://go.xxxijmp.com"], :root [href^="https://istlnkcl.com/"], :root a[href^="https://go.nordvpn.net/aff"] > img, :root #tongkatlol ~ script[src^="/shrinke/js/"] ~ .main-content-box + .content-box > div[id][style^="position: fixed; display: block; width: 100%;"], :root .\[\&_\.gdprAdTransparencyCogWheelButton\]\:\!pjra-z-\[5\], :root [href^="http://clicks.totemcash.com/"], :root a[href^="https://ad.zanox.com/ppc/"] > img, :root [class~="mailpoet_form_popup_overlay"], :root a[href^="https://www.brazzersnetwork.com/landing/"], :root a[href^="https://explore-site.com/"], :root .AdBody:not(body), :root [href^="https://glersakr.com/"], :root a[href^="https://tm-offers.gamingadult.com/"], :root [href^="https://charmingdatings.life/"], :root [data-id^="div-gpt-ad"], :root a[href^="https://tracker.loropartners.com/"], :root [href^="https://awbbjmp.com/"], :root .post-template-default a[href^="https://www.ourdreamersai13.com/"], :root [href^="http://www.mypillow.com/"] > img, :root a[href^="https://join.virtualtaboo.com/track/"], :root [id^="ad_sky"], :root [name^="google_ads_iframe"], :root [href^="https://go.xlrdr.com"], :root [href*="uselnk.com/"], :root a[href^="https://s.cant3am.com/"], :root .nav-item[href^="https://candyai.gg/"], :root [data-testid^="taboola-"], :root #teaser3[style^="width: 100%;height:0;text-align: center;display: scroll;position:fixed;"], :root a[href*=".adglare.net/"], :root a[href^="https://track.1234sd123.com/"], :root zeus-ad, :root [data-testid="prism-ad-wrapper"], :root [href^="https://antiagingbed.com/discount/"] > img, :root a[href*=".adsrv.eacdn.com/"], :root #teaser1[style^="width:autopx;"], :root [href^="https://www.cloudways.com/en/?id"], :root #modal[doskip][prclck], :root body > .main-wrapper > .main-content > .intro > #checkbox-window, :root [data-uri^="https://s3.amazonaws.com"], :root [href^="https://mypatriotsupply.com/"] > img, :root a[href^="https://bodelen.com/"], :root a[href*=".g2afse.com/"], :root a[href^="https://go.hpyjmp.com"], :root iframe[scrolling="no"][sandbox*="allow-popups allow-modals"][style^="width: 100%; height: 100%; border: none;"], :root [href^="https://mystore.com/"] > img, :root html[lang] > body.startnew > div#sections > section#section_uname, :root span[data-ez-ph-id], :root [href^="https://track.aftrk1.com/"], :root html[lang] > body:not([style]) > div.captchaBody, :root #adheader:not([style^="position: absolute; left: -5000px"]), :root div[id^="adngin-"], :root [data-rc-widget], :root a[href^="https://stellarcashflow.net/trck/"], :root [data-mobile-ad-id], :root [href^="https://join.playboyplus.com/track/"], :root html > #bw-cf-root, :root [href^="https://go.smljmp.com/"], :root a[href^="https://gamingadlt.com/?offer="], :root a[href^="https://go.bbrdbr.com"], :root a[href^="https://fc.lc/ref/"], :root body.user-clicked[style="cursor: auto;"] > #root > .app-container, :root a[href^="https://pb-imc.com/"], :root a[href^="https://www8.smartadserver.com/"], :root topadblock, :root a[href^="//s.zlinkd.com/"], :root a[href^="https://adclick.g.doubleclick.net/"], :root [data-freestar-ad][id], :root body > .cf-page-wrap, :root [data-dynamic-ads], :root [data-desktop-ad-id], :root [data-d-ad-id], :root [href^="https://track.wg-aff.com/click"], :root a[href^="https://go.rmhfrtnd.com"], :root [data-asg-ins], :root [data-block-type="ad"], :root [onclick*="content.ad/"], :root [href^="https://go.rdrjmp.com/"], :root a[href^="https://snowdayonline.xyz/"], :root a[href^="https://join.dreamsexworld.com/"], :root a[href^="http://join.brokestraightboys.com/track/"], :root div[id^="div-ads-"], :root [href^="https://rapidgator.net/article/premium/ref/"], :root a[href^="https://track.aftrk3.com/"], :root [href^="https://join3.bannedsextapes.com"], :root [href^="https://join.girlsoutwest.com/"], :root html > body.hold-transition.theme-primary.bg-img[style^="background-image"][style*="wallpaperaccess.com"][style*="background-repeat"][style*="background-size"], :root AMP-AD, :root [data-ad-cls], :root .ad-box:not(#ad-banner):not(:empty), :root body > .wrapper > .card-box > #step-1, :root [data-ez-name], :root a[style="width:100%;height:100%;z-index:10000000000000000;position:absolute;top:0;left:0;"], :root .ob_container .item-container-obpd, :root #ads_top:not(a), :root a[href^="https://go.mnaspm.com/"], :root a[href^="https://service.bv-aff-trx.com/"], :root .ad_slot:not(.text-ad), :root #st-ami + div[id][class*=" "], :root a[href^="https://6-partner.com/"], :root [class^="s2nPlayer"], :root a[href^="https://traffdaq.com/"], :root [data-testid="ad_testID"], :root [href^="https://ad.admitad.com/"], :root [href^="https://mypillow.com/"] > img, :root [data-testid="commercial-label-taboola"], :root a[href^="http://tc.tradetracker.net/"] > img, :root [class^="amp-ad-"], :root .ad_unit:not(.text-ad, .adsbox), :root [href="https://clickaine.com"], :root #playerOverlay[style="position:absolute; z-index:3"], :root a[href^="https://www.liquidfire.mobi/"], :root .grid > .container > #aside-promotion, :root DFP-AD, :root #hero + div.marquee-wrap + section#games + section#features + #download, :root #ads-banner:not([style^="position: absolute; left: -5000px"]), :root AD-SLOT, :root a[href^="https://www.googleadservices.com/pagead/aclk?"] > img, :root body > .security-container[style="opacity: 1; transform: translateY(0px);"], :root a[href^="https://a.bestcontentfood.top/"], :root #kt_player > a[target="_blank"], :root [href^="https://zone.gotrackier.com/"], :root .ad-area:not(.text-ad), :root a[href^="https://ab.advertiserurl.com/aff/"], :root #adSpecial:not(:empty), :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root .sidebar-ad:not(.adsbygoogle), :root a[href^="https://s.zlinkn.com/"], :root a[href^="https://go.xxxvjmp.com/"], :root .ads_container:not(.text-ad), :root [class^="adDisplay-module"], :root a[href^="https://t.ajrkm3.com/"], :root in-page-message[doskip], :root [href^="https://aads.com/campaigns/"], :root a[href^="https://juicyads.in/"], :root #ad_728:not([style^="position: absolute; left: -5000px"]), :root div[id^="apn_native_ad_slot_"], :root .adhesion:not(body), :root body > div.captcha-container > div.captcha-card, :root ad-shield-ads, :root a[href^="https://hot-growngames.life/"], :root .ad_box:not(.text-ad), :root [href^="https://wap4dollar.com/ad/nonadult/serve.php"], :root [href="https://jdrucker.com/gold"] > img, :root .fp-player > div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent; display: block;"], :root .ad-wrap:not(#google_ads_iframe_checktag), :root a[href^="https://www.friendlyduck.com/AF_"], :root html[lang="tr"] #aa-wp + .fixed-footer .footer-ad-container, :root [href^="https://ad1.adfarm1.adition.com/"], :root #teaser3[style^="width:autopx;"], :root a[href^="https://gml-grp.com/"], :root a[href^="https://activate-game.com/"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root a[href^="https://wittered-mainging.com/"], :root div[id][style^="position: fixed; inset: 0px; z-index: 2147483647; background: black"][style*="opacity: 0.01"], :root #teaser3[style="width: 100%;text-align: center;display: scroll;position:fixed;bottom: 0;margin: 0 auto;z-index: 103;"], :root html[lang="tr"] > body.has-footer-ad.has-pageskin-desktop a.pageskin-click-left, :root [data-revive-zoneid], :root a[href^="https://go.skinstrip.net"][href*="?campaignId="], :root figure.movie-detail-banner div[style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 999; cursor: pointer;"], :root #teaser2[style^="width:autopx;"], :root a[href^="https://losingoldfry.com/"], :root #player div[style$="cursor: pointer; position: absolute; width: 100%; height: 100%; padding: 1rem; z-index: 2147483647;"], :root div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"], :root .scroll-fixable.rail-right > .deals-rail, :root div[id^="adrotate_widgets-"], :root .Ad-Container:not(.adsbygoogle) { display: none !important; }</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="/site/lib/requirejs.php/1792191942/core/first.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryprivate" src="/site/lib/javascript.php/1792191942/lib/requirejs/jquery-private.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="/site/lib/javascript.php/1792191942/lib/jquery/jquery-3.7.1.min.js"></script><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><style class="elevio-styles" type="text/css">/*!
+ * froala_editor v2.8.4 (https://www.froala.com/wysiwyg-editor)
+ * License https://froala.com/wysiwyg-editor/terms/
+ * Copyright 2014-2018 Froala Labs
+ */#_elev_io ._1gjza .clearfix:after{clear:both;content:"";display:block;height:0}#_elev_io ._1gjza .hide-by-clipping{clip:rect(0,0,0,0);border:0;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}#_elev_io ._1gjza .fr-img-caption.fr-rounded img,#_elev_io ._1gjza img.fr-rounded{-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px}#_elev_io ._1gjza .fr-img-caption.fr-bordered img,#_elev_io ._1gjza img.fr-bordered{border:5px solid #ccc}#_elev_io ._1gjza img.fr-bordered{box-sizing:content-box}#_elev_io ._1gjza .fr-img-caption.fr-bordered img{box-sizing:border-box}#_elev_io ._1gjza span[style~="color:"] a{color:inherit}#_elev_io ._1gjza table.elev-table{border:none;border-collapse:collapse;empty-cells:show;max-width:100%}#_elev_io ._1gjza table.elev-table td{min-width:5px}#_elev_io ._1gjza table.elev-table.fr-dashed-borders td,#_elev_io ._1gjza table.elev-table.fr-dashed-borders th{border-style:dashed}#_elev_io ._1gjza table.elev-table.fr-alternate-rows tbody tr:nth-child(2n){background:#f5f5f5}#_elev_io ._1gjza table.elev-table td,#_elev_io ._1gjza table.elev-table th{border:1px solid #ddd;padding:.325rem .8375rem}#_elev_io ._1gjza table.elev-table td:empty,#_elev_io ._1gjza table.elev-table th:empty{height:20px}#_elev_io ._1gjza table.elev-table td.fr-highlighted,#_elev_io ._1gjza table.elev-table th.fr-highlighted{border:1px double red}#_elev_io ._1gjza table.elev-table td.fr-thick,#_elev_io ._1gjza table.elev-table th.fr-thick{border-width:2px}#_elev_io ._1gjza table.elev-table th{background:#ececec}#_elev_io ._1gjza hr{clear:both;page-break-after:always;user-select:none;-o-user-select:none;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-ms-user-select:none}#_elev_io ._1gjza .fr-file{position:relative}#_elev_io ._1gjza span.fr-emoticon{display:inline;font-family:Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;font-weight:400;line-height:0}#_elev_io ._1gjza span.fr-emoticon.fr-emoticon-img{background-repeat:no-repeat!important;display:inline-block;font-size:inherit;height:1em;line-height:1;margin:-.1em .1em .1em;min-height:20px;min-width:20px;vertical-align:middle;width:1em}#_elev_io ._1gjza .fr-text-gray{color:#aaa!important}#_elev_io ._1gjza .fr-text-bordered{border-bottom:1px solid #222;border-top:1px solid #222;padding:10px 0}#_elev_io ._1gjza .fr-text-spaced{letter-spacing:1px}#_elev_io ._1gjza .fr-text-uppercase{text-transform:uppercase}#_elev_io ._1gjza .fr-class-highlighted{background-color:#ff0}#_elev_io ._1gjza .fr-class-code{-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;background:#f5f5f5;border-color:#ccc;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;font-family:Courier New,Courier,monospace;padding:10px}#_elev_io ._1gjza .fr-class-transparency{opacity:.5}#_elev_io ._1gjza .fr-video{height:0;overflow:hidden;padding-bottom:56.25%;padding-top:30px;position:relative;text-align:center}#_elev_io ._1gjza .fr-video embed,#_elev_io ._1gjza .fr-video object,#_elev_io ._1gjza .fr-video>iframe{height:100%;left:0;position:absolute!important;top:0;width:100%}#_elev_io ._1gjza .fr-video>*{border:none;box-sizing:content-box;max-width:100%}#_elev_io ._1gjza .fr-video{clear:both;display:block}#_elev_io ._1gjza .fr-video.fr-fvl{text-align:left}#_elev_io ._1gjza .fr-video.fr-fvr{text-align:right}#_elev_io ._1gjza .fr-img-caption{text-align:center}#_elev_io ._1gjza .fr-img-caption .fr-img-wrap{display:inline-block;margin:auto;padding:0;text-align:center;width:100%}#_elev_io ._1gjza .fr-img-caption .fr-img-wrap img{display:block;margin:auto;width:100%}#_elev_io ._1gjza .fr-img-caption .fr-img-wrap>span{box-sizing:border-box;display:block;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";font-size:14px;font-weight:400;margin:auto;-webkit-opacity:.9;-moz-opacity:.9;opacity:.9;padding:5px 5px 10px;text-align:center;width:100%}#_elev_io ._1gjza button.fr-rounded,#_elev_io ._1gjza input.fr-rounded,#_elev_io ._1gjza textarea.fr-rounded{-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px}#_elev_io ._1gjza button.fr-large,#_elev_io ._1gjza input.fr-large,#_elev_io ._1gjza textarea.fr-large{font-size:24px}#_elev_io ._1gjza a.fr-strong{font-weight:700}#_elev_io ._1gjza a.fr-green{color:green}#_elev_io ._1gjza img{position:relative}#_elev_io ._1gjza img.fr-dib{display:block;float:none;margin:5px auto;vertical-align:top}#_elev_io ._1gjza img.fr-dib.fr-fil{margin-left:0;text-align:left}#_elev_io ._1gjza img.fr-dib.fr-fir{margin-right:0;text-align:right}#_elev_io ._1gjza img.fr-dii{display:inline-block;float:none;margin-left:5px;margin-right:5px;max-width:calc(100% - 10px);vertical-align:bottom}#_elev_io ._1gjza img.fr-dii.fr-fil{float:left;margin:5px 5px 5px 0;max-width:calc(100% - 5px)}#_elev_io ._1gjza img.fr-dii.fr-fir{float:right;margin:5px 0 5px 5px;max-width:calc(100% - 5px)}#_elev_io ._1gjza span.fr-img-caption{max-width:100%;position:relative}#_elev_io ._1gjza span.fr-img-caption.fr-dib{display:block;float:none;margin:5px auto;vertical-align:top}#_elev_io ._1gjza span.fr-img-caption.fr-dib.fr-fil{margin-left:0;text-align:left}#_elev_io ._1gjza span.fr-img-caption.fr-dib.fr-fir{margin-right:0;text-align:right}#_elev_io ._1gjza span.fr-img-caption.fr-dii{display:inline-block;float:none;margin-left:5px;margin-right:5px;max-width:calc(100% - 10px);vertical-align:bottom}#_elev_io ._1gjza span.fr-img-caption.fr-dii.fr-fil{float:left;margin:5px 5px 5px 0;max-width:calc(100% - 5px)}#_elev_io ._1gjza span.fr-img-caption.fr-dii.fr-fir{float:right;margin:5px 0 5px 5px;max-width:calc(100% - 5px)}#_elev_io ._62f2m{max-width:100%;overflow-x:hidden;overflow-y:hidden}#_elev_io ._1rfj1{padding:0 15px 0 0}#_elev_io ._16v04{padding:40px 30px 0}#_elev_io ._u083b{padding:0 30px 30px}@media only screen and (min-device-width:320px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-width:320px) and (max-device-width:736px) and (min-resolution:2dppx){#_elev_io ._16v04{padding:25px 30px 30px}#_elev_io ._u083b{padding:0 30px 30px}}#_elev_io ._fzej1{color:rgba(0,0,0,.8);font-family:elevio-noto-sans,Helvetica,Arial,sans-serif;font-size:28px;font-weight:700;line-height:1.2;margin-bottom:25px;position:relative}@media only screen and (min-device-width:320px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-width:320px) and (max-device-width:736px) and (min-resolution:2dppx){#_elev_io ._fzej1{font-size:24px}}#_elev_io ._1gjza{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:rgba(0,0,0,.8);font-family:elevio-noto-sans,Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.8;text-rendering:optimizeLegibility}#_elev_io ._1gjza>:first-child{margin-top:0}#_elev_io ._1gjza h1,#_elev_io ._1gjza h2,#_elev_io ._1gjza h3,#_elev_io ._1gjza h4,#_elev_io ._1gjza h5,#_elev_io ._1gjza h6{font-weight:700;line-height:1.5;margin-bottom:10px;margin-top:20px}#_elev_io ._1gjza h1{font-size:26px}#_elev_io ._1gjza h2{font-size:24px}#_elev_io ._1gjza h3{font-size:22px}#_elev_io ._1gjza h4{font-size:20px}#_elev_io ._1gjza h5{font-size:18px}#_elev_io ._1gjza h6,#_elev_io ._1gjza p{font-size:16px}#_elev_io ._1gjza p{font-weight:400;line-height:1.8;margin-bottom:30px}#_elev_io ._1gjza [data-elevio-article],#_elev_io ._1gjza [data-elevio-module],#_elev_io ._1gjza a,#_elev_io ._1gjza span[role=link]{word-wrap:break-word;background-color:transparent;background-image:linear-gradient(180deg,rgba(74,144,226,.6) 50%,rgba(74,144,226,0) 0);background-position:0 1.16em;background-repeat:repeat-x;background-size:2px 2px;color:#4a90e2;cursor:pointer;overflow-wrap:break-word;text-decoration:none;word-break:break-word}#_elev_io ._1gjza a:active,#_elev_io ._1gjza a:hover{outline-width:0}#_elev_io ._1gjza h1 img,#_elev_io ._1gjza h2 img,#_elev_io ._1gjza h3 img,#_elev_io ._1gjza h4 img,#_elev_io ._1gjza h5 img,#_elev_io ._1gjza h6 img,#_elev_io ._1gjza li img,#_elev_io ._1gjza p img{margin:0}#_elev_io ._1gjza hr{margin-bottom:8px;margin-top:8px}#_elev_io ._1gjza p{margin-top:0}#_elev_io ._1gjza div>img{margin:10px 0}#_elev_io ._1gjza img{border-style:none;cursor:pointer;height:auto;margin:30px 0;max-width:100%;vertical-align:initial}#_elev_io ._1gjza b,#_elev_io ._1gjza strong{font-weight:700}#_elev_io ._1gjza small{font-size:80%}#_elev_io ._1gjza iframe{margin:30px 0;max-width:100%}#_elev_io ._1gjza .fr-video iframe,#_elev_io ._1gjza iframe._133mp{margin:auto;max-width:auto}#_elev_io ._1gjza hr{border:1px solid #f2f2f2;box-sizing:content-box;height:0;overflow:visible}#_elev_io ._1gjza blockquote{border-left:5px solid #eee;font-size:16px;margin:30px 0;padding:10px 20px}#_elev_io ._1gjza blockquote a{font-size:16px}#_elev_io ._1gjza blockquote.elevio-box-info{background-color:rgba(187,222,251,.6);border:0;border-radius:4px}#_elev_io ._1gjza blockquote.elevio-box-warning{background-color:rgba(255,224,178,.6);border:0;border-radius:4px}#_elev_io ._1gjza blockquote.elevio-box-success{background-color:rgba(200,230,201,.6);border:0;border-radius:4px}#_elev_io ._1gjza blockquote.elevio-box-error{background-color:rgba(255,205,210,.6);border:0;border-radius:4px}#_elev_io ._1gjza blockquote ol:last-child,#_elev_io ._1gjza blockquote p:last-child,#_elev_io ._1gjza blockquote ul:last-child{margin-bottom:0}#_elev_io ._1gjza blockquote footer,#_elev_io ._1gjza blockquote small{color:rgba(0,0,0,.8);display:block;font-size:80%;line-height:1.42857143}#_elev_io ._1gjza blockquote footer:before,#_elev_io ._1gjza blockquote small:before{content:"\2014 \00A0"}#_elev_io ._1gjza ol,#_elev_io ._1gjza ul{margin:30px 0;padding-left:30px}#_elev_io ._1gjza ol{list-style-type:decimal}#_elev_io ._1gjza ul{list-style-type:disc}#_elev_io ._1gjza ol ol,#_elev_io ._1gjza ol ul,#_elev_io ._1gjza ul ol,#_elev_io ._1gjza ul ul{margin-bottom:0;margin-top:0}#_elev_io ._1gjza ol ol{list-style-type:lower-alpha}#_elev_io ._1gjza ol ol ol{list-style-type:lower-roman}#_elev_io ._1gjza li{list-style-type:inherit;margin:10px 0}#_elev_io ._1gjza abbr[title]{border-bottom:1px dotted #777;cursor:help}#_elev_io ._1gjza dfn{font-style:italic}#_elev_io ._1gjza mark{background-color:#fcf8e3;color:#000;padding:.2em}#_elev_io ._1gjza article,#_elev_io ._1gjza aside,#_elev_io ._1gjza details,#_elev_io ._1gjza figcaption,#_elev_io ._1gjza figure,#_elev_io ._1gjza footer,#_elev_io ._1gjza header,#_elev_io ._1gjza main,#_elev_io ._1gjza menu,#_elev_io ._1gjza nav,#_elev_io ._1gjza section{display:block}#_elev_io ._1gjza figure{margin:1em 40px}#_elev_io ._1gjza [hidden],#_elev_io ._1gjza template{display:none}#_elev_io ._1gjza audio,#_elev_io ._1gjza video{display:inline-block}#_elev_io ._1gjza audio:not([controls]){display:none;height:0}#_elev_io ._1gjza svg:not(:root){overflow:hidden}#_elev_io ._1gjza summary{display:list-item}#_elev_io ._1gjza canvas{display:inline-block}#_elev_io ._1gjza sub,#_elev_io ._1gjza sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}#_elev_io ._1gjza sub{bottom:-.25em}#_elev_io ._1gjza sup{top:-.5em}#_elev_io ._1gjza dl{margin-bottom:20px;margin-top:0}#_elev_io ._1gjza dd,#_elev_io ._1gjza dt{line-height:1.42857143}#_elev_io ._1gjza dt{font-weight:700}#_elev_io ._1gjza dd{margin-left:0}#_elev_io ._1gjza address{font-style:normal;line-height:1.42857143;margin-bottom:20px}#_elev_io ._1gjza address,#_elev_io ._1gjza cite,#_elev_io ._1gjza dfn,#_elev_io ._1gjza em,#_elev_io ._1gjza i,#_elev_io ._1gjza var{font-style:italic}#_elev_io ._1gjza code,#_elev_io ._1gjza kbd,#_elev_io ._1gjza pre,#_elev_io ._1gjza samp{font-family:Menlo,Monaco,Consolas,Courier New,monospace;font-size:1em}#_elev_io ._1gjza kbd{background-color:#333;border-radius:3px;box-shadow:inset 0 -1px 0 rgba(0,0,0,.25);color:#fff;font-size:90%;padding:2px 4px}#_elev_io ._1gjza kbd kbd{box-shadow:none;font-size:100%;font-weight:700;padding:0}#_elev_io ._1gjza pre{word-wrap:break-word;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px;color:#333;display:block;line-height:1.42857143;margin:30px 0;overflow-x:auto;padding:9.5px;white-space:pre-wrap;word-break:break-all}#_elev_io ._1gjza pre code{background-color:transparent;border-radius:0;color:inherit;font-size:inherit;padding:0;white-space:pre-wrap}#_elev_io ._1gjza code{background-color:#f9f2f4;border-radius:4px;color:#c7254e;font-size:90%;padding:2px 4px}#_elev_io ._1gjza table:not(.elev-table){background-color:transparent;border-collapse:collapse;border-spacing:0;display:block;margin:30px 0;max-width:100%;overflow-x:auto;width:100%}#_elev_io ._1gjza table:not(.elev-table) td,#_elev_io ._1gjza table:not(.elev-table) th{padding:0}#_elev_io ._1gjza table:not(.elev-table) th{text-align:left}#_elev_io ._1gjza table:not(.elev-table)>tbody>tr>td,#_elev_io ._1gjza table:not(.elev-table)>tbody>tr>th,#_elev_io ._1gjza table:not(.elev-table)>tfoot>tr>td,#_elev_io ._1gjza table:not(.elev-table)>tfoot>tr>th,#_elev_io ._1gjza table:not(.elev-table)>thead>tr>td,#_elev_io ._1gjza table:not(.elev-table)>thead>tr>th{border-top:1px solid #ddd;line-height:1.42857143;padding:8px;vertical-align:top}#_elev_io ._1gjza table:not(.elev-table)>thead>tr>th{border-bottom:2px solid #ddd;vertical-align:bottom}#_elev_io ._1gjza table:not(.elev-table)>caption+thead>tr:first-child>td,#_elev_io ._1gjza table:not(.elev-table)>caption+thead>tr:first-child>th,#_elev_io ._1gjza table:not(.elev-table)>colgroup+thead>tr:first-child>td,#_elev_io ._1gjza table:not(.elev-table)>colgroup+thead>tr:first-child>th,#_elev_io ._1gjza table:not(.elev-table)>thead:first-child>tr:first-child>td,#_elev_io ._1gjza table:not(.elev-table)>thead:first-child>tr:first-child>th{border-top:0}#_elev_io ._1gjza table:not(.elev-table)>tbody+tbody{border-top:2px solid #ddd}#_elev_io ._1gjza table table{background-color:#fff}#_elev_io ._1b69i{font-size:14px}#_elev_io ._1b69i h1,#_elev_io ._1b69i h2,#_elev_io ._1b69i h3,#_elev_io ._1b69i h4,#_elev_io ._1b69i h5,#_elev_io ._1b69i h6{margin-bottom:5px;margin-top:15px}#_elev_io ._1b69i h1{font-size:22px}#_elev_io ._1b69i h2{font-size:21px}#_elev_io ._1b69i h3{font-size:20px}#_elev_io ._1b69i h4{font-size:18px}#_elev_io ._1b69i h5{font-size:16px}#_elev_io ._1b69i h6,#_elev_io ._1b69i p{font-size:14px}#_elev_io ._1b69i p{line-height:1.6;margin-bottom:15px}#_elev_io ._1b69i blockquote,#_elev_io ._1b69i code,#_elev_io ._1b69i kbd,#_elev_io ._1b69i pre,#_elev_io ._1b69i samp{font-size:14px}#_elev_io ._1n7lr{color:#4a4a4a;font-size:14px;font-weight:400}#_elev_io ._17gbx{color:#4a90e2;font-weight:600}#_elev_io ._ahxts{color:#fff;font-size:14px;font-weight:400;text-align:center}#_elev_io ._1g611{box-sizing:border-box;cursor:pointer}#_elev_io ._1g611:focus{outline:0}#_elev_io ._jta9z{background-color:#fff;border:0!important;box-sizing:border-box;color:rgba(0,0,0,.8);font-family:inherit!important;margin:0!important}#_elev_io ._jta9z:focus{border:0!important;box-shadow:none!important;outline:0!important}#_elev_io ._1rzsa:after,#_elev_io ._1rzsa:before{content:" ";display:table}#_elev_io ._1rzsa:after{clear:both}#_elev_io ._jfgu2{bottom:0;line-height:0;position:absolute;top:0}#_elev_io ._jfgu2>div{background:none;cursor:pointer;line-height:0;padding:18px 15px 17px}#_elev_io ._jfgu2 svg{fill:#fff;height:14px!important;width:14px!important}@font-face{font-display:swap;font-family:elevio-noto-sans;font-style:normal;font-weight:400;src:url(https://cdn.elev.io/sdk/fonts/elevio-noto-sans-400.woff) format("woff")}@font-face{font-display:swap;font-family:elevio-noto-sans;font-style:normal;font-weight:700;src:url(https://cdn.elev.io/sdk/fonts/elevio-noto-sans-700.woff) format("woff")}@media print{#_elev_io *{display:none!important}}.elevioReset{filter:none!important}.elevioReset a,.elevioReset abbr,.elevioReset acronym,.elevioReset address,.elevioReset applet,.elevioReset article,.elevioReset aside,.elevioReset audio,.elevioReset b,.elevioReset big,.elevioReset blockquote,.elevioReset button,.elevioReset canvas,.elevioReset caption,.elevioReset center,.elevioReset cite,.elevioReset code,.elevioReset dd,.elevioReset del,.elevioReset details,.elevioReset dfn,.elevioReset div,.elevioReset div._j4sos,.elevioReset dl,.elevioReset dt,.elevioReset em,.elevioReset fieldset,.elevioReset figcaption,.elevioReset figure,.elevioReset footer,.elevioReset form,.elevioReset h1,.elevioReset h2,.elevioReset h3,.elevioReset h4,.elevioReset h5,.elevioReset h6,.elevioReset header,.elevioReset hgroup,.elevioReset i,.elevioReset iframe,.elevioReset img,.elevioReset input,.elevioReset input[type],.elevioReset ins,.elevioReset kbd,.elevioReset label,.elevioReset legend,.elevioReset li,.elevioReset mark,.elevioReset menu,.elevioReset nav,.elevioReset object,.elevioReset ol,.elevioReset p,.elevioReset pre,.elevioReset q,.elevioReset s,.elevioReset samp,.elevioReset section,.elevioReset small,.elevioReset span,.elevioReset strike,.elevioReset strong,.elevioReset sub,.elevioReset summary,.elevioReset sup,.elevioReset table,.elevioReset tbody,.elevioReset td,.elevioReset textarea,.elevioReset tfoot,.elevioReset th,.elevioReset thead,.elevioReset time,.elevioReset tr,.elevioReset tt,.elevioReset u,.elevioReset ul,.elevioReset var,.elevioReset video{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-height:auto;text-outline:none;text-wrap:normal;alignment-adjust:auto;alignment-baseline:baseline;azimuth:center;//background:none 0 0 auto repeat scroll padding-box transparent;baseline-shift:baseline;binding:none;bleed:6pt;bookmark-label:content();bookmark-level:none;bookmark-state:open;bookmark-target:none;box-align:stretch;box-direction:normal;box-flex:0;box-flex-group:1;box-lines:single;box-ordinal-group:1;box-orient:inline-axis;box-pack:start;-moz-column-break-after:auto;-moz-column-break-before:auto;-moz-column-break-inside:auto;clip:auto;color-profile:auto;crop:auto;dominant-baseline:auto;drop-initial-after-adjust:text-after-edge;drop-initial-after-align:baseline;drop-initial-before-adjust:text-before-edge;drop-initial-before-align:caps-height;drop-initial-size:auto;drop-initial-value:initial;elevation:level;fit:fill;fit-position:0 0;float-offset:0 0;grid-columns:none;grid-rows:none;hyphenate-after:auto;hyphenate-before:auto;hyphenate-lines:no-limit;hyphenate-resource:none;icon:auto;image-resolution:normal;inline-box-align:last;line-stacking:inline-line-height exclude-ruby consider-shifts;marks:none;marquee-direction:forward;marquee-loop:1;marquee-play-count:1;marquee-speed:normal;marquee-style:scroll;move-to:normal;nav-down:auto;nav-index:auto;nav-left:auto;nav-right:auto;nav-up:auto;overflow-style:auto;page-policy:start;presentation-level:0;punctuation-trim:none;rendering-intent:auto;rotation:0;rotation-point:50% 50%;ruby-align:auto;ruby-overhang:none;ruby-span:none;size:auto;string-set:none;white-space-collapse:collapse;word-wrap:normal;animation:0 1 ease 0 normal none;animation-play-state:running;-webkit-appearance:normal;-moz-appearance:normal;appearance:normal;-webkit-backface-visibility:visible;backface-visibility:visible;background-color:transparent;background-image:none;border:0 transparent;border-radius:0;bottom:auto;-webkit-box-decoration-break:slice;box-decoration-break:slice;box-shadow:none;box-sizing:content-box;-webkit-break-after:auto;-moz-break-after:auto;break-after:auto;-webkit-break-before:auto;-moz-break-before:auto;break-before:auto;break-inside:auto;caption-side:top;clear:none;color:inherit;-moz-column-count:auto;-moz-column-fill:balance;column-fill:balance;-moz-column-gap:normal;column-gap:normal;-moz-column-rule:medium medium #1f1f1f;column-rule:medium medium #1f1f1f;-moz-column-span:1;column-span:1;-moz-column-width:auto;-moz-columns:auto auto;columns:auto;content:normal;counter-increment:none;counter-reset:none;cursor:auto;display:inline;empty-cells:show;filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);float:none;font-family:elevio-noto-sans,Helvetica,Arial,sans-serif;font-size:100%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:400;font:normal normal 100% elevio-noto-sans,Helvetica,Arial,sans-serif;hanging-punctuation:none;height:auto;hyphenate-character:auto;-webkit-hyphens:manual;hyphens:manual;image-orientation:auto;image-rendering:auto;left:auto;letter-spacing:normal;line-height:inherit;list-style:disc none outside;margin:0;max-height:none;max-width:none;min-height:0;min-width:0;opacity:1;orphans:2;outline:medium none invert;outline-offset:0;overflow:visible;padding:0;page:auto;page-break-after:auto;page-break-before:auto;page-break-inside:auto;perspective:none;perspective-origin:50% 50%;position:static;quotes:none;resize:none;right:auto;ruby-position:before;table-layout:auto;text-align:left;text-align:start;text-decoration:none;-webkit-text-emphasis:none;text-emphasis:none;text-indent:0;text-justify:auto;text-rendering:optimizeLegibility;text-shadow:none;text-transform:none;top:auto;transform:none;transform-origin:50% 50% 0;transform-style:flat;transition:all 0 ease 0;unicode-bidi:normal;vertical-align:baseline;white-space:normal;widows:2;width:auto;word-break:normal;word-spacing:normal;z-index:auto}.elevioReset address,.elevioReset article,.elevioReset aside,.elevioReset blockquote,.elevioReset canvas,.elevioReset center,.elevioReset dd,.elevioReset details,.elevioReset dir,.elevioReset div,.elevioReset div._j4sos,.elevioReset dl,.elevioReset dt,.elevioReset fieldset,.elevioReset figcaption,.elevioReset figure,.elevioReset footer,.elevioReset form,.elevioReset frame,.elevioReset frameset,.elevioReset h1,.elevioReset h2,.elevioReset h3,.elevioReset h4,.elevioReset h5,.elevioReset h6,.elevioReset header,.elevioReset hgroup,.elevioReset hr,.elevioReset menu,.elevioReset nav,.elevioReset noframes,.elevioReset ol,.elevioReset p,.elevioReset pre,.elevioReset section,.elevioReset summary,.elevioReset ul{display:block}.elevioReset li{display:list-item}.elevioReset table{display:table}.elevioReset tr{display:table-row}.elevioReset thead{display:table-header-group}.elevioReset tbody{display:table-row-group}.elevioReset tfoot{display:table-footer-group}.elevioReset col{display:table-column}.elevioReset colgroup{display:table-column-group}.elevioReset td,.elevioReset th{display:table-cell}.elevioReset caption{display:table-caption}.elevioReset input,.elevioReset select{-webkit-appearance:normal;-moz-appearance:normal;appearance:normal;display:inline-block}.elevioReset input[type=checkbox]{-webkit-appearance:checkbox;-moz-appearance:checkbox;appearance:checkbox}.elevioReset input[type=radio]{-webkit-appearance:radio;-moz-appearance:radio;appearance:radio}.elevioReset b,.elevioReset strong{font-weight:700}.elevioReset input,.elevioReset textarea{cursor:text;white-space:pre-wrap}.elevioReset input::-webkit-input-placeholder,.elevioReset textarea::-webkit-input-placeholder{text-height:auto;text-outline:none;text-wrap:normal;color:inherit;font-family:elevio-noto-sans,Helvetica,Arial,sans-serif;font-size:100%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:400;font:normal normal 100% elevio-noto-sans,Helvetica,Arial,sans-serif;letter-spacing:normal;text-align:left;text-align-last:start;text-decoration:none;-webkit-text-emphasis:none;text-emphasis:none;text-indent:0;text-justify:auto;text-shadow:none;text-transform:none}.elevioReset input::-moz-placeholder,.elevioReset textarea::-moz-placeholder{text-height:auto;text-outline:none;text-wrap:normal;color:inherit;font-family:elevio-noto-sans,Helvetica,Arial,sans-serif;font-size:100%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:400;font:normal normal 100% elevio-noto-sans,Helvetica,Arial,sans-serif;letter-spacing:normal;text-align:left;-moz-text-align-last:start;text-align-last:start;text-decoration:none;text-emphasis:none;text-indent:0;text-justify:auto;text-shadow:none;text-transform:none}.elevioReset input:-ms-input-placeholder,.elevioReset textarea:-ms-input-placeholder{text-height:auto;text-outline:none;text-wrap:normal;color:inherit;font-family:elevio-noto-sans,Helvetica,Arial,sans-serif;font-size:100%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:400;font:normal normal 100% elevio-noto-sans,Helvetica,Arial,sans-serif;letter-spacing:normal;text-align:left;text-align-last:start;text-decoration:none;text-emphasis:none;text-indent:0;text-justify:auto;text-shadow:none;text-transform:none}.elevioReset input::selection,.elevioReset textarea::selection{background-color:#b3d4fc}.elevioReset input::-moz-selection,.elevioReset textarea::-moz-selection{background-color:#b3d4fc}.elevioReset input[type=checkbox],.elevioReset input[type=radio]{cursor:default}.elevioReset a,.elevioReset a *,.elevioReset a span,.elevioReset button,.elevioReset button *,.elevioReset button span,.elevioReset input[type=reset],.elevioReset input[type=submit]{cursor:pointer}.elevioReset a:active,.elevioReset a:hover,.elevioReset a:link,.elevioReset a:visited{background:transparent;color:inherit;text-shadow:none}.elevioReset button::-moz-focus-inner{border:0;padding:0}.elevioReset svg{display:inline;position:static;width:unset}#_elev_io ._mmui9{height:100%;position:relative;width:100%}#_elev_io ._lijss{padding:20px;text-align:center}#_elev_io ._bsvha{-webkit-overflow-scrolling:touch;bottom:0;left:0;overflow-y:auto;position:absolute;right:0;top:0}#_elev_io ._s7oue{display:block;height:100%;width:100%}#_elev_io ._10o2g{height:101%}#_elev_io ._ix5i5{margin-top:50px;text-align:center}#_elev_io ._jaymw{border-bottom:1px solid #f3f5f7;border-top:1px solid #f3f5f7;padding:30px}#_elev_io ._j18u6{color:rgba(0,0,0,.8);font-size:12px;font-weight:700;text-transform:uppercase}#_elev_io ._sragb{margin:0 auto;width:20px}#_elev_io ._1hnj1{height:100%;position:relative;width:100%}#_elev_io ._dldzm{-webkit-overflow-scrolling:touch;bottom:0;left:0;overflow-y:auto;position:absolute;right:0;top:0}#_elev_io ._17110{display:block;height:100%;width:100%}#_elev_io ._15zf0{height:101%}#_elev_io ._13qwx{margin-top:50px;text-align:center}#_elev_io ._nr4k9{color:rgba(0,0,0,.8);font-size:12px;font-weight:600}#_elev_io ._hnniv{border-bottom:none!important;margin:10px auto 5px;padding:0!important;width:20px}#_elev_io ._1ynss{width:100%}#_elev_io ._alx96{margin:50px auto;width:20px}#_elev_io ._11p89{color:rgba(0,0,0,.8);margin:30px auto;padding:20px;text-align:center}#_elev_io ._1mkxc{position:relative}#_elev_io ._1mkxc a{float:right;height:20px;margin-top:-5px;width:20px}#_elev_io ._1mkxc svg{fill:rgba(0,0,0,.5)}#_elev_io ._11kka{display:block;margin-bottom:30px;width:100%}#_elev_io ._us0s7 ._us0s7{margin-bottom:20px}#_elev_io ._us0s7 ._us0s7 ._us0s7{margin-bottom:10px}#_elev_io ._1wo2u>div{font-weight:700}#_elev_io ._su7pp{margin:10px 20px 0}#_elev_io ._su7pp>div div:first-child{margin-top:0}#_elev_io ._1b4vy{color:rgba(0,0,0,.8);cursor:pointer;display:block;font-size:14px;line-height:1.4;padding-left:20px;position:relative}#_elev_io ._1b4vy:hover{color:#4a90e2}#_elev_io ._1b4vy>div{display:inline}#_elev_io ._1bofs{bottom:0;cursor:pointer;left:0;position:absolute;top:0}#_elev_io ._1bofs svg{fill:#5c5c5c;display:inline;height:10px!important;width:10px!important}#_elev_io ._1bofs span{height:6px;width:6px}#_elev_io ._1vacs{background-color:#f3f5f7;border-radius:4px;color:rgba(0,0,0,.8);cursor:pointer;display:inline-block;font-size:10px;font-weight:700;margin-top:15px;padding:5px 10px}#_elev_io ._1xoeb{margin:35px auto;width:20px}#_elev_io ._i7sdo{background-color:#f3f5f7;overflow:hidden}#_elev_io ._cnzpc{height:auto;overflow-x:hidden;padding:5px 30px 30px}#_elev_io ._cnzpc,#_elev_io ._cnzpc>div{box-sizing:border-box;display:flex}#_elev_io ._cnzpc>div{flex:0 1 auto;flex-direction:row;flex-wrap:wrap;width:100%}#_elev_io ._4fjpa{box-sizing:border-box;cursor:pointer;flex:0 0 auto;flex-basis:33.3333%;line-height:0;margin-top:30px;max-width:33.3333%;text-align:center}#_elev_io ._4fjpa:nth-child(-n+3){margin-top:0}#_elev_io ._4fjpa:hover ._1bt1k{color:rgba(0,0,0,.8)}#_elev_io ._4fjpa:hover ._d9ggd{box-shadow:0 4px 10px 0 rgba(0,0,0,.1);transform:translateY(-4px)}#_elev_io ._4fjpa:hover svg{fill:#fff}#_elev_io ._d9ggd{background-color:#fff;border-radius:3px;box-shadow:0 1px 1px 0 rgba(0,0,0,.1);cursor:pointer;display:inline-block;margin:0 auto 8px;padding:15px;transition:background-color .25s cubic-bezier(.55,0,.1,1),transform .25s cubic-bezier(.55,0,.1,1),box-shadow .25s cubic-bezier(.55,0,.1,1)}#_elev_io ._d9ggd div{cursor:pointer;line-height:0}#_elev_io ._d9ggd svg{fill:#595c5f;cursor:pointer;height:20px!important;transition:fill .25s cubic-bezier(.55,0,.1,1);width:20px!important}#_elev_io ._1bt1k{color:#595c5f;cursor:pointer;font-size:11px;line-height:1.3;overflow:hidden;padding:0 5px;text-align:center;text-overflow:ellipsis;transition:color .25s cubic-bezier(.55,0,.1,1);white-space:nowrap}@media only screen and (min-device-width:320px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-width:320px) and (max-device-width:736px) and (min-resolution:2dppx){#_elev_io ._cnzpc{padding:5px 5px 15px}#_elev_io ._d9ggd{padding:20px}}.elevioPopup{z-index:2147483001}#_elev_io ._1ay1p{min-width:1px}#_elev_io ._1rx56{line-height:0;padding:30px}#_elev_io ._1rx56,#_elev_io ._hedvd{background-color:#fff;border-radius:4px;box-shadow:0 4px 15px 0 rgba(0,0,0,.15)}#_elev_io ._hedvd{max-height:100vh;max-width:100vw}#_elev_io ._rrb4y{max-width:400px;position:relative}#_elev_io ._rrb4y img{margin-bottom:0!important}#_elev_io ._1d6my{max-width:400px;padding:20px;position:relative}#_elev_io ._8pxm2{color:rgba(0,0,0,.8);font-size:18px;font-weight:700;padding-right:65px}#_elev_io ._3h34l{line-height:0;position:absolute;right:15px;top:20px}#_elev_io ._3h34l button{background:none;border:0;cursor:pointer;line-height:0;outline:0;padding:5px}#_elev_io ._3h34l button:focus{outline:0}#_elev_io ._3h34l svg{fill:#595c5f;height:15px;width:15px}#_elev_io ._4kam4{line-height:0;position:absolute;right:50px;top:20px}#_elev_io ._4kam4 button{background:none;border:0;cursor:pointer;line-height:0;outline:0;padding:5px}#_elev_io ._4kam4 button:focus{outline:0}#_elev_io ._4kam4 svg{fill:#595c5f;height:14px;width:14px}#_elev_io ._1rzud{-webkit-overflow-scrolling:touch;margin:0 20px;max-height:300px;overflow-y:auto}#_elev_io ._1rzud::-webkit-scrollbar{width:10px}#_elev_io ._1rzud::-webkit-scrollbar-track{background-color:rgba(0,0,0,.1);border-radius:1000px}#_elev_io ._1rzud::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.15);border-radius:1000px}#_elev_io ._1rzud::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.2)}#_elev_io ._ar3dh{animation:_11rsr .25s cubic-bezier(.55,0,.1,1);box-shadow:0 4px 30px 0 rgba(0,0,0,.4);left:50%;max-height:95%;max-width:95%;position:fixed;top:50%;transform:translate3d(-50%,-50%,0);transition:top .1s cubic-bezier(.55,0,.1,1),left .1s cubic-bezier(.55,0,.1,1);z-index:2147483002}#_elev_io ._ar3dh,#_elev_io ._vbcxz{border-radius:4px}#_elev_io ._vbcxz{background-color:#fff;max-height:calc(95vh - 40px);max-width:100%;min-height:50px;min-width:50px;overflow-x:hidden;overflow-y:auto;padding:20px}#_elev_io ._vbcxz img{display:block;margin:0 auto;position:relative;z-index:1}#_elev_io ._jitm5{height:auto;max-height:unset;max-width:calc(95vw - 40px);width:auto}#_elev_io ._1a6v1{left:50%;top:50%;transform:translate3d(-50%,-50%,0);z-index:0}#_elev_io ._1a6v1,#_elev_io ._z89gs{position:absolute}#_elev_io ._z89gs{background-color:#fff;border-radius:50%;box-shadow:0 4px 10px 0 rgba(0,0,0,.1);line-height:0;right:-17px;top:-17px;z-index:1}#_elev_io ._z89gs button{background:none;border:0;cursor:pointer;line-height:0;margin:0;outline:0;padding:10px}#_elev_io ._z89gs button:focus{outline:0}#_elev_io ._z89gs svg{fill:#595c5f;height:14px;width:14px}@keyframes _11rsr{0%{opacity:0}to{opacity:1}}@media (prefers-reduced-motion){#_elev_io ._ar3dh{animation:0s ease-in none;opacity:1}}#_elev_io ._1efjt{background:#fff;border-bottom:1px solid #f3f5f7;border-top:1px solid #f3f5f7;padding:30px 0}#_elev_io ._7ttns{margin:0 auto}#_elev_io ._1tou3{color:#8e9fa5;font-size:16px;margin-bottom:15px}#_elev_io ._1tou3,#_elev_io ._6zar8{text-align:center}#_elev_io ._6zar8{margin-top:5px}#_elev_io ._um32u{border:2px solid #c1d7de;border-radius:50%;line-height:0;margin:0 4px;opacity:.5;padding:15px;transition:all .25s ease-out}#_elev_io ._um32u svg{fill:#c1d7de;height:15px;width:15px}#_elev_io ._um32u._lwv46{border-color:#da4429}#_elev_io ._um32u._lwv46 svg{fill:#da4429}#_elev_io ._um32u._osr32{border-color:#15cd72}#_elev_io ._um32u._osr32 svg{fill:#15cd72}#_elev_io ._um32u:hover{opacity:1}#_elev_io ._um32u:hover._lwv46{background-color:#da4429}#_elev_io ._um32u:hover._lwv46 svg{fill:#fff}#_elev_io ._um32u:hover._osr32{background-color:#15cd72}#_elev_io ._um32u:hover._osr32 svg{fill:#fff}#_elev_io ._um32u._lwv46 svg{transform:rotate(180deg)}#_elev_io ._oya69{color:#8e9fa5;font-size:16px;margin-bottom:15px}#_elev_io ._xyc52{padding:0 30px}#_elev_io ._xyc52 textarea{word-wrap:break-word;border-bottom:2px solid #1392b8;box-sizing:border-box;color:#565867;font-size:14px;font-weight:400;height:50px;line-height:1.33;padding:15px;resize:none;white-space:pre;white-space:pre-wrap;width:100%}#_elev_io ._xyc52 textarea:focus{outline:none}#_elev_io ._xyc52 textarea::-webkit-input-placeholder{color:#cfd7df;font-style:italic}#_elev_io ._xyc52 textarea::-moz-placeholder{color:#cfd7df;font-style:italic}#_elev_io ._xyc52 textarea::-ms-clear{display:none}#_elev_io ._d0n1e{color:#565867;font-size:14px;font-weight:400;line-height:1.33;margin-bottom:15px!important;margin-top:5px!important;padding:15px;width:100%}#_elev_io ._d0n1e,#_elev_io ._d0n1e:focus{border-bottom:2px solid #1392b8!important}#_elev_io ._d0n1e:focus{outline:none}#_elev_io ._d0n1e::-webkit-input-placeholder{color:#cfd7df;font-style:italic}#_elev_io ._d0n1e::-moz-placeholder{color:#cfd7df;font-style:italic}#_elev_io ._d0n1e::-ms-clear{display:none}#_elev_io ._1aab6{background-color:#1392b8;border:none;border-radius:3px;color:#fff}#_elev_io ._15u0h,#_elev_io ._1aab6{font-size:14px;margin-top:10px;padding:8px 15px}#_elev_io ._15u0h{border:none;color:#8e9fa5;margin-left:10px}#_elev_io ._1ubit{color:#8e9fa5;font-size:16px;text-align:center}#_elev_io ._1b993{padding:0 30px}#_elev_io ._19ti4{color:rgba(0,0,0,.8);margin:30px auto;padding:20px;text-align:center}#_elev_io ._1f1b0{margin:50px auto;width:20px}.ctxUnderline{border-bottom:1px dotted #aaa;cursor:help}.ctxNothing{cursor:pointer}.elevioTooltip{height:0;position:absolute;width:0}#_elev_io ._1lbby{border:0;border-radius:50%;cursor:help;height:16px;width:16px}#_elev_io ._9mf2w{left:0;position:absolute;top:0}#_elev_io ._1r6qx{line-height:0}#_elev_io ._1r6qx ._1lbby{background-color:rgba(0,0,0,.6);border:1px solid #fff;font-size:12px;font-weight:700;text-align:center}#_elev_io ._1r6qx ._1lbby svg{fill:#fff;cursor:help;height:8px;width:8px}#_elev_io ._1r6qx ._1lbby svg path{cursor:help}#_elev_io ._1r6qx>div{display:none}#_elev_io ._dwq77{height:16px;position:relative;width:16px}#_elev_io ._dwq77 ._1lbby{background:#ff5252;z-index:2}#_elev_io ._dwq77 ._1lbby,#_elev_io ._dwq77>div{left:0;position:absolute;top:0}#_elev_io ._dwq77>div{animation:_whlcr 2s ease-out infinite;border:2px solid #ff5252;border-radius:50%;height:16px;margin-left:-2px;margin-top:-2px;width:16px;z-index:1}@keyframes _whlcr{0%{opacity:0;transform:scale(.2)}50%{opacity:.5}to{opacity:0;transform:scale(1.8)}}@media (prefers-reduced-motion){#_elev_io ._dwq77>div{animation:0s ease-out none!important;opacity:0;transform:scale(1.8)}}#_elev_io ._k97xw{margin-top:10px}#_elev_io ._9sg1e{color:#4a90e2;display:inline;font-size:14px;font-weight:400;line-height:1.5}#_elev_io ._9sg1e div{background-image:linear-gradient(180deg,rgba(74,144,226,.6) 50%,rgba(74,144,226,0) 0);background-position:0 1.16em;background-repeat:repeat-x;background-size:2px 2px;cursor:pointer;display:inline}#_elev_io ._9sg1e em{background-color:rgba(231,249,254,.7);border-radius:4px;cursor:pointer;font-weight:400;margin:0 -2px;padding:1px 2px}#_elev_io ._lf75n{animation:_wv1pi .7s linear infinite;border:2px solid #4a90e2;border-left-color:transparent;border-radius:50%;display:inline-block;height:15px;transform:translateZ(0);width:15px}@keyframes _wv1pi{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@media (prefers-reduced-motion){#_elev_io ._lf75n{animation:0s ease-in none;transform:rotate(1turn)}}:-webkit-full-screen-ancestor ._16y98{position:relative!important}#_elev_io ._1g6cj{position:fixed;z-index:2147482998}#_elev_io ._bhq21{border:0;font-size:13px;padding:0;text-align:centre}#_elev_io ._bzf50{color:#fff;display:block;padding:10px 15px}#_elev_io ._1n7sq{display:block;padding:15px}#_elev_io ._1n7sq svg{fill:#fff;height:30px!important;width:30px!important}#_elev_io ._xy6qs{top:50%;top:50lvh}#_elev_io ._xy6qs._zvdyj{animation-duration:.5s;animation-name:_1oqup;animation-timing-function:cubic-bezier(.55,0,.1,1);right:0;transform:translate3d(50%,-50%,0) rotate(270deg) translateY(-50%);transform-origin:center}#_elev_io ._xy6qs._zvdyj ._bhq21{border-top-left-radius:3px;border-top-right-radius:3px;box-shadow:0 0 8px 0 rgba(0,0,0,.25)}#_elev_io ._xy6qs._kekda{animation-duration:.5s;animation-name:_1hpqs;animation-timing-function:cubic-bezier(.55,0,.1,1);left:0;transform:translate3d(-50%,-50%,0) rotate(90deg) translateY(-50%);transform-origin:center}#_elev_io ._xy6qs._kekda ._bhq21{border-top-left-radius:3px;border-top-right-radius:3px;box-shadow:0 0 8px 0 rgba(0,0,0,.25)}#_elev_io ._19znh{animation-duration:.5s;animation-name:_1kjn4;animation-timing-function:cubic-bezier(.55,0,.1,1);bottom:0}#_elev_io ._19znh ._bhq21{border-top-left-radius:3px;border-top-right-radius:3px;box-shadow:0 0 8px 0 rgba(0,0,0,.25)}#_elev_io ._19znh._zvdyj{right:20px}#_elev_io ._19znh._kekda{left:20px}#_elev_io ._6byvm{animation-duration:.5s;animation-name:_1ks3b;bottom:20px;line-height:0}#_elev_io ._6byvm ._bhq21{border-radius:100px;box-shadow:0 4px 8px 0 rgba(0,0,0,.15);line-height:0;transition:box-shadow .3s ease-in-out}#_elev_io ._6byvm ._bhq21:hover{box-shadow:0 4px 15px 0 rgba(0,0,0,.15)}#_elev_io ._6byvm ._bzf50{display:inline-block;line-height:60px;max-width:0;overflow:hidden;padding:0;transition:max-width .1s ease,padding .1s ease;white-space:nowrap}#_elev_io ._6byvm:hover ._bzf50{max-width:1000px;padding:0 25px}#_elev_io ._6byvm._zvdyj{right:20px}#_elev_io ._6byvm._zvdyj ._1n7sq{float:right}#_elev_io ._6byvm._zvdyj ._bzf50{float:left}#_elev_io ._6byvm._kekda{left:20px}#_elev_io ._6byvm._kekda ._1n7sq{float:left}#_elev_io ._6byvm._kekda ._bzf50{float:right}#_elev_io ._u4l1i{border-radius:4px;box-shadow:0 4px 20px 0 rgba(0,0,0,.15);overflow:hidden;position:fixed;width:340px;z-index:2147482998}#_elev_io ._u4l1i._170vy{left:50px}#_elev_io ._u4l1i._jvrjn{right:50px}#_elev_io ._u4l1i._bhq21{bottom:100px}#_elev_io ._u4l1i._1iqf5{bottom:50px}#_elev_io ._u4l1i._1iqf5._170vy{left:20px}#_elev_io ._u4l1i._1iqf5._jvrjn{right:20px}#_elev_io ._u4l1i._c4ehq{bottom:50px}#_elev_io ._1wymi{-webkit-overflow-scrolling:touch;background-color:#fff;cursor:pointer;max-height:300px;overflow-y:auto;padding:15px}#_elev_io ._1wymi::-webkit-scrollbar{width:10px}#_elev_io ._1wymi::-webkit-scrollbar-track{background-color:rgba(0,0,0,.1);border-radius:1000px}#_elev_io ._1wymi::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.15);border-radius:1000px}#_elev_io ._1wymi::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.2)}#_elev_io ._1wymi *{cursor:pointer}#_elev_io ._1y4t7{padding:15px}#_elev_io ._1y4t7 img{border-radius:50%;float:left;height:40px;width:40px}#_elev_io ._1y4t7 span{color:#fff;line-height:40px;margin-left:10px}#_elev_io ._1cw9h{float:right}#_elev_io ._1cw9h button{background:none;border:0;cursor:pointer;height:40px;line-height:40px;opacity:.5;outline:0;padding:0 10px;transition:opacity .25s ease}#_elev_io ._1cw9h button:focus{outline:0}#_elev_io ._1cw9h button:hover{opacity:1}#_elev_io ._1cw9h svg{fill:#fff;height:14px!important;width:14px!important}#_elev_io ._t8o5f{background-color:#fff;border-top:1px solid #e7ebef;color:rgba(0,0,0,.8);font-size:14px;font-weight:700;padding:15px;text-transform:uppercase}#_elev_io ._t8o5f,#_elev_io ._t8o5f *{cursor:pointer}@keyframes _1tmjs{0%{opacity:0}to{opacity:1}}@keyframes _1oqup{0%{opacity:0;right:-40px}to{opacity:1}}@keyframes _1hpqs{0%{left:-40px;opacity:0}to{opacity:1}}@keyframes _1kjn4{0%{opacity:0;transform:translate3d(0,100%,0)}to{opacity:1;transform:translateZ(0)}}@keyframes _1ks3b{0%{opacity:0;transform:scale(.5)}50%{transform:scale(1.05)}to{opacity:1;transform:scale(1)}}@media (prefers-reduced-motion){#_elev_io ._6byvm{transform:scale(1)}#_elev_io ._19znh,#_elev_io ._6byvm,#_elev_io ._xy6qs._kekda,#_elev_io ._xy6qs._zvdyj{animation:0s none;opacity:1}#_elev_io ._19znh{transform:translateZ(0)}}#_elev_io ._sbgx4,#_elev_io ._sbgx4 a{text-align:right}#_elev_io ._sbgx4 a{color:#9b9b9b;display:block;font-size:10px;font-weight:300;text-decoration:none}#_elev_io ._sbgx4 a:hover{color:#4a90e2;text-decoration:underline}#_elev_io ._1lnko{background-color:#fafafa;padding:10px 30px}#_elev_io ._1dfpw{padding:5px 30px}#_elev_io ._585pf{height:100%;position:relative;width:100%}#_elev_io ._vd37r{margin:50px auto;width:20px}#_elev_io ._ccc77{animation:_1714o .5s cubic-bezier(.55,0,.1,1)}@keyframes _1714o{0%{opacity:0}to{opacity:1}}@media (prefers-reduced-motion){#_elev_io ._ccc77{animation:0s ease-in none;opacity:1}}#_elev_io ._1wsfy{height:100%;position:relative;width:100%}#_elev_io ._1xk6s{display:block;position:relative;transition:box-shadow .25s cubic-bezier(.55,0,.1,1);width:100%;z-index:100}#_elev_io ._1xk6s._yqxkz{box-shadow:0 4px 10px 0 rgba(0,0,0,.1)}#_elev_io ._1xk6s._yqxkz ._10b1r svg{fill:rgba(0,0,0,.8)}#_elev_io ._rqmwn{display:flex;position:relative;z-index:10}#_elev_io ._10b1r{align-items:center;background-color:#fff;border-bottom-left-radius:4px;border-top-left-radius:4px;display:flex;justify-content:center;padding-left:20px}#_elev_io ._10b1r svg{fill:#607d8b;height:14px!important;transition:fill .25s cubic-bezier(.55,0,.1,1);width:14px!important}#_elev_io ._1gzja{-webkit-appearance:none;background-color:#fff!important;border-bottom-right-radius:4px!important;border-top-right-radius:4px!important;border-radius:0;flex:1;font-size:16px;height:auto!important;line-height:1.4;padding:14px 60px 14px 10px!important}#_elev_io ._1gzja::-webkit-input-placeholder{color:#607d8b;font-style:italic}#_elev_io ._1gzja::-moz-placeholder{color:#607d8b;font-style:italic}#_elev_io ._1gzja::-ms-clear{display:none}#_elev_io ._1gzja::-webkit-search-cancel-button,#_elev_io ._1gzja::-webkit-search-decoration{-webkit-appearance:none}#_elev_io ._1gzja::-webkit-search-results-button,#_elev_io ._1gzja::-webkit-search-results-decoration{-webkit-appearance:none}#_elev_io ._dyiu8 ._1gzja{border-bottom-right-radius:0}#_elev_io ._dyiu8 ._10b1r{border-bottom-left-radius:0}#_elev_io ._jch0b{line-height:0;position:absolute;right:20px;top:16px}#_elev_io ._17qko{background-color:#cfd7df;border-radius:50%;cursor:pointer;line-height:0;padding:5px;transition:background-color .25s cubic-bezier(.55,0,.1,1)}#_elev_io ._17qko svg{fill:#fff;height:9px!important;width:9px!important}#_elev_io ._17qko:hover{background-color:#607d8b}#_elev_io ._17k2i{position:relative;z-index:9}#_elev_io ._17k2i:focus{outline:0}#_elev_io ._o144b{background:#fff;border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-top:1px solid #f2f2f2;box-shadow:0 4px 10px 0 rgba(0,0,0,.1);left:0;padding:0 20px 20px;position:absolute;right:0;top:0}@media only screen and (max-height:400px){#_elev_io ._1397s{max-height:180px;overflow-y:scroll}}@media only screen and (max-height:320px){#_elev_io ._1397s{max-height:140px;overflow-y:scroll}}#_elev_io ._1831o{max-height:300px;overflow-y:scroll}#_elev_io ._1dafq,#_elev_io ._1iiip{padding-top:20px;text-align:center}#_elev_io ._1dafq{line-height:22px;margin:0 auto;max-width:300px}#_elev_io ._1dafq a,#_elev_io ._1dafq span{color:#4a90e2}:-webkit-full-screen-ancestor ._iw3lm{animation-name:_ag0ex!important;width:100%!important}#_elev_io ._iw3lm{bottom:0;box-shadow:-3px 0 15px 0 rgba(0,0,0,.25);font-family:elevio-noto-sans,Helvetica,Arial,sans-serif;max-width:100%;opacity:0;overflow:hidden;position:fixed;top:0;z-index:2147483000}#_elev_io ._1kydm{border-radius:10px;box-shadow:0 5px 40px rgba(0,0,0,.2);height:600px;max-height:90%;max-width:90%;top:auto}#_elev_io ._1kydm ._vvuy8,#_elev_io ._1kydm ._vvuy8>div>div:first-child{border-top-left-radius:10px;border-top-right-radius:10px}#_elev_io ._1kydm ._hp049{border-bottom-left-radius:10px;border-bottom-right-radius:10px;overflow:hidden}#_elev_io ._1kydm._h9ior{bottom:0;opacity:0;right:15px;transform:translate3d(0,100%,0)}#_elev_io ._1kydm._h9ior._h8fiz{animation-duration:.5s;animation-fill-mode:both;animation-name:_vye31;animation-timing-function:cubic-bezier(.55,0,.1,1)}#_elev_io ._1kydm._h9ior._11l9b{animation-duration:.5s;animation-fill-mode:both;animation-name:_1nljt;animation-timing-function:cubic-bezier(.55,0,.1,1)}#_elev_io ._1kydm._10r79{left:15px;transform:translate3d(0,100%,0)}#_elev_io ._1kydm._10r79._h8fiz{animation-duration:.5s;animation-fill-mode:both;animation-name:_vye31;animation-timing-function:cubic-bezier(.55,0,.1,1)}#_elev_io ._1kydm._10r79._11l9b{animation-duration:.5s;animation-fill-mode:both;animation-name:_1nljt;animation-timing-function:cubic-bezier(.55,0,.1,1)}#_elev_io ._67fu7._h9ior{right:0;transform:translate3d(100%,0,0)}#_elev_io ._67fu7._h9ior._h8fiz{animation-duration:.5s;animation-fill-mode:both;animation-name:_uvr2b;animation-timing-function:cubic-bezier(.55,0,.1,1)}#_elev_io ._67fu7._h9ior._11l9b{animation-duration:.5s;animation-fill-mode:both;animation-name:_1af2r;animation-timing-function:cubic-bezier(.55,0,.1,1)}#_elev_io ._67fu7._10r79{left:0;transform:translate3d(-100%,0,0)}#_elev_io ._67fu7._10r79._h8fiz{animation-duration:.5s;animation-fill-mode:both;animation-name:_6wbi9;animation-timing-function:cubic-bezier(.55,0,.1,1)}#_elev_io ._67fu7._10r79._11l9b{animation-duration:.5s;animation-fill-mode:both;animation-name:_19u78;animation-timing-function:cubic-bezier(.55,0,.1,1)}#_elev_io ._1a5o2{display:flex;flex-flow:column;height:100%}#_elev_io ._vl1mm{-webkit-overflow-scrolling:touch;background-color:#fff;display:flex;flex:2;flex-flow:column;-webkit-perspective:0;position:relative}#_elev_io ._vl1mm._8r6n5{overflow-y:scroll}#_elev_io ._vl1mm._6zuru{overflow-y:auto}#_elev_io ._vl1mm._844dn{overflow-y:hidden}#_elev_io ._vl1mm::-webkit-scrollbar{width:10px}#_elev_io ._vl1mm::-webkit-scrollbar-track{background-color:rgba(0,0,0,.1);border-radius:1000px}#_elev_io ._vl1mm::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.15);border-radius:1000px}#_elev_io ._vl1mm::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.2)}#_elev_io ._yfy7b{background-color:#f3f5f7}#_elev_io ._yfy7b>div{transition:transform .25s linear,opacity .25s linear}#_elev_io ._1mpem{background-color:#fff;bottom:0;left:0;position:absolute;right:0;transition:top .25s cubic-bezier(.55,0,.1,1)}#_elev_io ._yafw6{margin:50px auto;width:20px}#_elev_io ._9fl33{background-color:#f3f5f7;border-bottom:1px solid #f3f5f7}#_elev_io ._67fu7 ._9fl33{padding:0 30px 25px}@media only screen and (min-device-width:320px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-width:320px) and (max-device-width:736px) and (min-resolution:2dppx){#_elev_io ._67fu7 ._9fl33{padding:15px 30px}#_elev_io ._1kydm ._9fl33{padding-top:15px}}@keyframes _uvr2b{0%{opacity:0;transform:translate3d(100%,0,0)}to{opacity:1;transform:translateZ(0)}}@keyframes _1af2r{0%{opacity:1;transform:translateZ(0)}to{opacity:0;transform:translate3d(100%,0,0)}}@keyframes _6wbi9{0%{opacity:0;transform:translate3d(-100%,0,0)}to{opacity:1;transform:translateZ(0)}}@keyframes _19u78{0%{opacity:1;transform:translateZ(0)}to{opacity:0;transform:translate3d(-100%,0,0)}}@keyframes _vye31{0%{bottom:0;opacity:0;transform:translate3d(0,100%,0)}1%{bottom:15px;opacity:0;transform:translate3d(0,10%,0)}to{bottom:15px;opacity:1;transform:translateZ(0)}}@keyframes _1nljt{0%{bottom:15px;opacity:1;transform:translateZ(0)}99%{bottom:15px;opacity:0;transform:translate3d(0,10%,0)}to{bottom:0;opacity:0;transform:translate3d(0,100%,0)}}@supports (-ms-ime-align:auto){@keyframes _vye31{0%{bottom:0;opacity:0;transform:translate3d(0,100%,0)}to{bottom:15px;opacity:1;transform:translateZ(0)}}@keyframes _1nljt{0%{bottom:15px;opacity:1;transform:translateZ(0)}to{bottom:0;opacity:0;transform:translate3d(0,100%,0)}}}@media (prefers-reduced-motion){#_elev_io ._h8fiz{animation:0s ease-in none!important;bottom:15px!important;opacity:1!important;transform:translateZ(0)!important}#_elev_io ._11l9b{animation:0s ease-out none!important;bottom:0!important;opacity:0!important;transform:translate3d(0,100%,0)!important}}#_elev_io ._ymjyt{margin:50px auto;width:20px}#_elev_io ._1qrbw>div{border-bottom:1px solid #f3f5f7;padding:30px}#_elev_io ._1qrbw>div[data-elevio-empty]{border-bottom:none;padding:0}#_elev_io ._6o66j{padding:15px 0}#_elev_io ._1fojo{color:rgba(0,0,0,.8);margin:30px auto;padding:20px;text-align:center}#_elev_io ._bqiln{padding-top:15px}#_elev_io ._13ku2{margin:50px auto;width:20px}#_elev_io ._1mb2j,#_elev_io ._45r9y{position:relative}#_elev_io ._45r9y{padding:18px 30px}#_elev_io ._147ki{line-height:1}#_elev_io ._8vnd0{background-color:#f3f5f7}#_elev_io ._61lkh,#_elev_io ._vn8hm{display:block}#_elev_io ._61lkh{background-color:#f3f5f7}#_elev_io ._1ctbz._8vnd0{padding:25px 30px}#_elev_io ._1ctbz._vn8hm{padding:25px 30px 0}#_elev_io ._1ctbz._61lkh{animation:_12pa8 .25s linear;animation-fill-mode:both;padding:25px 30px}#_elev_io ._1vct9._8vnd0{border-bottom:1px solid #f3f5f7;padding:0}@media only screen and (min-device-width:320px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-width:320px) and (max-device-width:736px) and (min-resolution:2dppx){#_elev_io ._1ctbz._8vnd0{padding:15px 30px}}@keyframes _12pa8{0%{padding:25px 30px}to{padding:0 30px}}@media (prefers-reduced-motion){#_elev_io ._1ctbz._61lkh{animation:0s none;padding:0 30px}}#_elev_io ._11ygg{background:#f3f5f7;color:#818487;font-size:14px;padding:0 30px}#_elev_io ._12m7p{align-items:center;animation-duration:1s;animation-fill-mode:both;animation-name:_choro;animation-timing-function:cubic-bezier(.55,0,.1,1);display:flex;flex-direction:row;flex-wrap:wrap}#_elev_io ._12m7p svg{fill:#818487;float:left;height:20px!important;margin-right:5px;width:20px!important}#_elev_io ._sr3ej{min-width:220px}#_elev_io ._1jkh5,#_elev_io ._sr3ej{display:inline-block;margin-bottom:5px}#_elev_io ._p4757{border-width:0;color:#4a90e2;font-size:14px;margin:0 5px;text-decoration:underline}@keyframes _choro{0%{opacity:0;transform:translate3d(0,-100%,0)}to{opacity:1;transform:translateZ(0)}}@media (prefers-reduced-motion){#_elev_io ._12m7p{animation:0s ease-in none;opacity:1;transform:translateZ(0)}}#_elev_io ._tg3i2{left:23px;transition:left .25s}#_elev_io ._tg3i2>div{padding-left:7px}#_elev_io ._82lg0{left:53px}#_elev_io ._ir0vf{right:15px}#_elev_io ._1pzly{left:15px;transition:opacity .25s}#_elev_io ._1pzly>div{padding-right:7px}#_elev_io ._qq9gi{opacity:1}#_elev_io ._o5o5x{display:none;opacity:0}</style></head>
+<body id="page-my-index" class="limitedwidth page-mycourses format-site  path-my chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam learningspace-falmouth-ac-uk pagelayout-mycourses course-1 context-1 theme uses-drawers drawer-open-index jsenabled">
+<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+<div id="page-wrapper" class="d-print-block">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script src="/site/lib/javascript.php/1792191942/lib/polyfills/polyfill.js"></script>
+<script src="/site/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js"></script><script src="/site/lib/javascript.php/1792191942/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <nav class="navbar fixed-top navbar-light bg-white navbar-expand" aria-label="Site navigation">
+    
+    	<button class="navbar-toggler aabtn d-block d-md-none px-1 my-1 border-0" data-toggler="drawers" data-action="toggle" data-target="theme_boost-drawers-primary">
+    		<span class="navbar-toggler-icon"></span>
+    		<span class="sr-only">Side panel</span>
+    	</button>
+    
+    	<a href="/site/my/courses.php" class="navbar-brand d-none d-md-flex align-items-center m-0 mr-4 p-0 aabtn">
+    
+    		<svg viewBox="0 0 44 44" class="header-logo">
+    			<title>Learning Space Home</title>
+    			<g>
+    				<polygon fill="#303030" points="0 44 44 44 44 0 0 0"></polygon>
+    				<polygon fill="#FFFFFF" points="12 7 12 37 18.5419588 37 18.5419588 25.2181613 27.2760238 25.2181613 29.4910065 19.2332169 18.5419588 19.2332169 18.5419588 12.9829035 31.7892067 12.9829035 34 7"></polygon>
+    			</g>
+    		</svg>
+    
+    			Learning Space
+    	</a>
+    		<div class="primary-navigation">
+    			<nav class="moremenu navigation observed">
+    			    <ul id="moremenu-6af6e71ca381a-navbar-nav" role="menubar" class="nav more-nav navbar-nav">
+    			                <li data-key="" class="nav-item" role="none" data-forceintomoremenu="false">
+    			                            <a role="menuitem" class="nav-link  " href="/site/report/myfeedback/" data-disableactive="true" tabindex="0" aria-current="true">
+    			                                My assessments &amp; feedback
+    			                            </a>
+    			                </li>
+    			                <li data-key="" class="nav-item" role="none" data-forceintomoremenu="false">
+    			                            <a role="menuitem" class="nav-link  " href="/site/course/" data-disableactive="true" tabindex="-1" style="display: none;">
+    			                                
+    			                            </a>
+    			                </li>
+    			                <li data-key="" class="nav-item" role="none" data-forceintomoremenu="false">
+    			                            <a role="menuitem" class="nav-link  " href="/site/course/" data-disableactive="true" tabindex="-1" style="display: none;">
+    			                                
+    			                            </a>
+    			                </li>
+    			                <li data-key="" class="nav-item" role="none" data-forceintomoremenu="false">
+    			                            <a role="menuitem" class="nav-link  " href="/site/course/" data-disableactive="true" tabindex="-1" style="display: none;">
+    			                                
+    			                            </a>
+    			                </li>
+    			        <li role="none" class="nav-item dropdown dropdownmoremenu d-none" data-region="morebutton">
+    			            <a class="dropdown-toggle nav-link " href="#" id="moremenu-dropdown-6af6e71ca381a" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="-1">
+    			                More
+    			            </a>
+    			            <ul class="dropdown-menu dropdown-menu-left" data-region="moredropdown" aria-labelledby="moremenu-dropdown-6af6e71ca381a" role="menu">
+    			            </ul>
+    			        </li>
+    			    </ul>
+    			</nav>
+    		</div>
+    
+    	<ul class="navbar-nav d-none d-md-flex my-1 px-1">
+    		<!-- page_heading_menu -->
+    		
+    	</ul>
+    
+    	<div id="usernavigation" class="navbar-nav ml-auto">
+    		
+    		<div class="d-flex align-items-stretch usermenu-container" data-region="usermenu">
+    			<a href="http://etsupport.freshdesk.com/support/solutions/4000006971" id="ls-elevio-trigger" class="nav-link icon-no-margin ls-elevio-trigger" title="Help">
+    				<i class="icon fa fa-question-circle fa-fw " aria-hidden="true" title="Help" aria-label="Help"></i>
+    				<span class="sr-only">Help</span>
+    			</a>
+    				<div class="usermenu">
+    				        <div class="dropdown show">
+    				            <a href="#" role="button" id="user-menu-toggle" data-toggle="dropdown" aria-label="User menu" aria-haspopup="true" aria-controls="user-action-menu" class="btn dropdown-toggle">
+    				                <span class="userbutton">
+    				                    <span class="avatars">
+    				                            <span class="avatar current">
+    				                                <span class="userinitials size-35" title="JARETH HAYDON-GUPPY" aria-label="JARETH HAYDON-GUPPY" role="img">JH</span>
+    				                            </span>
+    				                    </span>
+    				                </span>
+    				            </a>
+    				            <div id="user-action-menu" class="dropdown-menu dropdown-menu-right">
+    				                <div id="usermenu-carousel" class="carousel slide" data-touch="false" data-interval="false" data-keyboard="false">
+    				                    <div class="carousel-inner">
+    				                        <div id="carousel-item-main" class="carousel-item active" role="menu" tabindex="-1" aria-label="User">
+    				                                    <a href="/site/user/profile.php" class="dropdown-item" role="menuitem" tabindex="-1">
+    				                                            
+    				                                        Profile
+    				                                    </a>
+    				                                
+    				                                <div class="dropdown-divider"></div>
+    				                                    <a href="/site/user/preferences.php" class="dropdown-item" role="menuitem" tabindex="-1">
+    				                                            
+    				                                        Preferences
+    				                                    </a>
+    				                                <div class="dropdown-divider"></div>
+    				                                    <a href="/site/login/logout.php?sesskey=nkCRrDq6cj" class="dropdown-item" role="menuitem" tabindex="-1">
+    				                                            
+    				                                        Log out
+    				                                    </a>
+    				                                
+    				                        </div>
+    				                    </div>
+    				                </div>
+    				            </div>
+    				        </div>
+    				</div>
+    		</div>
+    		
+    	</div>
+    </nav>
+    
+
+<div class="drawer drawer-left drawer-primary d-print-none" data-region="fixed-drawer" id="theme_boost-drawers-primary" data-preference="" data-state="show-drawer-primary" data-forceopen="0" data-close-on-resize="1" aria-hidden="true">
+    <div class="drawerheader">
+        <button class="btn drawertoggle icon-no-margin hidden" data-toggler="drawers" data-action="closedrawer" data-target="theme_boost-drawers-primary" data-toggle="tooltip" data-placement="right" title="Close drawer" aria-label="Close drawer" data-aria-hidden-tab-index="" tabindex="-1">
+            <i class="icon fa fa-xmark fa-fw " aria-hidden="true"></i>
+        </button>
+                    Learning Space
+
+        <div class="drawerheadercontent hidden">
+            
+        </div>
+    </div>
+    <div class="drawercontent drag-container" data-usertour="scroller">
+                <div class="list-group">
+			<a href="/site/my/courses.php" class="list-group-item" data-aria-hidden-tab-index="" tabindex="-1">Home</a>
+                <a href="/site/report/myfeedback/" class="list-group-item list-group-item-action  " data-aria-hidden-tab-index="" tabindex="-1">
+                    My assessments &amp; feedback
+                </a>
+                <a href="/site/course/" class="list-group-item list-group-item-action  " data-aria-hidden-tab-index="" tabindex="-1" style="display: none;">
+                    
+                </a>
+                <a href="/site/course/" class="list-group-item list-group-item-action  " data-aria-hidden-tab-index="" tabindex="-1" style="display: none;">
+                    
+                </a>
+                <a href="/site/course/" class="list-group-item list-group-item-action  " data-aria-hidden-tab-index="" tabindex="-1" style="display: none;">
+                    
+                </a>
+        </div>
+
+    </div>
+</div>
+    
+    <div id="page" data-region="mainpage" data-usertour="scroller" class="drawers   drag-container">
+        <div id="topofscroll" class="main-inner">
+            <div class="drawer-toggles d-flex">
+            </div>
+            <header id="page-header" class="header-maxwidth d-print-none">
+    <div class="w-100">
+        <div class="d-flex flex-wrap">
+            <div class="ms-auto d-flex">
+                
+            </div>
+            <div id="course-header">
+                
+            </div>
+        </div>
+        <div class="d-flex align-items-center">
+            <div class="me-auto d-flex flex-column">
+                <div>
+                    <div class="page-context-header d-flex flex-wrap align-items-center mb-2">
+    <div class="page-header-headings">
+        <h1 class="h2 mb-0">My modules</h1>
+    </div>
+</div>
+                </div>
+                <div>
+                </div>
+            </div>
+            <div class="header-actions-container ms-auto" data-region="header-actions-container">
+            </div>
+        </div>
+    </div>
+</header>
+            <div id="page-content" class="pb-3 d-print-block">
+                <div id="region-main-box">
+                    <section id="region-main" aria-label="Content">
+
+                        <span class="notifications" id="user-notifications"></span>
+                        <div role="main"><span id="maincontent" tabindex="-1"></span><section id="block-region-content" class="block-region" data-blockregion="content" data-droptarget="1" aria-labelledby="content-block-region-heading"><h2 class="sr-only" id="content-block-region-heading">Main content blocks</h2><a href="#sb-1" class="sr-only sr-only-focusable">Skip Course overview</a>
+
+<section id="inst161" class=" block_myoverview block  card mb-3" role="region" data-block="myoverview" data-instance-id="161" aria-labelledby="instance-161-header">
+
+    <div class="card-body p-3">
+
+        <div class="d-flex">
+                <h3 id="instance-161-header" class="h5 card-title">Course overview</h3>
+
+        </div>
+
+        <div class="card-text content mt-3">
+            <div id="block-myoverview-6af6e71ca5ac86af6e71ca5aca1" class="block-myoverview block-cards" data-region="myoverview" data-init="true">
+    <div role="search" data-region="filter" class="d-flex align-items-center my-2" aria-label="Course overview controls">
+        <div class="row g-0">
+            <div class="dropdown mb-1 me-1">
+                <button id="groupingdropdown" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Grouping drop-down menu">
+                    <span data-active-item-text="">
+                        
+                        All
+                        
+                        
+                        
+                        
+                        
+                        
+                    </span>
+                </button>
+                <ul class="dropdown-menu" role="menu" data-show-active-item="" data-skip-active-class="true" data-active-item-text="" aria-labelledby="groupingdropdown">
+                    <li class="dropdown-divider" role="presentation">
+                        <span class="filler">&nbsp;</span>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="all" data-pref="all" aria-label="Show all courses except courses removed from view" aria-controls="courses-view-6af6e71ca5ac86af6e71ca5aca1" role="menuitem" aria-current="true">
+                            All
+                        </a>
+                    </li>
+                    <li class="dropdown-divider" role="presentation">
+                        <span class="filler">&nbsp;</span>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="inprogress" data-pref="inprogress" aria-label="Show courses in progress" aria-controls="courses-view-6af6e71ca5ac86af6e71ca5aca1" role="menuitem">
+                            In progress
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="future" data-pref="future" aria-label="Show future courses" aria-controls="courses-view-6af6e71ca5ac86af6e71ca5aca1" role="menuitem">
+                            Future
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="past" data-pref="past" aria-label="Show past courses" aria-controls="courses-view-6af6e71ca5ac86af6e71ca5aca1" role="menuitem">
+                            Past
+                        </a>
+                    </li>
+                    <li class="dropdown-divider" role="presentation">
+                        <span class="filler">&nbsp;</span>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="favourites" data-pref="favourites" aria-label="Show starred courses only" aria-controls="courses-view-6af6e71ca5ac86af6e71ca5aca1" role="menuitem">
+                            Starred
+                        </a>
+                    </li><li class="dropdown-divider" role="presentation">
+                        <span class="filler">&nbsp;</span>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="hidden" data-pref="hidden" aria-label="Show courses removed from view" aria-controls="courses-view-6af6e71ca5ac86af6e71ca5aca1" role="menuitem">
+                            Removed from view
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-1 me-1 flex-grow-1">
+    <div id="searchform-auto-6af6e71ca5ac86af6e71ca5aca1" class="d-flex flex-wrap align-items-center simplesearchform">
+    <div class="input-group searchbar w-100">
+        <label for="searchinput-6af6e71ca5ac86af6e71ca5aca1" id="searchinput-label-6af6e71ca5ac86af6e71ca5aca1">
+            <span class="sr-only">Search courses</span>
+        </label>
+        <input type="text" data-region="input" data-action="search" id="searchinput-6af6e71ca5ac86af6e71ca5aca1" class="form-control withclear rounded" placeholder="Search" name="search" value="" autocomplete="off">
+        <button class="btn btn-clear d-none" data-action="clearsearch" type="button">
+           <i class="icon fa fa-xmark fa-fw " aria-hidden="true"></i>
+            <span class="sr-only">Clear search input</span>
+        </button>
+    </div>
+</div>
+</div>
+
+            
+            <div class="mb-1 me-1 d-flex flex-wrap align-items-center">
+                <div class="dropdown">
+                    <button id="sortingdropdown" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Sorting drop-down menu">
+                        <span data-active-item-text="">
+                            Sort by course name
+                            
+                            
+                        </span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" data-show-active-item="" data-skip-active-class="true" aria-labelledby="sortingdropdown">
+                        <li>
+                            <a class="dropdown-item" href="#" data-filter="sort" data-pref="title" data-value="fullname" aria-controls="courses-view-6af6e71ca5ac86af6e71ca5aca1" role="menuitem" aria-current="true">
+                                Sort by course name
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" data-filter="sort" data-pref="lastaccessed" data-value="ul.timeaccess desc" aria-controls="courses-view-6af6e71ca5ac86af6e71ca5aca1" role="menuitem">
+                                Sort by last accessed
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+                <div class="dropdown mb-1">
+                    <button id="displaydropdown" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Display drop-down menu">
+                        <span data-active-item-text="">
+                            Card
+                            
+                            
+                        </span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" data-show-active-item="" data-skip-active-class="true" aria-labelledby="displaydropdown">
+                            <li>
+                                <a class="dropdown-item" href="#" data-display-option="display" data-value="card" data-pref="card" aria-label="Switch to card view" aria-controls="courses-view-6af6e71ca5ac86af6e71ca5aca1" role="menuitem" aria-current="true">
+                                    Card
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" data-display-option="display" data-value="list" data-pref="list" aria-label="Switch to list view" aria-controls="courses-view-6af6e71ca5ac86af6e71ca5aca1" role="menuitem">
+                                    List
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" data-display-option="display" data-value="summary" data-pref="summary" aria-label="Switch to summary view" aria-controls="courses-view-6af6e71ca5ac86af6e71ca5aca1" role="menuitem">
+                                    Summary
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0">
+        <div id="courses-view-6af6e71ca5ac86af6e71ca5aca1" data-region="courses-view" data-display="card" data-grouping="all" data-customfieldname="" data-customfieldvalue="" data-sort="fullname" data-prev-display="card" data-paging="0" data-nocoursesimg="/site/theme/image.php/rosehill/block_myoverview/1792480653/courses" data-totalcoursecount="22" data-displaycategories="on" data-newcourseurl="">
+            <div data-region="course-view-content">
+                <div data-region="loading-placeholder-content" aria-hidden="true">
+                        <div class="card-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 mx-0 flex-nowrap overflow-hidden" style="height: 13rem">
+                            <div class="col d-flex px-1"><div class="card border-0 px-1">
+    <div class="card-img-top bg-pulse-grey w-100" style="height: 7rem">
+    </div>
+    <div class="card-body pe-1 course-info-container">
+        <div class="bg-pulse-grey w-100" style="height: 1rem"></div>
+    </div>
+</div>
+</div>
+                            <div class="col d-flex px-1"><div class="card border-0 px-1">
+    <div class="card-img-top bg-pulse-grey w-100" style="height: 7rem">
+    </div>
+    <div class="card-body pe-1 course-info-container">
+        <div class="bg-pulse-grey w-100" style="height: 1rem"></div>
+    </div>
+</div>
+</div>
+                            <div class="col d-flex px-1"><div class="card border-0 px-1">
+    <div class="card-img-top bg-pulse-grey w-100" style="height: 7rem">
+    </div>
+    <div class="card-body pe-1 course-info-container">
+        <div class="bg-pulse-grey w-100" style="height: 1rem"></div>
+    </div>
+</div>
+</div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-1" tabindex="-1"></span></section></div>
+                        
+                        
+
+                    </section>
+                </div>
+            </div>
+        </div>
+        
+        <footer id="page-footer" class="page-footer">
+            
+            <div class="footer-main">
+                <ul class="footer-links">
+        
+        <li class="footer-links__list-item"><a href="https://www.falmouth.ac.uk/" class="footer-links__link-item">© 2026 Falmouth University</a></li>        
+        <li class="footer-links__list-item"><a href="https://www.falmouth.ac.uk/uploading-material-to-the-learning-space-copyright-policy" class="footer-links__link-item">Copyright compliance</a></li>        
+        <li class="footer-links__list-item"><a href="https://www.falmouth.ac.uk/data-privacy-learning-space-users" class="footer-links__link-item">Privacy</a></li>        
+        <li class="footer-links__list-item"><a href="https://student.falmouth.ac.uk" class="footer-links__link-item"> Student Portal</a></li>        
+        <li class="footer-links__list-item"><a href="https://www.falmouth.ac.uk/falmouth-learning-space-accessibility-statement" class="footer-links__link-item">Accessibility</a></li></ul>
+            </div>
+        
+            <div class="footer-standard">
+                
+                
+<!-- Begin Inspectlet Asynchronous Code -->
+<script type="text/javascript">
+(function() {
+if (false) {
+window.__insp = window.__insp || [];
+__insp.push(['wid', 1904087652]);
+var ldinsp = function(){
+if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1904087652&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+setTimeout(ldinsp, 0);
+}
+})();
+</script>
+<!-- End Inspectlet Asynchronous Code -->
+
+<script>
+!function(e,l,v,i,o,n){e[i]||(e[i]={}),e[i].account_id=n;var g,h;g=l.createElement(v),g.type="text/javascript",g.async=1,g.src=o+n,h=l.getElementsByTagName(v)[0],h.parentNode.insertBefore(g,h);e[i].q=[];e[i].on=function(z,y){e[i].q.push([z,y])}}(window,document,"script","_elev","https://cdn.elev.io/sdk/bootloader/v4/elevio-bootloader.js?cid=","5669817b1ed49");
+/*
+ * For passing user information, please see
+ * https://api-docs.elevio.help/en/articles/24
+ */
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-116954783-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	
+	// Universal Analytics property
+	gtag('config', 'UA-116954783-1', {
+		'site_speed_sample_rate': 50
+	});
+	gtag('event', 'page_view', {
+		page_title: 'Learning Space',
+		page_location: '/'
+	});
+	
+	// Google Analytics 4 property
+	gtag('config', '374848611');
+</script>
+
+<script type="text/javascript">
+    // document.querySelector('.footer-links__list-item:nth-child(3)').children[0].href = 'https://www.falmouth.ac.uk/uploading-material-to-the-learning-space-copyright-policy';
+</script><script>
+//<![CDATA[
+var require = {
+    baseUrl : '/site/lib/requirejs.php/1792191942/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: '/site/lib/javascript.php/1792191942/lib/jquery/jquery-3.7.1.min',
+        jqueryui: '/site/lib/javascript.php/1792191942/lib/jquery/ui-1.13.2/jquery-ui.min',
+        jqueryprivate: '/site/lib/javascript.php/1792191942/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="/site/lib/javascript.php/1792191942/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");
+require(['core/first'], function() {
+require(['core/prefetch'])
+;
+M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function(amd) {amd.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"}); M.util.js_complete('filter_mathjaxloader/loader');});;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('en');
+});;
+
+require(
+[
+    'jquery',
+    'block_myoverview/main',
+],
+function(
+    $,
+    Main
+) {
+    var root = $('#block-myoverview-6af6e71ca5ac86af6e71ca5aca1');
+    Main.init(root);
+});
+;
+M.util.js_pending('report_allylti/main'); require(['report_allylti/main'], function(amd) {amd.init(); M.util.js_complete('report_allylti/main');});;
+
+    require(['core/moremenu'], function(moremenu) {
+        moremenu(document.querySelector('#moremenu-6af6e71ca381a-navbar-nav'));
+    });
+;
+
+    require(['core/usermenu'], function(UserMenu) {
+        UserMenu.init();
+    });
+;
+
+M.util.js_pending('theme_boost/drawers:load');
+require(['theme_boost/drawers'], function() {
+    M.util.js_complete('theme_boost/drawers:load');
+});
+;
+
+	M.util.js_pending('theme_boost/loader');
+	require(['theme_boost/loader'], function() {
+	M.util.js_complete('theme_boost/loader');
+	});
+
+	require(['theme_rosehill/navigation'], (module) => {
+		module.init();
+	});
+
+	require(['theme_rosehill/elevio-help']);
+;
+
+require(['theme_boost/footer-popover'], function(FooterPopover) {
+    FooterPopover.init();
+});
+;
+
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader', 'theme_boost/drawer'], function(Loader, Drawer) {
+    Drawer.init();
+    M.util.js_complete('theme_boost/loader');
+    
+    require(['theme_rosehill/drawers', 'theme_rosehill/panopto-fix'], (module, panoptoFix) => {
+        module.init();
+        panoptoFix.init();
+    });
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(1, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
+M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});;
+M.util.js_pending('core/storage_validation'); require(['core/storage_validation'], function(amd) {amd.init(1794563300); M.util.js_complete('core/storage_validation');});
+    M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?delayStartupUntil=configured"></script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL","collapseall":"Collapse all","expandall":"Expand all"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} links to this file","select":"Select"},"admin":{"confirmdeletecomments":"Are you sure you want to delete the selected comment(s)?","confirmation":"Confirmation"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {M.util.help_popups.setup(Y);
+ M.util.js_pending('random6af6e71ca5aca3'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6af6e71ca5aca3'); });
+})();
+//]]>
+</script>
+
+            </div>
+            
+            <div class="footer-debugging footer-content-debugging footer-dark bg-dark text-light">
+                <div class="container-fluid footer-dark-inner">
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</div><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div>
+
+
+<div id="_elev_io" class="elevioReset _elevio_widget">
+      <div style="width: 480px" class="_iw3lm _h9ior   _67fu7">
+        <div class="_1a5o2">
+          <div class="_vvuy8">
+            <div class="_1mb2j">
+      <div style="background-color: #4a90e2;" class="_45r9y _elevio_navbar">
+        <div class="_1pzly _jfgu2 _o5o5x">
+      <div>
+        <svg viewBox="0 0 34 60">
+          <path d="M1.2,32.8l26,26c0.7,0.7,1.7,1.2,2.8,1.2c2.2,0,4-1.8,4-4c0-1.1-0.4-2.1-1.2-2.8L9.7,30 L32.8,6.8C33.6,6.1,34,5.1,34,4c0-2.2-1.8-4-4-4c-1.1,0-2.1,0.4-2.8,1.2l-26,26C0.4,27.9,0,28.9,0,30C0,31.1,0.4,32.1,1.2,32.8z"></path>
+        </svg>
+      </div>
+    </div>
+        <div class="_tg3i2 _jfgu2 ">
+      <div>
+        <svg viewBox="0 0 60 60">
+          <g>
+            <path d="M56,52H4c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4h52c2.2,0,4-1.8,4-4C60,53.8,58.2,52,56,52z"></path>
+            <path d="M4,8h52c2.2,0,4-1.8,4-4c0-2.2-1.8-4-4-4H4C1.8,0,0,1.8,0,4C0,6.2,1.8,8,4,8z"></path>
+            <path d="M56,26H4c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4h52c2.2,0,4-1.8,4-4C60,27.8,58.2,26,56,26z"></path>
+          </g>
+        </svg>
+      </div>
+    </div>
+        <div class="_ir0vf _jfgu2">
+      <div class="_elevio_close">
+        <svg viewBox="0 0 60 60">
+          <path d="M35.7,30L58.8,6.8C59.6,6.1,60,5.1,60,4c0-2.2-1.8-4-4-4c-1.1,0-2.1,0.4-2.8,1.2L30,24.3
+          L6.8,1.2C6.1,0.4,5.1,0,4,0C1.8,0,0,1.8,0,4c0,1.1,0.4,2.1,1.2,2.8L24.3,30L1.2,53.2C0.4,53.9,0,54.9,0,56c0,2.2,1.8,4,4,4
+          c1.1,0,2.1-0.4,2.8-1.2L30,35.7l23.2,23.2c0.7,0.7,1.7,1.2,2.8,1.2c2.2,0,4-1.8,4-4c0-1.1-0.4-2.1-1.2-2.8L35.7,30z"></path>
+        </svg>
+      </div>
+    </div>
+        <div class="_147ki _ahxts">
+          
+        </div>
+      </div>
+      <div class="_8vnd0 _1ctbz">
+      <div style="visibility: hidden; position: absolute;">
+        Username <input type="text" name="username">
+      </div>
+      <span id="_elev_io" class="elevioReset _elevio_search _1xk6s ">
+      <div id="_elev_io_placebo" class="_rqmwn ">
+      <span class="_10b1r _elevio_search_icon_container">
+        <svg viewBox="0 0 60 60" class="_elevio_search_icon">
+      <path d="M58.8,53.2L48.7,43.1C52,38.6,54,33,54,27C54,12.1,41.9,0,27,0S0,12.1,0,27s12.1,27,27,27
+      c6,0,11.6-2,16.1-5.3l10.1,10.1c0.7,0.7,1.7,1.2,2.8,1.2c2.2,0,4-1.8,4-4C60,54.9,59.6,53.9,58.8,53.2z M8,27C8,16.5,16.5,8,27,8
+      s19,8.5,19,19s-8.5,19-19,19S8,37.5,8,27z"></path>
+    </svg>
+      </span>
+      <input id="_elev_io_placebo" type="search" name="search-input" aria-label="Search" placeholder="" value="" autocomplete="off" tabindex="-1" class="_1gzja _jta9z _elevio_search_input">
+      <div class="_jch0b"></div>
+    </div>
+      <div class="_17k2i _elevio_search_results">
+        
+      </div>
+    </span>
+    </div> 
+    </div>
+          </div>
+          <div class="_vl1mm _8r6n5">
+      <div style="" class="_yfy7b">
+        <div style="transform: scale(1); opacity: 1; visibility: visible">
+          <div id="_elev_io" class="elevioReset _i7sdo">
+      <style>
+        ._4fjpa:hover ._d9ggd {
+          background-color: #4a90e2 !important;
+        }
+      </style>
+      <div class="_cnzpc">
+        <div></div>
+      </div>
+    </div>
+        </div>
+      </div>
+      <div style="top: 0px;" class="_1mpem">
+        
+      </div>
+    </div>
+          <div class="_hp049"><div class="_sbgx4 _1lnko">
+      <a rel="nofollow"> Elevio by Dixa </a>
+    </div></div>
+        </div>
+      </div>
+    </div><div id="_elev_io" style="" class="_elevio_launcher elevioReset">
+      <div>
+        <div class="_1g6cj _xy6qs _zvdyj">
+          <button style="background-color:#4a90e2;" class="_bhq21 _1g611">
+            
+            <span class="_bzf50">  </span>
+          </button>
+        </div>
+      </div>
+    </div></body></html>

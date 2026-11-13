@@ -20,6 +20,7 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
+html { scrollbar-gutter: stable; }
 body {
   background: var(--bg);
   color: var(--text);
@@ -118,11 +119,19 @@ h2 { font-size: 1.1rem; margin: 0; letter-spacing: -.01em; }
   transition: border-color .12s, background .12s;
 }
 .module-row:hover { border-color: var(--line-strong); background: var(--panel-2); }
+.module-main { min-width: 0; }
 .module-name { font-weight: 600; letter-spacing: -.01em; }
 .module-name .code { color: var(--text); }
 .module-sub { color: var(--faint); font-size: .8rem; margin-top: 2px; }
 .progress { display: flex; align-items: center; gap: 10px; justify-content: flex-end; }
-.progress-track { display: block; width: 92px; height: 5px; border-radius: 99px; background: rgba(255, 255, 255, .12); overflow: hidden; }
+.progress-track {
+  appearance: none; -webkit-appearance: none; border: 0; display: block;
+  width: 92px; height: 5px; border-radius: 99px; overflow: hidden;
+  background: rgba(255, 255, 255, .12);
+}
+.progress-track::-webkit-progress-bar { background: rgba(255, 255, 255, .12); border-radius: 99px; }
+.progress-track::-webkit-progress-value { background: var(--amber); border-radius: 99px; }
+.progress-track::-moz-progress-bar { background: var(--amber); border-radius: 99px; }
 .progress-fill { display: block; height: 100%; border-radius: 99px; background: var(--amber); }
 .progress-txt { font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 34px; text-align: right; }
 .row-go { color: var(--faint); justify-self: end; }
@@ -374,3 +383,19 @@ input:focus-visible, .btn:focus-visible, .wj:focus-visible, .rail-item:focus-vis
 /* a chip must never shrink below its own text: the column is sized to it */
 .chip { white-space: nowrap; }
 .module-row .chip { justify-self: start; }
+
+.section-title { margin: 30px 0 12px; font-size: 1.1rem; font-weight: 650; }
+
+/* Narrow screens: the module list lives in the rail on wide layouts, but there it
+   pushes the whole page down when it renders. Overview and Modules already list
+   every module, so the rail list is dropped below 980px instead of shifting. */
+@media (max-width: 980px) {
+  .rail-section { display: none; }
+}
+
+/* calendar day cells that carry events are real buttons */
+button.cal-cell {
+  font: inherit; color: inherit; text-align: left; cursor: pointer;
+  background: transparent; border: 1px solid var(--line);
+}
+button.cal-cell:hover { border-color: var(--line-strong); }

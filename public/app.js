@@ -56,12 +56,12 @@ function viewOverview() {
       <div class="sub">${courses.length} modules · ${MODEL.resources.length} resource spaces · ${avg}% average progress</div>
     </div>
     <div class="head-actions">
-      <button class="btn primary" data-sync>Sync now</button>
+      <button type="button" class="btn primary" data-sync>Sync now</button>
       <div class="sync-status" id="sync-status" role="status"></div>
     </div>
   </div>
   ${courses.length ? `<div class="modules">${courses.map(moduleRow).join('')}</div>` : empty('No modules synced yet — press Sync now.')}
-  ${MODEL.resources.length ? `<h2 style="margin:30px 0 12px">Resource spaces</h2><div class="modules">${MODEL.resources.map(moduleRow).join('')}</div>` : ''}`;
+  ${MODEL.resources.length ? `<h2 class="section-title">Resource spaces</h2><div class="modules">${MODEL.resources.map(moduleRow).join('')}</div>` : ''}`;
 }
 
 function empty(msg) { return `<div class="empty">${esc(msg)}</div>`; }
@@ -71,12 +71,12 @@ function moduleRow(c) {
   return `
   <a class="module-row" href="#/c/${c.id}">
     <span class="chip ${code.startsWith('GAM') ? 'gam' : ''}">${esc(code)}</span>
-    <span>
+    <div class="module-main">
       <div class="module-name" title="${esc(displayName(c))}">${esc(displayName(c))}</div>
       <div class="module-sub">${c.kind === 'resource' ? 'Resource space' : 'Module'}${c.sections.length ? ` · ${c.sections.length} section${c.sections.length === 1 ? '' : 's'}` : ''}${totalItems(c) ? ` · ${totalItems(c)} item${totalItems(c) === 1 ? '' : 's'}` : ''}</div>
-    </span>
+    </div>
     ${c.kind === 'resource' ? '' : `<span class="progress">
-      <span class="progress-track"><span class="progress-fill" style="width:${Math.min(100, Math.max(0, c.progress))}%"></span></span>
+      <progress class="progress-track" max="100" value="${Math.min(100, Math.max(0, c.progress))}" aria-label="Course progress">${c.progress}%</progress>
       <span class="progress-txt">${c.progress}%</span>
     </span>`}
     <span class="row-go">›</span>
@@ -99,7 +99,7 @@ function viewCourse(id) {
       </div>
     </div>
     ${c.kind === 'resource' ? '' : `<div class="progress progress-wide">
-      <span class="progress-track progress-track-lg"><span class="progress-fill" style="width:${Math.min(100, Math.max(0, c.progress))}%"></span></span>
+      <progress class="progress-track progress-track-lg" max="100" value="${Math.min(100, Math.max(0, c.progress))}" aria-label="Course progress">${c.progress}%</progress>
       <span class="progress-txt">${c.progress}%</span>
     </div>`}
   </div>
@@ -107,8 +107,8 @@ function viewCourse(id) {
     <div class="weekbar-now"><span class="wk-eyebrow">${weeks.length ? 'Week' : 'Section'}</span><b id="wk-now">${esc(unent(firstWeek ? firstWeek.title : (c.sections[0] ? c.sections[0].title : '')))}</b></div>
     ${(() => {
       const chips = weeks.length
-        ? weeks.map((w, i) => `<button class="wj${i === 0 ? ' on' : ''}" data-jump="${esc(w.id)}" title="${esc(unent(w.title))}">W${w.week}</button>`)
-        : c.sections.map((x, i) => `<button class="wj${i === 0 ? ' on' : ''}" data-jump="${esc(x.id)}" title="${esc(unent(x.title))}">${esc(unent(stripNum(x.title)) || x.id)}</button>`);
+        ? weeks.map((w, i) => `<button type="button" class="wj${i === 0 ? ' on' : ''}" data-jump="${esc(w.id)}" title="${esc(unent(w.title))}">W${w.week}</button>`)
+        : c.sections.map((x, i) => `<button type="button" class="wj${i === 0 ? ' on' : ''}" data-jump="${esc(x.id)}" title="${esc(unent(x.title))}">${esc(unent(stripNum(x.title)) || x.id)}</button>`);
       if (chips.length < 2) return '';
       // A picker is always available (it is the only navigation on phones and on
       // very long spaces); the chip strip covers 2..18 sections on desktop.
@@ -119,7 +119,7 @@ function viewCourse(id) {
     })()}
     ${totalItems(c) > 40 ? `<input class="week-filter" id="act-filter" type="search" placeholder="Filter ${totalItems(c)} items…" aria-label="Filter activities">
     <div class="filter-status" id="filter-status" role="status" aria-live="polite"></div>` : ''}
-    <div class="week-actions"><button class="btn ghost sm" data-fold="all">Collapse all</button></div>
+    <div class="week-actions"><button type="button" class="btn ghost sm" data-fold="all">Collapse all</button></div>
   </div>
   <div class="weeks">${c.sections.map((x) => sectionBlock(x, currentWeek)).join('') || empty('This space has no captured sections yet.')}</div>`;
 }
@@ -135,12 +135,12 @@ function sectionBlock(s, currentWeek) {
     // an empty section is a label, not a control: nothing to open, nothing to tab to
     return `
   <section class="week is-empty" id="${esc(s.id)}" data-week="${s.week || ''}" data-title="${esc(s.title || 'Section')}" data-open="false">
-    <div class="week-toggle" aria-disabled="true"><span class="caret" aria-hidden="true"></span><span class="week-title">${label}</span>${count}</div>
+    <div class="week-toggle"><span class="caret" aria-hidden="true"></span><span class="week-title">${label}</span>${count}</div>
   </section>`;
   }
   return `
   <section class="week" id="${esc(s.id)}" data-week="${s.week || ''}" data-title="${esc(s.title || 'Section')}" data-open="${open}">
-    <button class="week-toggle" aria-expanded="${open}" aria-controls="${esc(s.id)}-body">
+    <button type="button" class="week-toggle" aria-expanded="${open}" aria-controls="${esc(s.id)}-body">
       <span class="caret" aria-hidden="true">▾</span>
       <span class="week-title">${label}</span>
       ${count}
@@ -230,17 +230,19 @@ function monthGrid() {
   for (let d = 1; d <= days; d++) {
     const iso = `${y}-${String(mo + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
     const evs = byDay[iso] || [];
-    cells.push(`<div class="cal-cell${iso === todayIso ? ' is-today' : ''}${evs.length ? ' has-ev' : ''}${CAL_DAY === iso ? ' is-sel' : ''}"${evs.length ? ` role="button" tabindex="0" data-day="${iso}" aria-label="${evs.length} events on ${iso}" aria-expanded="${CAL_DAY === iso}"` : ''}${CAL_DAY === iso ? '' : ''}
-      <span class="cal-day">${d}</span>
+    const cls = `cal-cell${iso === todayIso ? ' is-today' : ''}${evs.length ? ' has-ev' : ''}${CAL_DAY === iso ? ' is-sel' : ''}`;
+    const body = `<span class="cal-day">${d}</span>
       ${evs.slice(0, 3).map((e) => `<span class="cal-ev" title="${esc(e.summary)}">${e.time ? esc(e.time) + ' ' : ''}${esc(e.summary)}</span>`).join('')}
-      ${evs.length > 3 ? `<span class="cal-more">+${evs.length - 3} more</span>` : ''}
-    </div>`);
+      ${evs.length > 3 ? `<span class="cal-more">+${evs.length - 3} more</span>` : ''}`;
+    cells.push(evs.length
+      ? `<button type="button" class="${cls}" data-day="${iso}" aria-label="${evs.length} event${evs.length === 1 ? '' : 's'} on ${iso}" aria-expanded="${CAL_DAY === iso}">${body}</button>`
+      : `<div class="${cls}">${body}</div>`);
   }
   const label = base.toLocaleString(undefined, { month: 'long', year: 'numeric' });
   return `<div class="cal-head">
-      <button class="btn ghost sm" data-cal-prev aria-label="Previous month">‹</button>
+      <button type="button" class="btn ghost sm" data-cal-prev aria-label="Previous month">‹</button>
       <b>${esc(label)}</b>
-      <button class="btn ghost sm" data-cal-next aria-label="Next month">›</button>
+      <button type="button" class="btn ghost sm" data-cal-next aria-label="Next month">›</button>
     </div>
     <div class="cal-grid-head">${['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((d) => `<span>${d}</span>`).join('')}</div>
     <div class="cal-grid">${cells.join('')}</div>`;
@@ -259,8 +261,8 @@ function viewCalendar() {
       <label class="sr-label" for="cal-url">Timetable feed URL</label>
       <input type="url" id="cal-url" placeholder="https://…/timetable.ics" value="${esc(localStorage.getItem('ls.calUrl') || '')}">
       <div style="display:flex;gap:8px;margin-top:10px">
-        <button class="btn primary" id="cal-save">Save feed</button>
-        <button class="btn ghost" id="cal-refresh">Refresh</button>
+        <button type="button" class="btn primary" id="cal-save">Save feed</button>
+        <button type="button" class="btn ghost" id="cal-refresh">Refresh</button>
       </div>
       <div class="meta" id="cal-status" style="margin-top:8px">${CAL.length ? CAL.length + ' events stored' : 'no events yet'}</div>
     </div>
@@ -269,7 +271,7 @@ function viewCalendar() {
       ${upcoming().slice(0, 5).map((e) => `<div class="next-row"><span class="next-when">${esc(e.start || '')}</span><span class="next-what">${esc(e.summary || '')}</span></div>`).join('') || '<div class="meta">Nothing scheduled from today onwards.</div>'}
     </div>
   </div>
-  <div class="panel cal-panel">${monthGrid()}<div class="cal-day-panel" id="cal-day-panel">${dayPanel()}</div></div>`;
+  <section class="panel cal-panel" aria-label="Month view">${monthGrid()}<div class="cal-day-panel" id="cal-day-panel">${dayPanel()}</div></section>`;
 }
 
 // ---------- routing ----------
