@@ -1,0 +1,549 @@
+{
+  "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=10515",
+  "id": "10515",
+  "title": "Course is starred Course name COMP304 Human-Robot Interaction S1 (26/27) COMP304 Human-Robot Interaction S1 (26/27)",
+  "sections": [
+    {
+      "id": "section-0",
+      "num": 0,
+      "title": "Overview",
+      "intro": "",
+      "items": [
+        {
+          "name": "Text and media area",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "View this module's Module Descriptor by searching ...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Please review the content on the Falmouth Inductio...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Important Information Asynchronous Online Activity...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Module Introduction",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532051",
+          "completion": ""
+        },
+        {
+          "name": "Module Leader: Matt Watkins",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532052",
+          "completion": ""
+        },
+        {
+          "name": "Reading List - COMP304 Human-Robot Interaction",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=532053",
+          "completion": ""
+        },
+        {
+          "name": "Module Welcome",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Module Roadmap",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532055",
+          "completion": ""
+        },
+        {
+          "name": "Module Introduction",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532056",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "num": 1,
+      "title": "Assessment",
+      "intro": "",
+      "items": [
+        {
+          "name": "Assessment and Academic Integrity Information It i...",
+          "type": "",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=44583",
+          "completion": ""
+        },
+        {
+          "name": "Assignment 1",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Assignment Brief",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=532061",
+          "completion": ""
+        },
+        {
+          "name": "Template Repo for the Module",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532062",
+          "completion": ""
+        },
+        {
+          "name": "Submission Area for Referral and Conditional Progr...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Institutional Deadline",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Graduating in July 2027",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "COMP304 PROJECT (100%) {ID001} Poster Demo - Interactive Robot",
+          "type": "assign",
+          "url": "https://learningspace.falmouth.ac.uk/mod/assign/view.php?id=561976",
+          "completion": ""
+        },
+        {
+          "name": "*REFER 22 JULY* COMP304 PROJECT (100%) {ID001} Poster Demo - Interactive Robot",
+          "type": "assign",
+          "url": "",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "num": 2,
+      "title": "Week 1 - Module Induction",
+      "intro": "",
+      "items": [
+        {
+          "name": "Learning Outcomes",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532069",
+          "completion": ""
+        },
+        {
+          "name": "Module Introduction",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "1.2.2 Induction Materials",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532071",
+          "completion": ""
+        },
+        {
+          "name": "Initial Workshop",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "1.3 Directed Practice - Platform Setup",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532073",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "num": 3,
+      "title": "Week 2 - Introduction to Social Robotics",
+      "intro": "",
+      "items": [
+        {
+          "name": "2.1. Learning Outcomes",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532074",
+          "completion": ""
+        },
+        {
+          "name": "Lecture - Introduction to Social Robotics",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "2.2 Lecture - Introduction to Social Robotics",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532076",
+          "completion": ""
+        },
+        {
+          "name": "Workshop - Interrogating Social Robotics Synchrono...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "2.3. Workshop - Interrogating Social Robotics",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532078",
+          "completion": ""
+        },
+        {
+          "name": "Tutorial",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Weekly Tasks",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.4 - Worksheet",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532081",
+          "completion": ""
+        },
+        {
+          "name": "Links to Relevant Resources",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Bibliography - Links to materials relating to this weeks lectures",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532083",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "num": 4,
+      "title": "Week 3 - Fuzzy Logic Control",
+      "intro": "",
+      "items": [
+        {
+          "name": "3.1. Learning Outcomes",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532084",
+          "completion": ""
+        },
+        {
+          "name": "Lecture - Fuzzy Logic Control",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.2 Lecture - Fuzzy Logic Control",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532086",
+          "completion": ""
+        },
+        {
+          "name": "Workshop - Fuzzy Control Systems",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.3 Workshop - Fuzzy Control Systems",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532088",
+          "completion": ""
+        },
+        {
+          "name": "Tutorial",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Weekly Tasks",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "2.4 - Worksheet",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532091",
+          "completion": ""
+        },
+        {
+          "name": "Links to Relevant Resources",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Bibliography - Links to materials relating to this weeks lectures",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532093",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "num": 5,
+      "title": "Week 4 - Neural Networks",
+      "intro": "",
+      "items": [
+        {
+          "name": "4.1. Learning Outcomes",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532094",
+          "completion": ""
+        },
+        {
+          "name": "Lecture - Neural Networks in Robotics",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "4.2 Lecture - Neural Networks",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532096",
+          "completion": ""
+        },
+        {
+          "name": "Workshop - Building Robotic Neurons",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "4.3 Workshop - Building Robotic Neurons",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532098",
+          "completion": ""
+        },
+        {
+          "name": "Directed Practice - Work on task or project Synchr... (copy)",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Workshop Peer Review",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=532100",
+          "completion": ""
+        },
+        {
+          "name": "Weekly Tasks",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "4.4 - Worksheet",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532102",
+          "completion": ""
+        },
+        {
+          "name": "Links to Relevant Resources",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Bibliography - Links to materials relating to this weeks lectures",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532104",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "num": 6,
+      "title": "Week 5 - Robot Architectures",
+      "intro": "",
+      "items": [
+        {
+          "name": "5.1. Learning Outcomes",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532105",
+          "completion": ""
+        },
+        {
+          "name": "Lecture - Robot Architectures",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "5.2 Lecture - Robot Architecture",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532107",
+          "completion": ""
+        },
+        {
+          "name": "Workshop - Building Subsumption Architecture",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "5.3 Workshop - Subsumption Architecture",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532109",
+          "completion": ""
+        },
+        {
+          "name": "Tutorial - Plan Individual Assignment",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Weekly Tasks",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "5.4 - Worksheet",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532112",
+          "completion": ""
+        },
+        {
+          "name": "Links to Relevant Resources",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Bibliography - Links to materials relating to this weeks lectures",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532114",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "num": 7,
+      "title": "Week 6 - Reading Week",
+      "intro": "",
+      "items": [
+        {
+          "name": "6.1. Reading Week - Research",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532115",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-8",
+      "num": 8,
+      "title": "Week 7 - Machine Learning (Part 1)",
+      "intro": "",
+      "items": [
+        {
+          "name": "7.1. Learning Outcomes",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532116",
+          "completion": ""
+        },
+        {
+          "name": "Lecture - Machine Learning (Part 1)",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "7.2 Lecture - Machine Learning (Part 1)",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532118",
+          "completion": ""
+        },
+        {
+          "name": "Workshop - Supervised Learning using YOLO",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "7.3 Workshop - Supervised Learning using YOLO",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532120",
+          "completion": ""
+        },
+        {
+          "name": "Directed Practice - Work on task or project Synchr... (copy) (copy)",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "7.4 - Worksheet",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=532122",
+          "completion": ""
+        },
+        {
+          "name": "Weekly Tasks",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Links to Relevant Resources",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Bibliography - Links to materials relating to this weeks lectures",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532125",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "num": 9,
+      "title": "Week 8 - Robot User Interface",
+      "intro": "",
+      "items": [
+        {
+          "name": "7.1. Learning Outcomes",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=532126",
+          "completion": ""
+        }
+      ]
+    }
+  ]
+}

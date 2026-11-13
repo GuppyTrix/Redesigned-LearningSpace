@@ -78,9 +78,9 @@ space. Sections whose title contains "Week N" get `week: N` and drive the week b
 
 | script | what it checks |
 | --- | --- |
-| `node check-routes.js` | every hash route renders, no console errors, no horizontal overflow |
-| `node check-filter.js` | the activity filter narrows a large page and re-opens matching sections |
-| `node check-cal.js` | seeds a sample timetable and screenshots `#/calendar` |
+| `node .agent-work/qa/check-routes.js` | every hash route renders, no console errors, no horizontal overflow |
+| `node .agent-work/qa/check-filter.js` | the activity filter narrows a large page and re-opens matching sections |
+| `node .agent-work/qa/check-cal.js` | seeds a sample timetable and screenshots `#/calendar` |
 
 ## Open it
 
@@ -97,5 +97,18 @@ space. Sections whose title contains "Week N" get `week: N` and drive the week b
 | `rip-sections.js` | HTTP ripper for every `section=<n>` page (the real content source) |
 | `ripped/data/` | one JSON per space, plus `dashboard.json` |
 | `ripped/site/` | theme CSS, images and course banners |
-| `shots/` | screenshots used for design review |
+| `.agent-work/qa/shots/` | screenshots used for design review |
 | `start.cmd` | convenience launcher |
+
+## Working files
+
+Everything used to design and review the page — screenshots, superdesign drafts and prompts,
+DOM snapshots, CDP probes, review scripts, logs, and the earlier userscript attempt — lives in
+`.agent-work/` and is ignored by git:
+
+| path | contents |
+| --- | --- |
+| `.agent-work/design/` | superdesign project files, prompts, drafts, `ref/` Moodle templates, mirror experiment |
+| `.agent-work/qa/` | screenshots (`qa/shots/`) and the check scripts used to verify routes, filter, calendar |
+| `.agent-work/logs/` | rip and server logs |
+| `.agent-work/archive/userscript-phase/` | the first attempt: `learningspace.css`, `build.js`, `serve.js`, `learningspace-tweak.user.js` |

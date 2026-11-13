@@ -1,0 +1,27 @@
+# Working files created while designing and reviewing the page — not part of the app.
+.agent-work/
+
+# Superdesign CLI state and the skill shim it generates.
+.superdesign/
+.claude/skills/superdesign/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Logs and captured probe output
+*.log
+probe-*.out.txt
+
+# Ripped site: theme CSS, fonts and course banners are third-party assets, and the
+# raw HTML dumps are scratch. ripped/data/*.json is what the app actually reads,
+# so that stays tracked.
+ripped/site/
+ripped/raw/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

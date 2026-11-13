@@ -1,0 +1,514 @@
+{
+  "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=10890",
+  "id": "10890",
+  "title": "Course is starred Course name GAM360 Digital Innovation S1 (26/27) GAM360 Digital Innovation S1 (26/27)",
+  "sections": [
+    {
+      "id": "section-0",
+      "num": 0,
+      "title": "Overview",
+      "intro": "",
+      "items": [
+        {
+          "name": "1.1 Module Introduction",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=560038",
+          "completion": ""
+        },
+        {
+          "name": "1.2 Module Leader",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=560039",
+          "completion": ""
+        },
+        {
+          "name": "1.3 Module Staff",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=560040",
+          "completion": ""
+        },
+        {
+          "name": "1.4 Student Voice",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=560041",
+          "completion": ""
+        },
+        {
+          "name": "1.5 Teamwork Support",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=560042",
+          "completion": ""
+        },
+        {
+          "name": "1.6 Reading List",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=560043",
+          "completion": ""
+        },
+        {
+          "name": "1.7 Module Roadmap",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=560044",
+          "completion": ""
+        },
+        {
+          "name": "1.7 Introductory Game Jam and Hackathon",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=560045",
+          "completion": ""
+        },
+        {
+          "name": "1.8 Purchase Request",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=560046",
+          "completion": ""
+        },
+        {
+          "name": "1.9 Teams Site",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=560047",
+          "completion": ""
+        },
+        {
+          "name": "1.10 Group Working Strategy",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560048",
+          "completion": ""
+        },
+        {
+          "name": "1.11 Group Work Charter",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560049",
+          "completion": ""
+        },
+        {
+          "name": "1.13 Current Team List",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=562993",
+          "completion": ""
+        },
+        {
+          "name": "1.14 Team Forming Updates",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=562994",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "num": 1,
+      "title": "Assessment",
+      "intro": "",
+      "items": [
+        {
+          "name": "Assessment Brief: Collaborative Project with Pitch",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560053",
+          "completion": ""
+        },
+        {
+          "name": "Assessment Contracts",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560551",
+          "completion": ""
+        },
+        {
+          "name": "Computing/Robotics Briefs",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=560617",
+          "completion": ""
+        },
+        {
+          "name": "1st Supervisor Meeting Template",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560408",
+          "completion": ""
+        },
+        {
+          "name": "Supervisor Meeting Template(TO BE USED AFTER THE FIRST MEETING)",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560410",
+          "completion": ""
+        },
+        {
+          "name": "Examples - Industry Pitches",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=560058",
+          "completion": ""
+        },
+        {
+          "name": "Examples - Student Pitches",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=560059",
+          "completion": ""
+        },
+        {
+          "name": "Graduating in July 2027Students in poor academic s...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "GAM360 STUDIO PRACTICE (100%) {ID001} Collaborative Project with Pitch",
+          "type": "assign",
+          "url": "https://learningspace.falmouth.ac.uk/mod/assign/view.php?id=562070",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "num": 2,
+      "title": "Week 1",
+      "intro": "",
+      "items": [
+        {
+          "name": "1.0 Induction Lecture",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560060",
+          "completion": ""
+        },
+        {
+          "name": "Studio Practice Synchronous In-Person Activity",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "1.2 Jam &amp; Hackathon Week 1",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "1.2 Briefing",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560064",
+          "completion": ""
+        },
+        {
+          "name": "1.3 Studio Map",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560836",
+          "completion": ""
+        },
+        {
+          "name": "1.4 Jam Theme",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560837",
+          "completion": ""
+        },
+        {
+          "name": "1.5 Jam &amp; Hackthon Teams Channel",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=560844",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "num": 3,
+      "title": "Week 2",
+      "intro": "",
+      "items": [
+        {
+          "name": "2.0 Lecture",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=561932",
+          "completion": ""
+        },
+        {
+          "name": "Studio Practice Synchronous In-Person Activity (copy)",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "2.1 Jam &amp; Hackathon Week 2",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "2.2 Briefing",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=561801",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "num": 4,
+      "title": "Week 3",
+      "intro": "",
+      "items": [
+        {
+          "name": "Studio Practice Synchronous In-Person Activity (copy) (copy)",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.0 Jam &amp; Hackathon Week 2",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.1 Briefing",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=562676",
+          "completion": ""
+        },
+        {
+          "name": "3.2 Supervised Teamwork Session - voting",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.3 Voting Form",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=562681",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "num": 5,
+      "title": "Week 4",
+      "intro": "",
+      "items": [
+        {
+          "name": "Supervisor Meeting",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "4.0 Supervisor Meeting Briefing",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=563585",
+          "completion": ""
+        },
+        {
+          "name": "4.1 Team Admin",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=563571",
+          "completion": ""
+        },
+        {
+          "name": "4.2 Current Team List",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=563569",
+          "completion": ""
+        },
+        {
+          "name": "4.3 1st Supervisor Meeting Template",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=563566",
+          "completion": ""
+        },
+        {
+          "name": "4.4 Supervisor Meeting Template(TO BE USED AFTER THE FIRST MEETING)",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=563567",
+          "completion": ""
+        },
+        {
+          "name": "Studio Practice Synchronous In-Person Activity",
+          "type": "",
+          "url": "",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "num": 6,
+      "title": "Week 5",
+      "intro": "",
+      "items": [
+        {
+          "name": "Crit Synchronous In-Person Activity",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "5.0 Crit Briefing",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=564004",
+          "completion": ""
+        },
+        {
+          "name": "Studio Practice Synchronous In-Person Activity",
+          "type": "",
+          "url": "",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "num": 7,
+      "title": "Week 6 (Reading Week)",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-8",
+      "num": 8,
+      "title": "Week 7",
+      "intro": "",
+      "items": [
+        {
+          "name": "7.0 Lecture Slides - Market",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560073",
+          "completion": ""
+        },
+        {
+          "name": "7.1 Game Discovery - Instructions",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=566171",
+          "completion": ""
+        },
+        {
+          "name": "Supervisor Meeting",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "7.1 Supervisor Meeting Briefing",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=566102",
+          "completion": ""
+        },
+        {
+          "name": "7.3 Supervisor Meeting Template",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=566101",
+          "completion": ""
+        },
+        {
+          "name": "Studio Practice Synchronous In-Person Activity",
+          "type": "",
+          "url": "",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "num": 9,
+      "title": "Week 8 (Green Light)",
+      "intro": "",
+      "items": [
+        {
+          "name": "Greenlight Pitch",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "8.0 Greenlight Briefing",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=566836",
+          "completion": ""
+        },
+        {
+          "name": "Studio Practice Synchronous In-Person Activity",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "8.2 Self &amp; Peer Review",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=567000",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-10",
+      "num": 10,
+      "title": "Week 9",
+      "intro": "",
+      "items": [
+        {
+          "name": "9.1 Examples - Industry Pitches",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=560074",
+          "completion": ""
+        },
+        {
+          "name": "9.2 Examples - Student Pitches",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=560075",
+          "completion": ""
+        },
+        {
+          "name": "9.3 Self &amp; Peer Review Comments",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=560076",
+          "completion": ""
+        },
+        {
+          "name": "9.4 Self &amp; Peer Review Ratings",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=560077",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-11",
+      "num": 11,
+      "title": "Week 10",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-12",
+      "num": 12,
+      "title": "Week 11",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-13",
+      "num": 13,
+      "title": "Week 12",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-14",
+      "num": 14,
+      "title": "Week 13",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-15",
+      "num": 15,
+      "title": "Week 14",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-16",
+      "num": 16,
+      "title": "Week 15",
+      "intro": "",
+      "items": []
+    }
+  ]
+}

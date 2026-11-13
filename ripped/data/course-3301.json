@@ -1,0 +1,226 @@
+{
+  "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=3301",
+  "id": "3301",
+  "title": "Course is starred Course name Games Academy Resource Page Games Academy Resource Page",
+  "sections": [
+    {
+      "id": "section-0",
+      "num": 0,
+      "title": "Hello",
+      "intro": "",
+      "items": [
+        {
+          "name": "Studio Opening Hours (Normal Operating Hours)",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=416982",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "num": 1,
+      "title": "Who are the Techs?",
+      "intro": "",
+      "items": [
+        {
+          "name": "Text and media area",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Who are the Technicians/Stores Assistants? Here yo...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "num": 2,
+      "title": "How can we help?",
+      "intro": "",
+      "items": [
+        {
+          "name": "What support do we offer?",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=416967",
+          "completion": ""
+        },
+        {
+          "name": "How to get in contact?",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=416979",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "num": 3,
+      "title": "GA Wayfinding",
+      "intro": "",
+      "items": [
+        {
+          "name": "GA Maps",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=399301",
+          "completion": ""
+        },
+        {
+          "name": "Location of the DM IT Training Suite",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=495575",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "num": 4,
+      "title": "Technical Signups &amp; Room Bookings",
+      "intro": "",
+      "items": [
+        {
+          "name": "Please book our spaces through this link!stores.fa...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Audio Booth Induction",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=200952",
+          "completion": ""
+        },
+        {
+          "name": "Robotics Lab Induction",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=362821",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "num": 5,
+      "title": "Software, Hardware &amp; Addons",
+      "intro": "",
+      "items": [
+        {
+          "name": "Software, Hardware &amp; Addons Resource Page",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=551919",
+          "completion": ""
+        },
+        {
+          "name": "Unity Workshops &amp; Resource Archive",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=433536",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "num": 6,
+      "title": "Online Learning",
+      "intro": "",
+      "items": [
+        {
+          "name": "Guest Lectures",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=53603",
+          "completion": ""
+        },
+        {
+          "name": "LinkedIn Learning",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=149970",
+          "completion": ""
+        },
+        {
+          "name": "GDC Videos",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=149972",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "num": 7,
+      "title": "Guides",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-8",
+      "num": 8,
+      "title": "Version control",
+      "intro": "",
+      "items": [
+        {
+          "name": "Git Documentation",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=551492",
+          "completion": ""
+        },
+        {
+          "name": "GitHub Enterprise (Git Server)",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=173671",
+          "completion": ""
+        },
+        {
+          "name": "Git Client (Fork-Dev)",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=173673",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "num": 9,
+      "title": "Core Art Resources",
+      "intro": "",
+      "items": [
+        {
+          "name": "Resource Page",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=551870",
+          "completion": ""
+        },
+        {
+          "name": "2D Art Resources",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Software Guides",
+          "type": "",
+          "url": "",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-10",
+      "num": 10,
+      "title": "FAQ",
+      "intro": "",
+      "items": [
+        {
+          "name": "Q: What version of [Software] do we use in the stu...",
+          "type": "",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=193972",
+          "completion": ""
+        }
+      ]
+    }
+  ]
+}

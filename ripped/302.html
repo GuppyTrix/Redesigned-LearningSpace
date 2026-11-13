@@ -1,0 +1,2246 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>Module: COMP302 Research &amp; Development: Proposal S1 (26/27) | Learning Space</title>
+    <link rel="shortcut icon" href="https://learningspace.falmouth.ac.uk/theme/image.php/rosehill/theme/1792480653/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="moodle, Module: COMP302 Research &amp; Development: Proposal S1 (26/27) | Learning Space" />
+    <link rel="stylesheet" type="text/css" href="https://learningspace.falmouth.ac.uk/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://learningspace.falmouth.ac.uk/theme/styles.php/rosehill/1792480653_1792191985/all" />
+    <script>
+        //<![CDATA[
+        var M = {}; M.yui = {};
+        M.pageloadstarttime = new Date();
+        M.cfg = {"wwwroot":"https:\/\/learningspace.falmouth.ac.uk","apibase":"https:\/\/learningspace.falmouth.ac.uk\/r.php\/api","homeurl":{},"sesskey":"qhfh7VidZM","sessiontimeout":"7200","sessiontimeoutwarning":1200,"themerev":"1792480653","slasharguments":1,"theme":"rosehill","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1792191942","admin":"admin","svgicons":true,"usertimezone":"Europe\/London","language":"en","courseId":10428,"courseContextId":580558,"contextid":580558,"contextInstanceId":10428,"langrev":1792191942,"templaterev":"1792191942","siteId":1,"userId":45385};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+        var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+            if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+        YUI_config = {"debug":false,"base":"https:\/\/learningspace.falmouth.ac.uk\/lib\/yuilib\/3.18.1\/","comboBase":"https:\/\/learningspace.falmouth.ac.uk\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/learningspace.falmouth.ac.uk\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/learningspace.falmouth.ac.uk\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/learningspace.falmouth.ac.uk\/theme\/yui_combo.php?m\/1792191942\/","combine":true,"comboBase":"https:\/\/learningspace.falmouth.ac.uk\/theme\/yui_combo.php?","ext":false,"root":"m\/1792191942\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_aspirelists-inline_display":{"requires":["base","node","event","event-delegate"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form","datatype-date-format"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-event","moodle-core-notification-dialogue","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_panoptoltibutton-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_styles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/learningspace.falmouth.ac.uk\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/learningspace.falmouth.ac.uk\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1792191942\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/learningspace.falmouth.ac.uk\/lib\/javascript.php\/1792191942\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/learningspace.falmouth.ac.uk\/lib\/javascript.php\/1792191942\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}},"logInclude":[],"logExclude":[],"logLevel":null};
+        M.yui.loader = {modules: {}};
+
+        //]]>
+    </script>
+
+    <style>
+        /* Refinements to theme (after 4.5.5 upgrade) – 07/2025 */
+        body {
+            background-attachment: fixed;
+        }
+        #page {
+            min-height: calc( 100vh - 60px );
+        }
+        .course-section .summarytext img:not(.userpicture),
+        .activity-item .activity-altcontent img:not(.userpicture) {
+            border-radius: 0;
+        }
+        .btn.btn-icon.icons-collapse-expand {
+            color: #116a6c;
+            background-color: #E2ECED;
+        }
+        .btn.btn-icon.icons-collapse-expand:hover {
+            outline: 2px solid #88B3B5;
+        }
+        .activityiconcontainer {
+            margin-right: 1em;
+            background: #666;
+        }
+        .activityiconcontainer .icon,
+        .activityiconcontainer .activityicon {
+            filter: brightness(0) invert(1) !important;
+        }
+        .activityiconcontainer.administration .icon,
+        .activityiconcontainer.administration .activityicon {
+            width: 22px;
+        }
+
+        /* BUTTON FIXES 09/2025 */
+        .btn.add-section {
+            color: #fff;
+            border: 2px solid #116a6c;
+        }
+        .btn.add-section .icon {
+            margin: 0;
+        }
+        .btn.add-section:hover,
+        .btn.add-section:focus {
+            background-color: #E6F0F0;
+            border: 2px solid #116a6c;
+            color: #116a6c;
+        }
+        .btn.add-content {
+            color: #116a6c;
+            background-color: #E6F0F0;
+        }
+        .btn.add-content:hover,
+        .btn.add-content:focus {
+            color: #fff;
+            background-color: #116a6c;
+        }
+        .changenumsections a::before {
+            content: '';
+        }
+        .text-primary {
+            color: #116a6c !important;
+        }
+        .editing .activity-item:hover:not(:has(.activity:hover)),
+        .editing .activity-item.selected {
+            outline: 2px solid #116a6c;
+        }
+        .divider:has(.btn.add-content:hover) hr {
+            border-color:#116a6c;
+        }
+        .drawer-right .block-add {
+            background-color: #E6F0F0;
+            border-color: #116a6c;
+        }
+        .editing .divider .divider-content,
+        .editing .divider.always-hidden hr {
+            opacity: 1;
+            visibility: visible;
+        }
+        .btn:not(:disabled):not(.disabled) {
+            border: none;
+        }
+
+        /* Talis icon colour - 31/07/23 - DevOps ref: #21764 */
+        .modicon_lti_type_4 .icon {
+            filter: brightness(0) invert(1);
+        }
+
+        .path-mod-assign [data-region="grade-panel"] .gradingform_rubric .criterion .levels .level .level-wrapper {
+            white-space: normal;
+        }
+        .path-mod-assign [data-region="grade-panel"] .gradingform_rubric .criteria td {
+            vertical-align: top;
+        }
+
+        /* Temp fix - scheduler calendar - 20240604 */
+        div#dateselector-calendar-panel {
+            z-index: 3100 !important;
+        }
+
+        /* Temp fix - Hide add cohort to course, module - 15/8/24 - needs adding to theme in next update. (AM) */
+        #fitem_id_cohortlist {display: none}
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body  id="page-course-view-topics" class="format-topics limitedwidth  path-course path-course-view chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam learningspace-falmouth-ac-uk pagelayout-course course-10428 context-580558 category-23 theme uses-drawers drawer-open-index">
+<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+<div id="page-wrapper" class="d-print-block">
+
+    <div>
+        <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+    </div><script src="https://learningspace.falmouth.ac.uk/lib/javascript.php/1792191942/lib/polyfills/polyfill.js"></script>
+    <script src="https://learningspace.falmouth.ac.uk/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js"></script><script src="https://learningspace.falmouth.ac.uk/lib/javascript.php/1792191942/lib/javascript-static.js"></script>
+    <script>
+        //<![CDATA[
+        document.body.className += ' jsenabled';
+        //]]>
+    </script>
+
+
+
+    <nav class="navbar fixed-top navbar-light bg-white navbar-expand" aria-label="Site navigation">
+
+        <button class="navbar-toggler aabtn d-block d-md-none px-1 my-1 border-0" data-toggler="drawers" data-action="toggle" data-target="theme_boost-drawers-primary">
+            <span class="navbar-toggler-icon"></span>
+            <span class="sr-only">Side panel</span>
+        </button>
+
+        <a href="https://learningspace.falmouth.ac.uk/my/courses.php" class="navbar-brand d-none d-md-flex align-items-center m-0 mr-4 p-0 aabtn">
+
+            <svg viewBox="0 0 44 44" class="header-logo">
+                <title>Learning Space Home</title>
+                <g>
+                    <polygon fill="#303030" points="0 44 44 44 44 0 0 0"></polygon>
+                    <polygon fill="#FFFFFF" points="12 7 12 37 18.5419588 37 18.5419588 25.2181613 27.2760238 25.2181613 29.4910065 19.2332169 18.5419588 19.2332169 18.5419588 12.9829035 31.7892067 12.9829035 34 7"></polygon>
+                </g>
+            </svg>
+
+            Learning Space
+        </a>
+        <div class="primary-navigation">
+            <nav class="moremenu navigation">
+                <ul id="moremenu-6af6c44e54c7a-navbar-nav" role="menubar" class="nav more-nav navbar-nav">
+                    <li data-key="" class="nav-item" role="none" data-forceintomoremenu="false">
+                        <a role="menuitem" class="nav-link  "
+                           href="https://learningspace.falmouth.ac.uk/report/myfeedback/"
+
+
+                           data-disableactive="true"
+                           tabindex="-1"
+                        >
+                            My assessments &amp; feedback
+                        </a>
+                    </li>
+                    <li data-key="" class="nav-item" role="none" data-forceintomoremenu="false">
+                        <a role="menuitem" class="nav-link  "
+                           href="https://learningspace.falmouth.ac.uk/course/"
+
+
+                           data-disableactive="true"
+                           tabindex="-1"
+                        >
+
+                        </a>
+                    </li>
+                    <li data-key="" class="nav-item" role="none" data-forceintomoremenu="false">
+                        <a role="menuitem" class="nav-link  "
+                           href="https://learningspace.falmouth.ac.uk/course/"
+
+
+                           data-disableactive="true"
+                           tabindex="-1"
+                        >
+
+                        </a>
+                    </li>
+                    <li data-key="" class="nav-item" role="none" data-forceintomoremenu="false">
+                        <a role="menuitem" class="nav-link  "
+                           href="https://learningspace.falmouth.ac.uk/course/"
+
+
+                           data-disableactive="true"
+                           tabindex="-1"
+                        >
+
+                        </a>
+                    </li>
+                    <li role="none" class="nav-item dropdown dropdownmoremenu d-none" data-region="morebutton">
+                        <a class="dropdown-toggle nav-link " href="#" id="moremenu-dropdown-6af6c44e54c7a" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="-1">
+                            More
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-left" data-region="moredropdown" aria-labelledby="moremenu-dropdown-6af6c44e54c7a" role="menu">
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <ul class="navbar-nav d-none d-md-flex my-1 px-1">
+            <!-- page_heading_menu -->
+
+        </ul>
+
+        <div id="usernavigation" class="navbar-nav ml-auto">
+
+            <div class="d-flex align-items-stretch usermenu-container" data-region="usermenu">
+                <a href="http://etsupport.freshdesk.com/support/solutions/4000006971" id="ls-elevio-trigger" class="nav-link icon-no-margin ls-elevio-trigger" title="Help">
+                    <i class="icon fa fa-question-circle fa-fw " aria-hidden="true" title="Help" aria-label="Help"></i>
+                    <span class="sr-only">Help</span>
+                </a>
+                <div class="usermenu">
+                    <div class="dropdown show">
+                        <a href="#" role="button" id="user-menu-toggle" data-toggle="dropdown" aria-label="User menu"
+                           aria-haspopup="true" aria-controls="user-action-menu" class="btn dropdown-toggle">
+    				                <span class="userbutton">
+    				                    <span class="avatars">
+    				                            <span class="avatar current">
+    				                                <span class="userinitials size-35" title="JARETH HAYDON-GUPPY" aria-label="JARETH HAYDON-GUPPY" role="img">JH</span>
+    				                            </span>
+    				                    </span>
+    				                </span>
+                        </a>
+                        <div id="user-action-menu" class="dropdown-menu dropdown-menu-right">
+                            <div id="usermenu-carousel" class="carousel slide" data-touch="false" data-interval="false" data-keyboard="false">
+                                <div class="carousel-inner">
+                                    <div id="carousel-item-main" class="carousel-item active" role="menu" tabindex="-1" aria-label="User">
+                                        <a href="https://learningspace.falmouth.ac.uk/user/profile.php" class="dropdown-item" role="menuitem" tabindex="-1">
+
+                                            Profile
+                                        </a>
+
+                                        <div class="dropdown-divider"></div>
+                                        <a href="https://learningspace.falmouth.ac.uk/user/preferences.php" class="dropdown-item" role="menuitem" tabindex="-1">
+
+                                            Preferences
+                                        </a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="https://learningspace.falmouth.ac.uk/login/logout.php?sesskey=qhfh7VidZM" class="dropdown-item" role="menuitem" tabindex="-1">
+
+                                            Log out
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div  class="drawer drawer-left drawer-primary d-print-none not-initialized" data-region="fixed-drawer" id="theme_boost-drawers-primary" data-preference="" data-state="show-drawer-primary" data-forceopen="0" data-close-on-resize="1">
+        <div class="drawerheader">
+            <button
+                    class="btn drawertoggle icon-no-margin hidden"
+                    data-toggler="drawers"
+                    data-action="closedrawer"
+                    data-target="theme_boost-drawers-primary"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    title="Close drawer"
+                    aria-label="Close drawer"
+            >
+                <i class="icon fa fa-xmark fa-fw " aria-hidden="true" ></i>
+            </button>
+            Learning Space
+
+            <div class="drawerheadercontent hidden">
+
+            </div>
+        </div>
+        <div class="drawercontent drag-container" data-usertour="scroller">
+            <div class="list-group">
+                <a href="https://learningspace.falmouth.ac.uk/my/courses.php" class="list-group-item">Home</a>
+                <a href="https://learningspace.falmouth.ac.uk/report/myfeedback/" class="list-group-item list-group-item-action  " >
+                    My assessments &amp; feedback
+                </a>
+                <a href="https://learningspace.falmouth.ac.uk/course/" class="list-group-item list-group-item-action  " >
+
+                </a>
+                <a href="https://learningspace.falmouth.ac.uk/course/" class="list-group-item list-group-item-action  " >
+
+                </a>
+                <a href="https://learningspace.falmouth.ac.uk/course/" class="list-group-item list-group-item-action  " >
+
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div  class="drawer drawer-left show d-print-none not-initialized" data-region="fixed-drawer" id="theme_boost-drawers-courseindex" data-preference="drawer-open-index" data-state="show-drawer-left" data-forceopen="0" data-close-on-resize="0">
+        <div class="drawerheader">
+            <button
+                    class="btn drawertoggle icon-no-margin hidden"
+                    data-toggler="drawers"
+                    data-action="closedrawer"
+                    data-target="theme_boost-drawers-courseindex"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    title="Close course index"
+                    aria-label="Close course index"
+            >
+                <i class="icon fa fa-xmark fa-fw " aria-hidden="true" ></i>
+            </button>
+
+            <div class="drawerheadercontent hidden">
+
+            </div>
+        </div>
+        <div class="drawercontent drag-container" data-usertour="scroller">
+            <nav id="courseindex" class="courseindex">
+                <div id="courseindex-content">
+                    <div data-region="loading-placeholder-content" aria-hidden="true" id="course-index-placeholder">
+                        <ul class="placeholders list-unstyled px-5">
+                            <li>
+                                <div class="col-md-6 p-0 d-flex align-items-center">
+                                    <div class="bg-pulse-grey rounded-circle me-2"></div>
+                                    <div class="bg-pulse-grey w-100"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-6 p-0 d-flex align-items-center">
+                                    <div class="bg-pulse-grey rounded-circle me-2"></div>
+                                    <div class="bg-pulse-grey w-100"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-6 p-0 d-flex align-items-center">
+                                    <div class="bg-pulse-grey rounded-circle me-2"></div>
+                                    <div class="bg-pulse-grey w-100"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-6 p-0 d-flex align-items-center">
+                                    <div class="bg-pulse-grey rounded-circle me-2"></div>
+                                    <div class="bg-pulse-grey w-100"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+    <div  class="drawer drawer-right d-print-none not-initialized" data-region="fixed-drawer" id="theme_boost-drawers-blocks" data-preference="drawer-open-block" data-state="show-drawer-right" data-forceopen="" data-close-on-resize="1">
+        <div class="drawerheader">
+            <button
+                    class="btn drawertoggle icon-no-margin hidden"
+                    data-toggler="drawers"
+                    data-action="closedrawer"
+                    data-target="theme_boost-drawers-blocks"
+                    data-toggle="tooltip"
+                    data-placement="left"
+                    title="Close block drawer"
+                    aria-label="Close block drawer"
+            >
+                <i class="icon fa fa-xmark fa-fw " aria-hidden="true" ></i>
+            </button>
+
+            <div class="drawerheadercontent hidden">
+
+            </div>
+        </div>
+        <div class="drawercontent drag-container" data-usertour="scroller">
+            <section class="d-print-none" aria-label="Blocks">
+
+                <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1" aria-labelledby="side-pre-block-region-heading"><h2 class="sr-only" id="side-pre-block-region-heading">Blocks</h2><a href="#sb-1" class="sr-only sr-only-focusable">Skip Panopto</a>
+
+                    <section id="inst3254"
+                             class=" block_panopto block  card mb-3"
+                             role="region"
+                             data-block="panopto"
+                             data-instance-id="3254"
+                             aria-labelledby="instance-3254-header"
+                    >
+
+                        <div class="card-body p-3">
+
+                            <div class="d-flex">
+                                <h3 id="instance-3254-header" class="h5 card-title">Panopto</h3>
+
+                            </div>
+
+                            <div class="card-text content mt-3">
+                                <div id="block_panopto_content" courseid="10428"><font id='loading_text'>Fetching Panopto content...</font></div><script type="text/javascript">function panopto_launchNotes(url) {var notesWindow = window.open("", "PanoptoNotes", "width=500,height=800,resizable=1,scrollbars=0,status=0,location=0");document.SSO.action = url;document.SSO.target = "PanoptoNotes";document.SSO.submit();notesWindow.focus();}function panopto_startSSO(linkElem) {document.SSO.action = linkElem.href;document.SSO.target = "_blank";document.SSO.submit();return false;}function panopto_toggleHiddenLectures() {var showAllToggle = document.getElementById("showAllToggle");var hiddenLecturesDiv = document.getElementById("hiddenLecturesDiv");if (hiddenLecturesDiv.style.display == "block") {hiddenLecturesDiv.style.display = "none";showAllToggle.innerHTML = "Show all";} else {hiddenLecturesDiv.style.display = "block";showAllToggle.innerHTML = "Show less";}}</script>
+                                <div class="footer"></div>
+
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <span id="sb-1" tabindex="-1"></span></aside>
+            </section>
+
+        </div>
+    </div>
+    <div id="page" data-region="mainpage" data-usertour="scroller" class="drawers show-drawer-left  drag-container">
+        <div id="topofscroll" class="main-inner">
+            <div class="drawer-toggles d-flex">
+                <div class="drawer-toggler drawer-left-toggle open-nav d-print-none">
+                    <button
+                            class="btn icon-no-margin"
+                            data-toggler="drawers"
+                            data-action="toggle"
+                            data-target="theme_boost-drawers-courseindex"
+                            data-toggle="tooltip"
+                            data-placement="right"
+                            title="Open course index"
+                    >
+                        <span class="sr-only">Open course index</span>
+                        <i class="icon fa fa-list fa-fw " aria-hidden="true" ></i>
+                    </button>
+                </div>
+                <div class="drawer-toggler drawer-right-toggle ml-auto d-print-none">
+                    <button
+                            class="btn icon-no-margin"
+                            data-toggler="drawers"
+                            data-action="toggle"
+                            data-target="theme_boost-drawers-blocks"
+                            data-toggle="tooltip"
+                            data-placement="right"
+                            title="Open block drawer"
+                    >
+                        <span class="sr-only">Open block drawer</span>
+                        <span class="dir-rtl-hide"><i class="icon fa fa-chevron-left fa-fw " aria-hidden="true" ></i></span>
+                        <span class="dir-ltr-hide"><i class="icon fa fa-chevron-right fa-fw " aria-hidden="true" ></i></span>
+                    </button>
+                </div>
+            </div>
+            <header id="page-header" class="header-maxwidth d-print-none">
+                <div class="w-100">
+                    <div class="d-flex flex-wrap">
+                        <div id="page-navbar">
+
+                        </div>
+                        <div class="ms-auto d-flex">
+
+                        </div>
+                        <div id="course-header">
+
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="me-auto d-flex flex-column">
+                            <div>
+                                <div class="page-context-header d-flex flex-wrap align-items-center mb-2">
+                                    <div class="page-header-headings">
+                                        <h1 class="h2 mb-0">COMP302 Research &amp; Development: Proposal S1 (26/27)</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                        <div class="header-actions-container ms-auto" data-region="header-actions-container">
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="secondary-navigation d-print-none">
+                <nav class="moremenu navigation">
+                    <ul id="moremenu-6af6c44e53d6e-nav-tabs" role="menubar" class="nav more-nav nav-tabs">
+                        <li data-key="coursehome" class="nav-item" role="none" data-forceintomoremenu="false">
+                            <a role="menuitem" class="nav-link active active_tree_node "
+                               href="https://learningspace.falmouth.ac.uk/course/view.php?id=10428"
+
+                               aria-current="true"
+                               data-disableactive="true"
+
+                            >
+                                Course
+                            </a>
+                        </li>
+                        <li data-key="grades" class="nav-item" role="none" data-forceintomoremenu="false">
+                            <a role="menuitem" class="nav-link  "
+                               href="https://learningspace.falmouth.ac.uk/grade/report/index.php?id=10428"
+
+
+                               data-disableactive="true"
+                               tabindex="-1"
+                            >
+                                Grades
+                            </a>
+                        </li>
+                        <li role="none" class="nav-item dropdown dropdownmoremenu d-none" data-region="morebutton">
+                            <a class="dropdown-toggle nav-link " href="#" id="moremenu-dropdown-6af6c44e53d6e" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="-1">
+                                More
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-left" data-region="moredropdown" aria-labelledby="moremenu-dropdown-6af6c44e53d6e" role="menu">
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="page-content" class="pb-3 d-print-block">
+                <div id="region-main-box">
+                    <section id="region-main" aria-label="Content">
+
+                        <span class="notifications" id="user-notifications"></span>
+                        <div role="main"><span id="maincontent" tabindex="-1"></span><div class="course-content"><div id="course-format-6af6c44e5b6cb6af6c44e54ff54">
+                            <h2 class="accesshide">Section outline</h2>
+
+                            <ul class="topics" data-for="course_sectionlist">
+                                <li id="section-0"
+                                    class="section course-section main  clearfix
+                             
+                            "
+                                    data-sectionid="0"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="117478"
+                                    data-number="0"
+                                    data-sectionname="Index"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="117478"
+                                             data-number="0"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox117478"
+                                                        type="checkbox"
+                                                        data-id="117478"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox117478">
+                                                    Select section Index
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-117478-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=117478">Index</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="117478">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=117478"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Index">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Index" role="img" aria-label="Go to section Index"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Index
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid117478"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="summarytext">
+                                                    <div class="no-overflow"><p><br></p></div>
+                                                </div>
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <ul class="section m-0 p-0 img-text  d-block " data-for="cmlist">
+                                                <li
+                                                        class="activity activity-wrapper label modtype_label  hasinfo "
+                                                        id="module-531298"
+                                                        data-for="cmitem"
+                                                        data-id="531298"
+                                                >
+                                                    <div class="activity-item focus-control activityinline" data-activityname="**Module Index**" data-region="activity-card">
+                                                        <div class="bulkselect d-none" data-for="cmBulkSelect">
+                                                            <input
+                                                                    id="cmCheckbox531298"
+                                                                    type="checkbox"
+                                                                    data-id="531298"
+                                                                    data-action="toggleSelectionCm"
+                                                                    data-bulkcheckbox="1"
+                                                            >
+                                                            <label class="sr-only" for="cmCheckbox531298">
+                                                                Select activity **Module Index**
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="activity-grid noname-grid">
+
+
+
+
+
+
+
+                                                            <div class="activity-altcontent text-break ">
+                                                                <div class="no-overflow"><div class="no-overflow" data-ally-richcontent="label:label:intro:165835"><span class="filter-ally-wrapper ally-image-wrapper">
+    <img src="https://learningspace.falmouth.ac.uk/pluginfile.php/594186/mod_label/intro/technology-digital-ai-binary.jpeg" alt="" width="750" height="250" role="presentation" class="img-responsive atto_image_button_middle">
+    <span class="ally-image-cover" data-file-id="c3d807acf7802325c652ea5a36ed673c013c77a5"></span>
+    <span class="ally-actions" aria-hidden="true">
+    </span>
+</span>
+                                                                    <br><br>
+                                                                    <p><strong>View this module's Module Descriptor by searching for its code in </strong><strong>the</strong> <a href="https://falmouth.akarisoftware.com/index.cfm/page/module/moduleId/96060/deliveryperiodid/1078" rel="noopener noreferrer" target="_blank"><strong>curriculum management system</strong></a></p>
+                                                                    <br></div></div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li
+                                                        class="activity activity-wrapper url modtype_url  hasinfo "
+                                                        id="module-565416"
+                                                        data-for="cmitem"
+                                                        data-id="565416"
+                                                >
+                                                    <div class="activity-item focus-control " data-activityname="0.1 Log an Issue" data-region="activity-card">
+                                                        <div class="bulkselect d-none" data-for="cmBulkSelect">
+                                                            <input
+                                                                    id="cmCheckbox565416"
+                                                                    type="checkbox"
+                                                                    data-id="565416"
+                                                                    data-action="toggleSelectionCm"
+                                                                    data-bulkcheckbox="1"
+                                                            >
+                                                            <label class="sr-only" for="cmCheckbox565416">
+                                                                Select activity 0.1 Log an Issue
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="activity-grid ">
+
+                                                            <div class="activity-icon activityiconcontainer smaller content  courseicon align-self-start me-2">
+                                                                <img
+                                                                        src="https://learningspace.falmouth.ac.uk/theme/image.php/rosehill/url/1792480653/monologo?filtericon=1"
+                                                                        class="activityicon "
+                                                                        data-region="activity-icon"
+                                                                        data-id="565416"
+                                                                        alt=""
+
+                                                                >
+                                                            </div>
+
+                                                            <div class="activity-name-area activity-instance d-flex flex-column me-2">
+                                                                <div class="activitytitle  modtype_url position-relative align-self-start">
+                                                                    <div class="activityname">
+                                                                        <a href="https://learningspace.falmouth.ac.uk/mod/url/view.php?id=565416" class=" aalink stretched-link" onclick="window.open('https://learningspace.falmouth.ac.uk/mod/url/view.php?id=565416&redirect=1'); return false;">        <span class="instancename">0.1 Log an Issue <span class="accesshide " > URL</span></span>    </a>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+
+
+                                                            <div class="activity-completion align-self-start ms-sm-2">
+                                                                <div data-region="activity-information" data-activityname="0.1 Log an Issue" class="activity-information">
+                                                                    <div data-region="completion-info">
+                                                                        <div data-region="completionrequirements" aria-label="Completion requirements for 0.1 Log an Issue">
+                                                                            <div
+                                                                                    class="dropdown     completion-dropdown   "
+                                                                                    id="dropdownDialog_6af6c44e54ff52"
+                                                                            >
+                                                                                <button
+                                                                                        class="     btn btn-sm dropdown-toggle icon-no-margin btn-success   "
+                                                                                        type="button"
+                                                                                        id="dropwdownbutton_6af6c44e54ff53"
+                                                                                        data-toggle="dropdown"
+                                                                                        aria-haspopup="true"
+                                                                                        aria-expanded="false"
+                                                                                        data-for="dropdowndialog_button"
+
+                                                                                >
+                                                                                    <i class="icon fa fa-check fa-fw " aria-hidden="true" ></i> Done
+                                                                                </button>
+                                                                                <div
+                                                                                        class="dropdown-menu   dropdown-menu-right       "
+                                                                                        aria-labelledby="dropwdownbutton_6af6c44e54ff53"
+                                                                                        data-for="dropdowndialog_dialog"
+                                                                                >
+                                                                                    <div class="p-2" data-for="dropdowndialog_content">
+                                                                                        <div class="completion-dialog px-2">
+                                                                                            <strong>You must</strong>
+
+                                                                                            <div class="ms-2" role="list">
+                                                                                                <div class="d-flex mt-2 text-success" role="listitem" >
+                                                                                                    <div>
+                                                                                                        <i class="icon fa fa-check fa-fw " aria-hidden="true" ></i>
+                                                                                                        <span class="sr-only">Done:</span>
+                                                                                                    </div>
+                                                                                                    <span>View</span>
+                                                                                                </div>
+
+
+                                                                                            </div>
+
+
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="activity-altcontent text-break activity-description">
+                                                                <div class="no-overflow"><div class="no-overflow"><p dir="ltr" style="text-align: left;">If you notice that there is a problem with the module or that the materials are dysfunctional, please log an issue in our student feedback system. We will endeavour to remedy the matter informally in the first instance as soon as possible.</p></div></div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-1"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="1"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="125584"
+                                    data-number="1"
+                                    data-sectionname="Overview"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="125584"
+                                             data-number="1"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox125584"
+                                                        type="checkbox"
+                                                        data-id="125584"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox125584">
+                                                    Select section Overview
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-125584-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=125584">Overview</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="125584">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=125584"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Overview">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Overview" role="img" aria-label="Go to section Overview"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Overview
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid125584"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 15
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 9 / 12
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-2"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="2"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119894"
+                                    data-number="2"
+                                    data-sectionname="Assessment"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119894"
+                                             data-number="2"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119894"
+                                                        type="checkbox"
+                                                        data-id="119894"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119894">
+                                                    Select section Assessment
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119894-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119894">Assessment</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119894">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119894"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Assessment">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Assessment" role="img" aria-label="Go to section Assessment"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Assessment
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119894"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 8
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 4 / 5
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-3"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="3"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119895"
+                                    data-number="3"
+                                    data-sectionname="Week 1: Intro to R&amp;amp;D"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119895"
+                                             data-number="3"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119895"
+                                                        type="checkbox"
+                                                        data-id="119895"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119895">
+                                                    Select section Week 1: Intro to R&amp;amp;D
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119895-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119895">Week 1: Intro to R&amp;D</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119895">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119895"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 1: Intro to R&amp;amp;D">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 1: Intro to R&amp;amp;D" role="img" aria-label="Go to section Week 1: Intro to R&amp;amp;D"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 1: Intro to R&amp;amp;D
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119895"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 12
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 1 / 8
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-4"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="4"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119896"
+                                    data-number="4"
+                                    data-sectionname="Week 2: Contextual Review"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119896"
+                                             data-number="4"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119896"
+                                                        type="checkbox"
+                                                        data-id="119896"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119896">
+                                                    Select section Week 2: Contextual Review
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119896-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119896">Week 2: Contextual Review</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119896">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119896"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 2: Contextual Review">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 2: Contextual Review" role="img" aria-label="Go to section Week 2: Contextual Review"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 2: Contextual Review
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119896"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 13
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 2 / 8
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-5"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="5"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119897"
+                                    data-number="5"
+                                    data-sectionname="Week 3: Scientific Questions"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119897"
+                                             data-number="5"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119897"
+                                                        type="checkbox"
+                                                        data-id="119897"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119897">
+                                                    Select section Week 3: Scientific Questions
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119897-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119897">Week 3: Scientific Questions</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119897">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119897"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 3: Scientific Questions">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 3: Scientific Questions" role="img" aria-label="Go to section Week 3: Scientific Questions"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 3: Scientific Questions
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119897"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 16
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 4 / 10
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-6"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="6"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119898"
+                                    data-number="6"
+                                    data-sectionname="Week 4: Philosophies of Knowledge"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119898"
+                                             data-number="6"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119898"
+                                                        type="checkbox"
+                                                        data-id="119898"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119898">
+                                                    Select section Week 4: Philosophies of Knowledge
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119898-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119898">Week 4: Philosophies of Knowledge</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119898">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119898"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 4: Philosophies of Knowledge">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 4: Philosophies of Knowledge" role="img" aria-label="Go to section Week 4: Philosophies of Knowledge"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 4: Philosophies of Knowledge
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119898"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 14
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 2 / 9
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-7"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="7"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119899"
+                                    data-number="7"
+                                    data-sectionname="Week 5: Hypotheses and Experiments"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119899"
+                                             data-number="7"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119899"
+                                                        type="checkbox"
+                                                        data-id="119899"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119899">
+                                                    Select section Week 5: Hypotheses and Experiments
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119899-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119899">Week 5: Hypotheses and Experiments</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119899">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119899"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 5: Hypotheses and Experiments">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 5: Hypotheses and Experiments" role="img" aria-label="Go to section Week 5: Hypotheses and Experiments"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 5: Hypotheses and Experiments
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119899"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 18
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 8 / 12
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-8"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="8"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119900"
+                                    data-number="8"
+                                    data-sectionname="Week 6: Research Ethics"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119900"
+                                             data-number="8"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119900"
+                                                        type="checkbox"
+                                                        data-id="119900"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119900">
+                                                    Select section Week 6: Research Ethics
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119900-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119900">Week 6: Research Ethics</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119900">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119900"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 6: Research Ethics">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 6: Research Ethics" role="img" aria-label="Go to section Week 6: Research Ethics"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 6: Research Ethics
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119900"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 19
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 6 / 10
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-9"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="9"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119901"
+                                    data-number="9"
+                                    data-sectionname="Week 7: Using Data to Test Hypotheses"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119901"
+                                             data-number="9"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119901"
+                                                        type="checkbox"
+                                                        data-id="119901"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119901">
+                                                    Select section Week 7: Using Data to Test Hypotheses
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119901-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119901">Week 7: Using Data to Test Hypotheses</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119901">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119901"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 7: Using Data to Test Hypotheses">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 7: Using Data to Test Hypotheses" role="img" aria-label="Go to section Week 7: Using Data to Test Hypotheses"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 7: Using Data to Test Hypotheses
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119901"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 19
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 4 / 12
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-10"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="10"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119902"
+                                    data-number="10"
+                                    data-sectionname="Week 8: Data Management"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119902"
+                                             data-number="10"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119902"
+                                                        type="checkbox"
+                                                        data-id="119902"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119902">
+                                                    Select section Week 8: Data Management
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119902-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119902">Week 8: Data Management</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119902">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119902"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 8: Data Management">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 8: Data Management" role="img" aria-label="Go to section Week 8: Data Management"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 8: Data Management
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119902"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 19
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 2 / 13
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-11"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="11"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119903"
+                                    data-number="11"
+                                    data-sectionname="Week 9: Scoping and Data Requirements"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119903"
+                                             data-number="11"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119903"
+                                                        type="checkbox"
+                                                        data-id="119903"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119903">
+                                                    Select section Week 9: Scoping and Data Requirements
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119903-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119903">Week 9: Scoping and Data Requirements</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119903">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119903"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 9: Scoping and Data Requirements">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 9: Scoping and Data Requirements" role="img" aria-label="Go to section Week 9: Scoping and Data Requirements"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 9: Scoping and Data Requirements
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119903"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 19
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 0 / 7
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-12"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="12"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119904"
+                                    data-number="12"
+                                    data-sectionname="Week 10: Technical Writing &amp;amp; Presenting Arguments"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119904"
+                                             data-number="12"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119904"
+                                                        type="checkbox"
+                                                        data-id="119904"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119904">
+                                                    Select section Week 10: Technical Writing &amp;amp; Presenting Arguments
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119904-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119904">Week 10: Technical Writing &amp; Presenting Arguments</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119904">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119904"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 10: Technical Writing &amp;amp; Presenting Arguments">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 10: Technical Writing &amp;amp; Presenting Arguments" role="img" aria-label="Go to section Week 10: Technical Writing &amp;amp; Presenting Arguments"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 10: Technical Writing &amp;amp; Presenting Arguments
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119904"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 26
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 0 / 10
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-13"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="13"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119905"
+                                    data-number="13"
+                                    data-sectionname="Week 11: Quality Assurance in Research &amp;amp; Development"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119905"
+                                             data-number="13"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119905"
+                                                        type="checkbox"
+                                                        data-id="119905"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119905">
+                                                    Select section Week 11: Quality Assurance in Research &amp;amp; Development
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119905-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119905">Week 11: Quality Assurance in Research &amp; Development</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119905">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119905"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 11: Quality Assurance in Research &amp;amp; Development">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 11: Quality Assurance in Research &amp;amp; Development" role="img" aria-label="Go to section Week 11: Quality Assurance in Research &amp;amp; Development"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 11: Quality Assurance in Research &amp;amp; Development
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119905"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 19
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 0 / 11
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-14"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="14"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119906"
+                                    data-number="14"
+                                    data-sectionname="Week 12: Peer-Review &amp;amp; Proposal Submission"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119906"
+                                             data-number="14"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119906"
+                                                        type="checkbox"
+                                                        data-id="119906"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119906">
+                                                    Select section Week 12: Peer-Review &amp;amp; Proposal Submission
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119906-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119906">Week 12: Peer-Review &amp; Proposal Submission</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119906">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119906"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 12: Peer-Review &amp;amp; Proposal Submission">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 12: Peer-Review &amp;amp; Proposal Submission" role="img" aria-label="Go to section Week 12: Peer-Review &amp;amp; Proposal Submission"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 12: Peer-Review &amp;amp; Proposal Submission
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119906"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 13
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 0 / 5
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-15"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="15"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119907"
+                                    data-number="15"
+                                    data-sectionname="Weeks 13: Proposal Presentations"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119907"
+                                             data-number="15"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119907"
+                                                        type="checkbox"
+                                                        data-id="119907"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119907">
+                                                    Select section Weeks 13: Proposal Presentations
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119907-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119907">Weeks 13: Proposal Presentations</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119907">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119907"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Weeks 13: Proposal Presentations">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Weeks 13: Proposal Presentations" role="img" aria-label="Go to section Weeks 13: Proposal Presentations"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Weeks 13: Proposal Presentations
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119907"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 3
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 0 / 1
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-16"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="16"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119908"
+                                    data-number="16"
+                                    data-sectionname="Winter Break"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119908"
+                                             data-number="16"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119908"
+                                                        type="checkbox"
+                                                        data-id="119908"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119908">
+                                                    Select section Winter Break
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119908-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119908">Winter Break</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119908">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119908"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Winter Break">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Winter Break" role="img" aria-label="Go to section Winter Break"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Winter Break
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119908"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 0
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-17"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="17"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119909"
+                                    data-number="17"
+                                    data-sectionname="Week 14: Securing Ethical Approval"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119909"
+                                             data-number="17"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119909"
+                                                        type="checkbox"
+                                                        data-id="119909"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119909">
+                                                    Select section Week 14: Securing Ethical Approval
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119909-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119909">Week 14: Securing Ethical Approval</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119909">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119909"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 14: Securing Ethical Approval">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 14: Securing Ethical Approval" role="img" aria-label="Go to section Week 14: Securing Ethical Approval"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 14: Securing Ethical Approval
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119909"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 1
+                                                </div>
+                                                <div class="d-flex ms-auto align-items-center">
+                                                    <i class="icon fa fa-chart-line fa-fw " aria-hidden="true" ></i>Progress: 0 / 1
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li id="section-18"
+                                    class="section course-section main  section-summary  clearfix
+                             
+                            "
+                                    data-sectionid="18"
+                                    data-sectionreturnnum=""
+                                    data-for="section"
+                                    data-id="119910"
+                                    data-number="18"
+                                    data-sectionname="Week 15: Commencing Your Project"
+
+                                >
+                                    <div class="section-item">
+                                        <div class="course-section-header d-flex"
+                                             data-for="section_title"
+                                             data-id="119910"
+                                             data-number="18"
+                                        >
+                                            <div class="bulkselect align-self-center d-none" data-for="sectionBulkSelect">
+                                                <input
+                                                        id="sectionCheckbox119910"
+                                                        type="checkbox"
+                                                        data-id="119910"
+                                                        data-action="toggleSelectionSection"
+                                                        data-bulkcheckbox="1"
+                                                >
+                                                <label class="sr-only" for="sectionCheckbox119910">
+                                                    Select section Week 15: Commencing Your Project
+                                                </label>
+                                            </div>
+                                            <h3 id="sectionid-119910-title" class="h4 sectionname">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119910">Week 15: Commencing Your Project</a>
+                                            </h3>
+                                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
+                                            </div>
+                                            <div class="section_goto bulk-hidden ms-auto" data-sectionid="119910">
+                                                <a href="https://learningspace.falmouth.ac.uk/course/section.php?id=119910"
+                                                   class="btn btn-icon d-flex align-items-center justify-content-center icon-no-margin"
+                                                   title="Go to section Week 15: Commencing Your Project">
+                                                        <span class="dir-rtl-hide">
+                                                            <i class="icon fa fa-arrow-right fa-fw " aria-hidden="true" ></i>
+                                                        </span>
+                                                    <span class="dir-ltr-hide">
+                                                            <i class="icon fa fa-arrow-left fa-fw "  title="Go to section Week 15: Commencing Your Project" role="img" aria-label="Go to section Week 15: Commencing Your Project"></i>
+                                                        </span>
+                                                    <span class="sr-only">
+                                                            Go to section Week 15: Commencing Your Project
+                                                        </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div id="coursecontentcollapseid119910"
+                                             class="content ">
+                                            <div class=" my-3" data-for="sectioninfo">
+                                                <div class="section_availability">
+                                                </div>
+                                            </div>
+                                            <div class="section-summary-activities d-flex">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="icon fa fa-file-pen fa-fw " aria-hidden="true" ></i>Activities: 1
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div></div></div>
+
+
+
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <footer id="page-footer" class="page-footer">
+
+            <div class="footer-main">
+                <ul class="footer-links">
+
+                    <li class="footer-links__list-item"><a href="https://www.falmouth.ac.uk/" class="footer-links__link-item">&copy; 2026 Falmouth University</a></li>
+                    <li class="footer-links__list-item"><a href="https://www.falmouth.ac.uk/uploading-material-to-the-learning-space-copyright-policy" class="footer-links__link-item">Copyright compliance</a></li>
+                    <li class="footer-links__list-item"><a href="https://www.falmouth.ac.uk/data-privacy-learning-space-users" class="footer-links__link-item">Privacy</a></li>
+                    <li class="footer-links__list-item"><a href="https://student.falmouth.ac.uk" class="footer-links__link-item"> Student Portal</a></li>
+                    <li class="footer-links__list-item"><a href="https://www.falmouth.ac.uk/falmouth-learning-space-accessibility-statement" class="footer-links__link-item">Accessibility</a></li></ul>
+            </div>
+
+            <div class="footer-standard">
+
+
+                <!-- Begin Inspectlet Asynchronous Code -->
+                <script type="text/javascript">
+                    (function() {
+                        if (false) {
+                            window.__insp = window.__insp || [];
+                            __insp.push(['wid', 1904087652]);
+                            var ldinsp = function(){
+                                if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1904087652&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+                            setTimeout(ldinsp, 0);
+                        }
+                    })();
+                </script>
+                <!-- End Inspectlet Asynchronous Code -->
+
+                <script>
+                    !function(e,l,v,i,o,n){e[i]||(e[i]={}),e[i].account_id=n;var g,h;g=l.createElement(v),g.type="text/javascript",g.async=1,g.src=o+n,h=l.getElementsByTagName(v)[0],h.parentNode.insertBefore(g,h);e[i].q=[];e[i].on=function(z,y){e[i].q.push([z,y])}}(window,document,"script","_elev","https://cdn.elev.io/sdk/bootloader/v4/elevio-bootloader.js?cid=","5669817b1ed49");
+                    /*
+                     * For passing user information, please see
+                     * https://api-docs.elevio.help/en/articles/24
+                     */
+                </script>
+
+                <!-- Google tag (gtag.js) -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116954783-1"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    // Universal Analytics property
+                    gtag('config', 'UA-116954783-1', {
+                        'site_speed_sample_rate': 50
+                    });
+                    gtag('event', 'page_view', {
+                        page_title: 'Learning Space',
+                        page_location: '/'
+                    });
+
+                    // Google Analytics 4 property
+                    gtag('config', '374848611');
+                </script>
+
+                <script type="text/javascript">
+                    // document.querySelector('.footer-links__list-item:nth-child(3)').children[0].href = 'https://www.falmouth.ac.uk/uploading-material-to-the-learning-space-copyright-policy';
+                </script>            <script>
+                var ally_module_maps = {"file_resources":{"531318":{"content":"49980b388792dcb45c771c2da72b1e8def2cd590"},"531488":{"content":"fb8e24dfc04c7014a37eae6aeff960de38ce8190"},"531489":{"content":"492a33584c70e82a2da66913e905d4c9170e8c70"},"531491":{"content":"eb6c3be36e07e9c913f4dad80579b410c1d7d31b"},"531493":{"content":"10fda08acccd8d76d17553d4166e342e84e6efb1"},"531494":{"content":"993aedaf519a324a16e5e3c7afec51ba34af5fe5"},"531566":{"content":"c5eaffff78cfb685401b107703bcb7b9170cf40f"},"531599":{"content":"d51304882d25575f1492e05e8c4d803ee4fdb4fd"},"531603":{"content":"53153c079686055202d716baef8bf34d39c9e44b"},"531605":{"content":"ef41820fe080f8f5ea4a50bb063964d7dcf33349"},"531618":{"content":"d991247d4dddd0f28621026e62156b0e465108e5"},"531640":{"content":"3c01069c17519ee1c023aedb872227e11f45a4f7"},"531643":{"content":"2f8c4e88c91d366afbdc6b756428a2c0339d25a8"},"531644":{"content":"184849a5c58da5e2c2b1d97440c076da17bfd444"},"567468":{"content":"5fcb8e96daec9bb5161e0ef6db70fa6e0627cb5f"}},"assignment_files":[],"forum_files":[],"folder_files":{"594246\/mod_folder\/content\/0\/comp360_2_1606119.pdf":"ab292ed5a3e13165e56b706ed97e5678f7cc90d6","594246\/mod_folder\/content\/0\/comp360_2_1607539.pdf":"1c05102d1413d8398819d8bc0e0af53142d5a56a","594246\/mod_folder\/content\/0\/comp360_3_1703170.pdf":"9f1b1d820d90fdf4cb590add8569a50a0bbf2ebb","594246\/mod_folder\/content\/0\/comp360_2_1607804.pdf":"5412d043b43f16c3d307a6f6a73c4bd3941afed3","594246\/mod_folder\/content\/0\/comp360_3_1707981_compressed.pdf":"ce6f32d87d80e4394b25ece0aa92605cccb6e0e8","594246\/mod_folder\/content\/0\/comp360_1507680.pdf":"9e11f0a61f272d1107576ef98d0179e16e13ee21","594246\/mod_folder\/content\/0\/comp360_1507866.pdf":"403da691959b9645dedd9081c4a34c6706a3436f","594246\/mod_folder\/content\/0\/comp360_1506530.pdf":"5c1ce6e7e691110ab3f7292ce5232e5fe636f502","594246\/mod_folder\/content\/0\/comp360_3_1703086.pdf":"bfb402802cc5037a3434333b3a16d8ba39687920"},"glossary_files":[],"lesson_files":[]};
+                var ally_section_maps = {"section-0":117478};
+                var ally_annotation_maps = {"block_html":[],"mod_glossary":{"entries":[],"intros":[]},"mod_lesson":[],"mod_page":{"intros":{"531300":"page:page:intro:27762","531302":"page:page:intro:27763","531303":"page:page:intro:27764","531339":"page:page:intro:27769","531362":"page:page:intro:27770","531382":"page:page:intro:27773","531393":"page:page:intro:27776","531404":"page:page:intro:27778","531430":"page:page:intro:27786","531466":"page:page:intro:27791","531480":"page:page:intro:27795","531484":"page:page:intro:27797","531486":"page:page:intro:27798","531523":"page:page:intro:27803","531536":"page:page:intro:27808","531556":"page:page:intro:27810","531557":"page:page:intro:27811","531561":"page:page:intro:27812","531565":"page:page:intro:27813","531580":"page:page:intro:27814","531581":"page:page:intro:27815","531584":"page:page:intro:27816","531585":"page:page:intro:27817","531586":"page:page:intro:27818","531587":"page:page:intro:27819","531598":"page:page:intro:27820","531609":"page:page:intro:27821","531610":"page:page:intro:27822","531611":"page:page:intro:27823","531612":"page:page:intro:27824","531616":"page:page:intro:27825","531633":"page:page:intro:27826","531634":"page:page:intro:27827","531637":"page:page:intro:27828","565185":"page:page:intro:29983","565187":"page:page:intro:29984","565340":"page:page:intro:30026","565431":"page:page:intro:30027"},"content":{"531300":"page:page:content:27762","531302":"page:page:content:27763","531303":"page:page:content:27764","531339":"page:page:content:27769","531362":"page:page:content:27770","531382":"page:page:content:27773","531393":"page:page:content:27776","531404":"page:page:content:27778","531430":"page:page:content:27786","531466":"page:page:content:27791","531480":"page:page:content:27795","531484":"page:page:content:27797","531486":"page:page:content:27798","531523":"page:page:content:27803","531536":"page:page:content:27808","531556":"page:page:content:27810","531557":"page:page:content:27811","531561":"page:page:content:27812","531565":"page:page:content:27813","531580":"page:page:content:27814","531581":"page:page:content:27815","531584":"page:page:content:27816","531585":"page:page:content:27817","531586":"page:page:content:27818","531587":"page:page:content:27819","531598":"page:page:content:27820","531609":"page:page:content:27821","531610":"page:page:content:27822","531611":"page:page:content:27823","531612":"page:page:content:27824","531616":"page:page:content:27825","531633":"page:page:content:27826","531634":"page:page:content:27827","531637":"page:page:content:27828","565185":"page:page:content:29983","565187":"page:page:content:29984","565340":"page:page:content:30026","565431":"page:page:content:30027"}},"mod_forum":{"posts":[],"intros":{"531313":"forum:forum:intro:12314","531352":"forum:forum:intro:12315","531354":"forum:forum:intro:12316","531400":"forum:forum:intro:12317","531434":"forum:forum:intro:12318","531462":"forum:forum:intro:12319","531463":"forum:forum:intro:12320","531505":"forum:forum:intro:12321","531520":"forum:forum:intro:12322","531604":"forum:forum:intro:12323","531606":"forum:forum:intro:12324","531630":"forum:forum:intro:12325","566765":"forum:forum:intro:12935","567485":"forum:forum:intro:12943"}},"mod_book":{"intros":[],"chapters":[]}};
+            </script><script>
+                //<![CDATA[
+                var require = {
+                    baseUrl : 'https://learningspace.falmouth.ac.uk/lib/requirejs.php/1792191942/',
+                    // We only support AMD modules with an explicit define() statement.
+                    enforceDefine: true,
+                    skipDataMain: true,
+                    waitSeconds : 0,
+
+                    paths: {
+                        jquery: 'https://learningspace.falmouth.ac.uk/lib/javascript.php/1792191942/lib/jquery/jquery-3.7.1.min',
+                        jqueryui: 'https://learningspace.falmouth.ac.uk/lib/javascript.php/1792191942/lib/jquery/ui-1.13.2/jquery-ui.min',
+                        jqueryprivate: 'https://learningspace.falmouth.ac.uk/lib/javascript.php/1792191942/lib/requirejs/jquery-private'
+                    },
+
+                    // Custom jquery config map.
+                    map: {
+                        // '*' means all modules will get 'jqueryprivate'
+                        // for their 'jquery' dependency.
+                        '*': { jquery: 'jqueryprivate' },
+
+                        // 'jquery-private' wants the real jQuery module
+                        // though. If this line was not here, there would
+                        // be an unresolvable cyclic dependency.
+                        jqueryprivate: { jquery: 'jquery' }
+                    }
+                };
+
+                //]]>
+            </script>
+                <script src="https://learningspace.falmouth.ac.uk/lib/javascript.php/1792191942/lib/requirejs/require.min.js"></script>
+                <script>
+                    //<![CDATA[
+                    M.util.js_pending("core/first");
+                    require(['core/first'], function() {
+                        require(['core/prefetch'])
+                        ;
+                        M.util.js_pending('filter_ally/main'); require(['filter_ally/main'], function(amd) {amd.init("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3OTQ1NTcwMDYsImNvdXJzZV9pZCI6MTA0MjgsInJvbGVzIjoidXJuOmx0aTpyb2xlOmltcy9saXMvTGVhcm5lciIsInVzZXJfaWQiOjQ1Mzg1LCJsb2NhbGUiOiJlbiIsInJldHVybl91cmwiOiJodHRwczovL2xlYXJuaW5nc3BhY2UuZmFsbW91dGguYWMudWsifQ.lFp20Ce4Br_-M6pUdrI3xgUF0wN1nU49hbhI6t7xHkA", {"adminurl":"https:\/\/prod-eu-central-1.ally.ac\/api\/v1\/234\/lti\/institution","pushurl":"https:\/\/prod-eu-central-1.ally.ac\/api\/v1\/events","clientid":"234","moodleversion":"2024100715"}, false, true, "10428", {}); M.util.js_complete('filter_ally/main');});;
+                        require(["media_videojs/loader"], function(loader) {
+                            loader.setUp('en');
+                        });;
+                        M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function(amd) {amd.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"}); M.util.js_complete('filter_mathjaxloader/loader');});;
+                        M.util.js_pending('core_courseformat/courseeditor'); require(['core_courseformat/courseeditor'], function(amd) {amd.setViewFormat("10428", {"editing":false,"supportscomponents":true,"statekey":"1794479051_1794556524","overriddenStrings":[]}); M.util.js_complete('core_courseformat/courseeditor');});;
+
+                        require(['core_courseformat/local/courseindex/placeholder'], function(component) {
+                            component.init('course-index-placeholder');
+                        });
+                        ;
+
+                        require(['core_courseformat/local/courseindex/drawer'], function(component) {
+                            component.init('courseindex');
+                        });
+                        ;
+                        M.util.js_pending('report_allylti/main'); require(['report_allylti/main'], function(amd) {amd.init(); M.util.js_complete('report_allylti/main');});;
+
+                        require(['core/moremenu'], function(moremenu) {
+                            moremenu(document.querySelector('#moremenu-6af6c44e54c7a-navbar-nav'));
+                        });
+                        ;
+
+                        require(['core/usermenu'], function(UserMenu) {
+                            UserMenu.init();
+                        });
+                        ;
+
+                        M.util.js_pending('theme_boost/drawers:load');
+                        require(['theme_boost/drawers'], function() {
+                            M.util.js_complete('theme_boost/drawers:load');
+                        });
+                        ;
+
+                        M.util.js_pending('theme_boost/loader');
+                        require(['theme_boost/loader'], function() {
+                            M.util.js_complete('theme_boost/loader');
+                        });
+
+                        require(['theme_rosehill/navigation'], (module) => {
+                            module.init();
+                        });
+
+                        require(['theme_rosehill/elevio-help']);
+                        ;
+
+                        M.util.js_pending('theme_boost/drawers:load');
+                        require(['theme_boost/drawers'], function() {
+                            M.util.js_complete('theme_boost/drawers:load');
+                        });
+                        ;
+
+                        M.util.js_pending('theme_boost/drawers:load');
+                        require(['theme_boost/drawers'], function() {
+                            M.util.js_complete('theme_boost/drawers:load');
+                        });
+                        ;
+
+                        require(['core/moremenu'], function(moremenu) {
+                            moremenu(document.querySelector('#moremenu-6af6c44e53d6e-nav-tabs'));
+                        });
+                        ;
+
+                        require(['theme_boost/footer-popover'], function(FooterPopover) {
+                            FooterPopover.init();
+                        });
+                        ;
+
+                        M.util.js_pending('theme_boost/loader');
+                        require(['theme_boost/loader', 'theme_boost/drawer'], function(Loader, Drawer) {
+                            Drawer.init();
+                            M.util.js_complete('theme_boost/loader');
+
+                            require(['theme_rosehill/drawers', 'theme_rosehill/panopto-fix'], (module, panoptoFix) => {
+                                module.init();
+                                panoptoFix.init();
+                            });
+                        });
+                        ;
+                        M.util.js_pending('core_courseformat/courseeditor'); require(['core_courseformat/courseeditor'], function(amd) {amd.setViewFormat("10428", {"editing":false,"supportscomponents":true,"statekey":"1794479051_1794556524","overriddenStrings":[]}); M.util.js_complete('core_courseformat/courseeditor');});;
+                        M.util.js_pending('format_topics/mutations'); require(['format_topics/mutations'], function(amd) {amd.init(); M.util.js_complete('format_topics/mutations');});;
+                        M.util.js_pending('format_topics/section'); require(['format_topics/section'], function(amd) {amd.init(); M.util.js_complete('format_topics/section');});;
+
+                        require(['core/local/dropdown/dialog'], function(Module) {
+                            Module.init('#' + 'dropdownDialog_6af6c44e54ff52');
+                        });
+                        ;
+
+                        require(['core_courseformat/local/content'], function(component) {
+                            component.init(
+                                'page', {}, null, null
+                            );
+                        });
+                        ;
+                        M.util.js_pending('core_course/view'); require(['core_course/view'], function(amd) {amd.init(); M.util.js_complete('core_course/view');});;
+                        M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(580558, []); M.util.js_complete('core/notification');});;
+                        M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+                        M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
+                        M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});;
+                        M.util.js_pending('core/storage_validation'); require(['core/storage_validation'], function(amd) {amd.init(1794548893); M.util.js_complete('core/storage_validation');});
+                        M.util.js_complete("core/first");
+                    });
+                    //]]>
+                </script>
+                <script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?delayStartupUntil=configured"></script>
+                <script>
+                    //<![CDATA[
+                    M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL","collapseall":"Collapse all","expandall":"Expand all"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} links to this file","select":"Select"},"admin":{"confirmdeletecomments":"Are you sure you want to delete the selected comment(s)?","confirmation":"Confirmation"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
+                    //]]>
+                </script>
+                <script>
+                    //<![CDATA[
+                    (function() {Y.on('domready', function() { Y.use("moodle-block_panopto-asyncload",function() {M.block_panopto.asyncload.init({"id":"block_panopto_content","courseid":"10428"});
+                    }); });
+                        M.util.help_popups.setup(Y);
+                        M.util.js_pending('random6af6c44e54ff55'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6af6c44e54ff55'); });
+                    })();
+                    //]]>
+                </script>
+
+            </div>
+
+            <div class="footer-debugging footer-content-debugging footer-dark bg-dark text-light">
+                <div class="container-fluid footer-dark-inner">
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</div>
+
+
+</body></html>

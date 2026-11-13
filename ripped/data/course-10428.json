@@ -1,0 +1,1586 @@
+{
+  "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=10428",
+  "id": "10428",
+  "title": "Course is starred Course name COMP302 Research & Development: Proposal S1 (26/27) COMP302 Research & Development: Proposal S1 (26/27)",
+  "sections": [
+    {
+      "id": "section-0",
+      "num": 0,
+      "title": "Index",
+      "intro": "",
+      "items": [
+        {
+          "name": "**Module Index**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "0.1 Log an Issue",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=565416",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "num": 1,
+      "title": "Overview",
+      "intro": "",
+      "items": [
+        {
+          "name": "**Module Information**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "0.2.1 Module Introduction",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531300",
+          "completion": ""
+        },
+        {
+          "name": "0.2.2 Module Leader: Dr Michael Scott",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531301",
+          "completion": ""
+        },
+        {
+          "name": "0.2.3 Module Team",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531302",
+          "completion": ""
+        },
+        {
+          "name": "0.2.4 Student Voice",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531303",
+          "completion": ""
+        },
+        {
+          "name": "0.2.5 Reading List",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=531304",
+          "completion": ""
+        },
+        {
+          "name": "**Module Induction**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "0.3 Induction Slides",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531308",
+          "completion": ""
+        },
+        {
+          "name": "**Arranging Supervision**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "0.4.1 Instructions for Arranging Supervision",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=565340",
+          "completion": ""
+        },
+        {
+          "name": "0.4.2 Supervisors and Suggested Topics",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531311",
+          "completion": ""
+        },
+        {
+          "name": "0.4.3 Examine Your Career Goals",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=531352",
+          "completion": ""
+        },
+        {
+          "name": "0.4.4 Choose Your Supervisor",
+          "type": "choicegroup",
+          "url": "https://learningspace.falmouth.ac.uk/mod/choicegroup/view.php?id=531312",
+          "completion": ""
+        },
+        {
+          "name": "0.4.5 Research &amp; Development Approach",
+          "type": "questionnaire",
+          "url": "https://learningspace.falmouth.ac.uk/mod/questionnaire/view.php?id=531353",
+          "completion": ""
+        },
+        {
+          "name": "0.4.6 Propose a Project",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=531313",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "num": 2,
+      "title": "Assessment",
+      "intro": "",
+      "items": [
+        {
+          "name": "**Academic Integrity**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "0.5 Academic Misconduct Resources",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=565187",
+          "completion": ""
+        },
+        {
+          "name": "**Assignment**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "0.6.1 Assignment Brief",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531318",
+          "completion": ""
+        },
+        {
+          "name": "0.6.2 Assignment Templates",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=565185",
+          "completion": ""
+        },
+        {
+          "name": "0.6.3 Dissertation Exemples",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=531358",
+          "completion": ""
+        },
+        {
+          "name": "**Submission Area**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "COMP302 LITERATURE REVIEW (100%) {ID001} Proposal with Ethics Form and Computing Prototype",
+          "type": "assign",
+          "url": "https://learningspace.falmouth.ac.uk/mod/assign/view.php?id=562042",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "num": 3,
+      "title": "Week 1: Intro to R&amp;D",
+      "intro": "",
+      "items": [
+        {
+          "name": "**Lecture**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "1.1 Lecture Slides",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531337",
+          "completion": ""
+        },
+        {
+          "name": "**Workshop**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "1.2.1 Workshop Materials",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=565465",
+          "completion": ""
+        },
+        {
+          "name": "1.2.2 Digital Collections",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=561735",
+          "completion": ""
+        },
+        {
+          "name": "1.2.3 Identify Appropriate Sources",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=531354",
+          "completion": ""
+        },
+        {
+          "name": "**Guest Talks**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "1.3.1 Using the Library",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531361",
+          "completion": ""
+        },
+        {
+          "name": "1.3.2 Using IEEE Xplore",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531362",
+          "completion": ""
+        },
+        {
+          "name": "1.3.3 JabRef Reference Manager",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531363",
+          "completion": ""
+        },
+        {
+          "name": "**Technical Writing**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "1.4 Citing Sources with BibTeX",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=566135",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "num": 4,
+      "title": "Week 2: Contextual Review",
+      "intro": "",
+      "items": [
+        {
+          "name": "**Lecture**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "2.1 Lecture Slides",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531367",
+          "completion": ""
+        },
+        {
+          "name": "**Recommended Reading**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "2.2.1 Scholars Before Researchers",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531369",
+          "completion": ""
+        },
+        {
+          "name": "2.2.2 The Heilmeier Catechism",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=562380",
+          "completion": ""
+        },
+        {
+          "name": "**Workshop**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "2.3.1 Workshop Instructions",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=562377",
+          "completion": ""
+        },
+        {
+          "name": "2.3.2 Workshop Resources",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=565431",
+          "completion": ""
+        },
+        {
+          "name": "2.3.3 Study Guides",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531377",
+          "completion": ""
+        },
+        {
+          "name": "**Supervisor Meeting**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "2.5 Supervisor Meeting",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531382",
+          "completion": ""
+        },
+        {
+          "name": "**Technical Writing**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "2.6 Google Technical Writing 1",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531385",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "num": 5,
+      "title": "Week 3: Scientific Questions",
+      "intro": "",
+      "items": [
+        {
+          "name": "**Lecture**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.1 Lecture Slides",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531389",
+          "completion": ""
+        },
+        {
+          "name": "**Recommended Reading**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.2.1 Question Characteristics",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=565458",
+          "completion": ""
+        },
+        {
+          "name": "3.2.2 FINERMAPS",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531397",
+          "completion": ""
+        },
+        {
+          "name": "3.2.3 PICOT",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531398",
+          "completion": ""
+        },
+        {
+          "name": "3.2.4 Good Scientific Problems",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531399",
+          "completion": ""
+        },
+        {
+          "name": "**Guest Talk**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.3 Dr Michael Rofe",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531393",
+          "completion": ""
+        },
+        {
+          "name": "**Workshop**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.4.1 Workshop Instructions",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=563539",
+          "completion": ""
+        },
+        {
+          "name": "3.4.2 Propose a Research Question",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=531400",
+          "completion": ""
+        },
+        {
+          "name": "**Supervisor Meeting**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.5 Supervisor Meeting",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531404",
+          "completion": ""
+        },
+        {
+          "name": "**Technical Writing**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3.6 Google Technical Writing 2",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531407",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "num": 6,
+      "title": "Week 4: Philosophies of Knowledge",
+      "intro": "",
+      "items": [
+        {
+          "name": "**Lecture**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "4.1 Lecture Slides",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=565467",
+          "completion": ""
+        },
+        {
+          "name": "**Recommended Reading**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "4.2.1 What Is This Thing Called Science?",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531424",
+          "completion": ""
+        },
+        {
+          "name": "4.2.2 Philosophy of Science",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531426",
+          "completion": ""
+        },
+        {
+          "name": "4.2.3 Paradigms of Scientific Research",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531425",
+          "completion": ""
+        },
+        {
+          "name": "4.2.4 Scientific Method",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531427",
+          "completion": ""
+        },
+        {
+          "name": "**Guest Talk**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "4.3 Prof Rob Iliffee",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531430",
+          "completion": ""
+        },
+        {
+          "name": "**Workshop**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "4.4.1 Workshop Instructions",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=563948",
+          "completion": ""
+        },
+        {
+          "name": "4.4.2 Suggest Your Philosophical Position",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=531434",
+          "completion": ""
+        },
+        {
+          "name": "**Technical Writing**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "4.6 Google Accessible Writing",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531440",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "num": 7,
+      "title": "Week 5: Hypotheses and Experiments",
+      "intro": "",
+      "items": [
+        {
+          "name": "**Lecture**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "5.1 Lecture Slides",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=564935",
+          "completion": ""
+        },
+        {
+          "name": "**Recommended Reading**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "5.2.1 Intermediate Theory",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531449",
+          "completion": ""
+        },
+        {
+          "name": "5.2.2 Research Hypotheses",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=565531",
+          "completion": ""
+        },
+        {
+          "name": "5.2.3 On the Scope of Scientific Hypotheses",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=565037",
+          "completion": ""
+        },
+        {
+          "name": "5.2.4 Experimental Designs",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=565036",
+          "completion": ""
+        },
+        {
+          "name": "**Guest Talk**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "5.3 Dr Rolin Moe",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531453",
+          "completion": ""
+        },
+        {
+          "name": "**Workshop**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "5.4.1 Workshop Instructions",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=565035",
+          "completion": ""
+        },
+        {
+          "name": "5.4.2 Formulate Hypotheses",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=531462",
+          "completion": ""
+        },
+        {
+          "name": "5.4.3 Suggest Experimental Designs",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=531463",
+          "completion": ""
+        },
+        {
+          "name": "**Supervisor Meeting**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "5.5 Supervisor Meeting",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531466",
+          "completion": ""
+        },
+        {
+          "name": "**Technical Writing**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "5.6.1 Drawing UML with TikZ-UML",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531469",
+          "completion": ""
+        },
+        {
+          "name": "5.6.2 TikZ-UML Example",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=565521",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-8",
+      "num": 8,
+      "title": "Week 6: Research Ethics",
+      "intro": "",
+      "items": [
+        {
+          "name": "**Video Lecture**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "6.1 Lecture Slides",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=566136",
+          "completion": ""
+        },
+        {
+          "name": "**Ethics Review Toolkit**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "6.2.1 Ethics Induction",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531480",
+          "completion": ""
+        },
+        {
+          "name": "6.2.2 Rights of Participants",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531484",
+          "completion": ""
+        },
+        {
+          "name": "6.2.3 Information &amp; Consent Forms",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531486",
+          "completion": ""
+        },
+        {
+          "name": "6.2.4 Template Participant Information Form",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531488",
+          "completion": ""
+        },
+        {
+          "name": "6.2.5 Template Participant Consent Form",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531489",
+          "completion": ""
+        },
+        {
+          "name": "6.2.6 Template Health &amp; Safety Risk Assessment",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531490",
+          "completion": ""
+        },
+        {
+          "name": "**Ethics Policies**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "6.3.1 Integrity &amp; Ethics Handbook",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531491",
+          "completion": ""
+        },
+        {
+          "name": "6.3.2 Universities UK Concordat",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531492",
+          "completion": ""
+        },
+        {
+          "name": "6.3.3 Integrity &amp; Ethics Policy",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531493",
+          "completion": ""
+        },
+        {
+          "name": "6.3.4 Policy Guidance",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531494",
+          "completion": ""
+        },
+        {
+          "name": "**Technical Writing**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "6.4 Google Error Messages",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531499",
+          "completion": ""
+        },
+        {
+          "name": "**Ethics Application**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "6.5.1 Ethical Risk Checklist",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531502",
+          "completion": ""
+        },
+        {
+          "name": "6.5.2 Ethical Risk Level",
+          "type": "choicegroup",
+          "url": "https://learningspace.falmouth.ac.uk/mod/choicegroup/view.php?id=531504",
+          "completion": ""
+        },
+        {
+          "name": "6.5.3a Ethics Application (Low Risk)",
+          "type": "forum",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "6.5.3b Ethics Application (Medium Risk)",
+          "type": "quiz",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "6.5.3c Ethics Application (High Risk)",
+          "type": "quiz",
+          "url": "",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "num": 9,
+      "title": "Week 7: Using Data to Test Hypotheses",
+      "intro": "",
+      "items": [
+        {
+          "name": "**Lecture**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "7.1 Lecture Slides",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531515",
+          "completion": ""
+        },
+        {
+          "name": "**Recommended Reading**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "7.2.1 Null Hypothesis Significance Testing",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=566758",
+          "completion": ""
+        },
+        {
+          "name": "7.2.2 Choosting the Correct Statistical Test",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=566164",
+          "completion": ""
+        },
+        {
+          "name": "7.2.3 Quick Guide to Common Statistics",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=566761",
+          "completion": ""
+        },
+        {
+          "name": "7.2.4 Running the Correct Statistical Test",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=566759",
+          "completion": ""
+        },
+        {
+          "name": "7.2.5 Statistical Tests for Machine Learning",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=566165",
+          "completion": ""
+        },
+        {
+          "name": "7.2.6 Competitive Agent Analysis",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=567468",
+          "completion": ""
+        },
+        {
+          "name": "**Guest Talk**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "8.3.1 Vanderplas",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531552",
+          "completion": ""
+        },
+        {
+          "name": "8.3.2 On Frequentism and Bayesianism",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531551",
+          "completion": ""
+        },
+        {
+          "name": "**Workshop**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "7.3.1 Workshop Instructions",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=566132",
+          "completion": ""
+        },
+        {
+          "name": "7.3.2 Select Statistical Tests",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=566765",
+          "completion": ""
+        },
+        {
+          "name": "**Supervisor Meeting**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "7.4 Supervisor Meeting",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531523",
+          "completion": ""
+        },
+        {
+          "name": "**Technical Writing**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "7.6 Including Source Code in LaTeX",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531526",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-10",
+      "num": 10,
+      "title": "Week 8: Data Management",
+      "intro": "",
+      "items": [
+        {
+          "name": "**Lecture**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "8.1 Lecture Slides",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531538",
+          "completion": ""
+        },
+        {
+          "name": "**Recommended Reading**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "8.2.1 R Programming by Example",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531545",
+          "completion": ""
+        },
+        {
+          "name": "8.2.2 Reproducible Research with R and RStudio",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=567448",
+          "completion": ""
+        },
+        {
+          "name": "8.2.3 Planning for and Collecting Data",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531519",
+          "completion": ""
+        },
+        {
+          "name": "**Data Analysis Toolkit**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "8.4.1 R Project",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531542",
+          "completion": ""
+        },
+        {
+          "name": "8.4.2 RStudio",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=567447",
+          "completion": ""
+        },
+        {
+          "name": "8.4.3 Tidyverse",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=567483",
+          "completion": ""
+        },
+        {
+          "name": "**Guest Talk**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "8.5.1 R for Data Science",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531546",
+          "completion": ""
+        },
+        {
+          "name": "8.5.2 Introduction to Tidy Statistics in R",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531543",
+          "completion": ""
+        },
+        {
+          "name": "**Workshop**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "8.6.1 Workshop Instructions",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=566143",
+          "completion": ""
+        },
+        {
+          "name": "8.6.2 Data Collection",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=531520",
+          "completion": ""
+        },
+        {
+          "name": "8.6.3 R Code for Statistical Tests",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=567485",
+          "completion": ""
+        },
+        {
+          "name": "**Technical Writing**",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "8.7 Figures and Diagrams in TikZ LaTeX",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=566138",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-11",
+      "num": 11,
+      "title": "Week 9: Scoping and Data Requirements",
+      "intro": "",
+      "items": [
+        {
+          "name": "8.2.3 Statistical Power Analysis",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531536",
+          "completion": ""
+        },
+        {
+          "name": "9.1 Learning Objectives",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531556",
+          "completion": ""
+        },
+        {
+          "name": "Lecture",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Synchronous Online Activity - Approx 1 Hour",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "9.2.1 Session Recording",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531561",
+          "completion": ""
+        },
+        {
+          "name": "9.2.2 Session Materials",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531562",
+          "completion": ""
+        },
+        {
+          "name": "Research &amp; Development Workshop",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Synchronous Online Activity - Approx 2 Hours",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "9.3.1 Using G*Power to Conduct a Power Analysis",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531565",
+          "completion": ""
+        },
+        {
+          "name": "9.3.2 G*Power 3.1",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531566",
+          "completion": ""
+        },
+        {
+          "name": "9.3.3 G*Power Help Guide",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531567",
+          "completion": ""
+        },
+        {
+          "name": "9.2.3 Obfuscated Data for R Tutorial",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531568",
+          "completion": ""
+        },
+        {
+          "name": "NoticePlease continue the activities from last wee...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Google Technical Writing",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "9.4.1 Technical Writing for Accessibility",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531577",
+          "completion": ""
+        },
+        {
+          "name": "Supervisor Meeting",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "9.6 Supervisor Meeting",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531580",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-12",
+      "num": 12,
+      "title": "Week 10: Technical Writing &amp; Presenting Arguments",
+      "intro": "",
+      "items": [
+        {
+          "name": "10.1 Learning Objectives",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531581",
+          "completion": ""
+        },
+        {
+          "name": "Lecture",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Synchronous Online Activity - Approx 1 Hour",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "10.2.1 Academic Writing",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531584",
+          "completion": ""
+        },
+        {
+          "name": "10.2.2 Effective Written Communication",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531585",
+          "completion": ""
+        },
+        {
+          "name": "10.2.3 Written Structure",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531586",
+          "completion": ""
+        },
+        {
+          "name": "10.2.4 Structuring Your Proposal",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531587",
+          "completion": ""
+        },
+        {
+          "name": "10.2.5 Session Materials",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531588",
+          "completion": ""
+        },
+        {
+          "name": "10.2.6 The Importance of Communication in Business Management",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531589",
+          "completion": ""
+        },
+        {
+          "name": "10.2.7 Every Engineer is also a Writer - Google Technical Writing",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531590",
+          "completion": ""
+        },
+        {
+          "name": "10.2.8 Example Papers",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531591",
+          "completion": ""
+        },
+        {
+          "name": "10.2.9 Bob's Project Guidelines - Writing a Dissertation for a BSc in Computer Science",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531592",
+          "completion": ""
+        },
+        {
+          "name": "Draft Proposal Review",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Asynchronous Online Activity - Approx 30 Minutes",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "10.3.1 Automated Feedback on Draft Research &amp; Development Proposal",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=531595",
+          "completion": ""
+        },
+        {
+          "name": "System Development Life Cycles",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Asynchronous Online Activity - Approx 2 Hours",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "10.3.1 System Development Lifecycles for Research and Development",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531598",
+          "completion": ""
+        },
+        {
+          "name": "10.3.2 Supporting Materials",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531599",
+          "completion": ""
+        },
+        {
+          "name": "10.3.3 System Life Cycles Resource",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531600",
+          "completion": ""
+        },
+        {
+          "name": "Research &amp; Development Workshop",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Synchronous Online Activity - Approx 2 Hours",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "10.4.1 Exemplar Proposal",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531603",
+          "completion": ""
+        },
+        {
+          "name": "10.4.2 Thoughts and Critiques on Example",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=531604",
+          "completion": ""
+        },
+        {
+          "name": "10.4.3 Example of a Published Research &amp; Development Project",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531605",
+          "completion": ""
+        },
+        {
+          "name": "10.4.4 Structuring Your Proposal",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=531606",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-13",
+      "num": 13,
+      "title": "Week 11: Quality Assurance in Research &amp; Development",
+      "intro": "",
+      "items": [
+        {
+          "name": "11.1 Learning Objectives",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531611",
+          "completion": ""
+        },
+        {
+          "name": "Lecture",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Synchronous Online Activity - Approx 1 Hour",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "11.2.1 Session Recording",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531616",
+          "completion": ""
+        },
+        {
+          "name": "11.2.2 Session Materials",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531618",
+          "completion": ""
+        },
+        {
+          "name": "Research &amp; Development Workshop",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Synchronous Online Activity - Approx 2 Hours",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "11.4.1 Agile Testing",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531622",
+          "completion": ""
+        },
+        {
+          "name": "11.4.2 Software Quality",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531623",
+          "completion": ""
+        },
+        {
+          "name": "11.4.3 Software Quality Factors and Metrics to Enhance Quality",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531624",
+          "completion": ""
+        },
+        {
+          "name": "11.4.4 Software Testing Techniques Technology",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531625",
+          "completion": ""
+        },
+        {
+          "name": "11.4.5 Seven Principles of Software Testing",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531626",
+          "completion": ""
+        },
+        {
+          "name": "11.4.6 Reproduceable Research with R and RStudio",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531627",
+          "completion": ""
+        },
+        {
+          "name": "11.4.7 Preparing a Software Test Plan",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531628",
+          "completion": ""
+        },
+        {
+          "name": "11.4.8 Example Test Plan for Proposal Appendix",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531629",
+          "completion": ""
+        },
+        {
+          "name": "11.4.9 Quality Assurance Strategy",
+          "type": "forum",
+          "url": "https://learningspace.falmouth.ac.uk/mod/forum/view.php?id=531630",
+          "completion": ""
+        },
+        {
+          "name": "Supervisor Meeting",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "11.5 Supervisor Meeting",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531633",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-14",
+      "num": 14,
+      "title": "Week 12: Peer-Review &amp; Proposal Submission",
+      "intro": "",
+      "items": [
+        {
+          "name": "12.1 Learning Objectives",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531634",
+          "completion": ""
+        },
+        {
+          "name": "Lecture",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Synchronous Online Activity - Approx 1 Hour",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "12.2.1 Session Recording",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531637",
+          "completion": ""
+        },
+        {
+          "name": "12.2.2 Session Materials - Proposal Submission Checklist",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531638",
+          "completion": ""
+        },
+        {
+          "name": "12.2.3 Closing Remarks",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531640",
+          "completion": ""
+        },
+        {
+          "name": "Peer Review of the Proposal",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Synchronous Online Activity - Approx 3 Hours",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Example Proposal --- A Comparison of DirectX, Vulkan, and OpenGL in the Context of 3D Mesh Polygon Clipping",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531643",
+          "completion": ""
+        },
+        {
+          "name": "Example Proposal --- Transition Costs of Replacing an Existing Object-Orientated Solution with a Data-Oriented Solution for Game-Related Processing Tasks",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=531644",
+          "completion": ""
+        },
+        {
+          "name": "12.3 Draft Research Proposal Submission for Peer Review",
+          "type": "lti",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Coursework Submission",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Asynchronous Online Activity - Approx 30 Minutes S...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "12.4 Submit Literature Review &amp; Proposal",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531648",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-15",
+      "num": 15,
+      "title": "Weeks 13: Proposal Presentations",
+      "intro": "",
+      "items": [
+        {
+          "name": "Final Proposal Presentation",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Synchronous Online Activity - Approx 3 Hours",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "13.1 Final Presentation",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531651",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-16",
+      "num": 16,
+      "title": "Winter Break",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-17",
+      "num": 17,
+      "title": "Week 14: Securing Ethical Approval",
+      "intro": "",
+      "items": [
+        {
+          "name": "14.1 Ethics Approval Forms",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531652",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-18",
+      "num": 18,
+      "title": "Week 15: Commencing Your Project",
+      "intro": "",
+      "items": [
+        {
+          "name": "Information: Please use this time to focus on the ...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        }
+      ]
+    }
+  ]
+}

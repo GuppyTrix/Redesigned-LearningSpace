@@ -1,0 +1,197 @@
+{
+  "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=10429",
+  "id": "10429",
+  "title": "Course is starred Course name COMP303 Research & Development: Dissertation S2 (26/27) COMP303 Research & Development: Dissertation S2 ...",
+  "sections": [
+    {
+      "id": "section-0",
+      "num": 0,
+      "title": "Overview",
+      "intro": "",
+      "items": [
+        {
+          "name": "This is a Study Block 2 Module Please note that th... (copy)",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Text and media area",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "View this module's Module Descriptor by searching ...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Important Information",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Asynchronous Online ActivityThese activities have ...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "0.1.1 Module Introduction",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531661",
+          "completion": ""
+        },
+        {
+          "name": "0.1.2 Module Leader: Dr Michael Scott",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531663",
+          "completion": ""
+        },
+        {
+          "name": "0.1.3 Student Voice",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=531664",
+          "completion": ""
+        },
+        {
+          "name": "0.1.4 Reading List",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=531665",
+          "completion": ""
+        },
+        {
+          "name": "Module Welcome",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "0.2.1 Module Welcome",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=531668",
+          "completion": ""
+        },
+        {
+          "name": "0.2.2 Confirm Your Supervisor",
+          "type": "choicegroup",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "0.2.3 Exemplar Dissertations",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Assessment Information Details of your assessed co...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "num": 1,
+      "title": "Assessment",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-2",
+      "num": 2,
+      "title": "Week 1: The Dissertation",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-3",
+      "num": 3,
+      "title": "Week 2: Quality in Research &amp; Development",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-4",
+      "num": 4,
+      "title": "Week 3: Collecting Data",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-5",
+      "num": 5,
+      "title": "Week 4: Refactoring and Engineering Notations",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-6",
+      "num": 6,
+      "title": "Week 5: Interpreting Data",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-7",
+      "num": 7,
+      "title": "Week 6: Presenting Data",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-8",
+      "num": 8,
+      "title": "Week 7: Findings, Discussions, and Conclusions",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-9",
+      "num": 9,
+      "title": "Week 8: Writing Up",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-10",
+      "num": 10,
+      "title": "Week 9: Reflecting on Your Research &amp; Development",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-11",
+      "num": 11,
+      "title": "Weeks E1-E2: Spring Break",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-12",
+      "num": 12,
+      "title": "Week 10: Peer-Review",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-13",
+      "num": 13,
+      "title": "Week 11: Submission &amp; Final Presentation",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-14",
+      "num": 14,
+      "title": "Weeks 13-15: Expo Preparation",
+      "intro": "",
+      "items": []
+    }
+  ]
+}

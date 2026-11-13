@@ -1,0 +1,78 @@
+{
+  "title": "My modules | Learning Space",
+  "count": 9,
+  "courses": [
+    {
+      "id": "10428",
+      "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=10428",
+      "name": "Course is starred Course name COMP302 Research & Development: Proposal S1 (26/27) COMP302 Research & Development: Proposal S1 (26/27)",
+      "category": "2026/27",
+      "progress": "Course progress: 59% complete",
+      "image": ""
+    },
+    {
+      "id": "10429",
+      "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=10429",
+      "name": "Course is starred Course name COMP303 Research & Development: Dissertation S2 (26/27) COMP303 Research & Development: Dissertation S2 ...",
+      "category": "2026/27",
+      "progress": "Course progress: 2% complete",
+      "image": ""
+    },
+    {
+      "id": "10515",
+      "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=10515",
+      "name": "Course is starred Course name COMP304 Human-Robot Interaction S1 (26/27) COMP304 Human-Robot Interaction S1 (26/27)",
+      "category": "2026/27",
+      "progress": "Course progress: 3% complete",
+      "image": ""
+    },
+    {
+      "id": "3445",
+      "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=3445",
+      "name": "Course is starred Course name Falmouth Campus Technical Resources Falmouth Campus Technical Resources",
+      "category": "Course and Resource Pages",
+      "progress": "",
+      "image": ""
+    },
+    {
+      "id": "10890",
+      "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=10890",
+      "name": "Course is starred Course name GAM360 Digital Innovation S1 (26/27) GAM360 Digital Innovation S1 (26/27)",
+      "category": "2026/27",
+      "progress": "",
+      "image": ""
+    },
+    {
+      "id": "10427",
+      "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=10427",
+      "name": "Course is starred Course name GAM390 Major Collaboration S2 (26/27) GAM390 Major Collaboration S2 (26/27)",
+      "category": "2026/27",
+      "progress": "",
+      "image": ""
+    },
+    {
+      "id": "4401",
+      "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=4401",
+      "name": "Course is starred Course name Games Academy Courses Games Academy Courses",
+      "category": "Course and Resource Pages",
+      "progress": "",
+      "image": ""
+    },
+    {
+      "id": "3301",
+      "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=3301",
+      "name": "Course is starred Course name Games Academy Resource Page Games Academy Resource Page",
+      "category": "Course and Resource Pages",
+      "progress": "",
+      "image": ""
+    },
+    {
+      "id": "9432",
+      "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=9432",
+      "name": "Course is starred Course name Unity Workshops Unity Workshops",
+      "category": "Course and Resource Pages",
+      "progress": "",
+      "image": ""
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=9432",
+  "id": "9432",
+  "title": "Course is starred Course name Unity Workshops Unity Workshops",
+  "sections": [
+    {
+      "id": "section-0",
+      "num": 0,
+      "title": "Introductory Workshops",
+      "intro": "",
+      "items": [
+        {
+          "name": "1- Project Anatomy: Scenes, Game Objects &amp; Components",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415253",
+          "completion": ""
+        },
+        {
+          "name": "3- Simulating Physics: Rigidbodys &amp; Joints. Collisions, Triggers &amp; Ray Casts",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415255",
+          "completion": ""
+        },
+        {
+          "name": "4- Introduction to GUI: Canvases, Layout &amp; Widgets",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415256",
+          "completion": ""
+        },
+        {
+          "name": "5a- Animation Clips",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415257",
+          "completion": ""
+        },
+        {
+          "name": "5b- Animation Controllers",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415258",
+          "completion": ""
+        },
+        {
+          "name": "6- Introduction to Audio",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415260",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "num": 1,
+      "title": "AI Behaviour",
+      "intro": "",
+      "items": [
+        {
+          "name": "Line of Sight Detection",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=419986",
+          "completion": ""
+        },
+        {
+          "name": "Behaviour Tree Editor",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=421690",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "num": 2,
+      "title": "Animation",
+      "intro": "",
+      "items": [
+        {
+          "name": "Tween Material Properties",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=417937",
+          "completion": ""
+        },
+        {
+          "name": "Activation Sequence Coroutine.",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=421004",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "num": 3,
+      "title": "Camera Control",
+      "intro": "",
+      "items": [
+        {
+          "name": "Camera Click Controller",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415463",
+          "completion": ""
+        },
+        {
+          "name": "Camera Dropdown Selector",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=417936",
+          "completion": ""
+        },
+        {
+          "name": "Camera Manager",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=417938",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "num": 4,
+      "title": "Character Controllers",
+      "intro": "",
+      "items": [
+        {
+          "name": "First Person Character Controller",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415449",
+          "completion": ""
+        },
+        {
+          "name": "3rd Person Character Controller",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415450",
+          "completion": ""
+        },
+        {
+          "name": "Click to Move Character Controller",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415451",
+          "completion": ""
+        },
+        {
+          "name": "Car Controller",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415454",
+          "completion": ""
+        },
+        {
+          "name": "Aircraft Controller",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415455",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "num": 5,
+      "title": "Dialogue Systems",
+      "intro": "",
+      "items": [
+        {
+          "name": "Fungus Examples - Free Dialogue System",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=447460",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "num": 6,
+      "title": "Editor Customization",
+      "intro": "",
+      "items": [
+        {
+          "name": "Sprite Property Drawer",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=421085",
+          "completion": ""
+        },
+        {
+          "name": "Min Max Attribute",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=421086",
+          "completion": ""
+        },
+        {
+          "name": "Sentence Case Converter",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=457235",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "num": 7,
+      "title": "Gameplay Systems",
+      "intro": "",
+      "items": [
+        {
+          "name": "3D Interaction System",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415465",
+          "completion": ""
+        },
+        {
+          "name": "Input System - Simple Local MultiplayerAn example ...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "2D Moving Platform",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=435109",
+          "completion": ""
+        },
+        {
+          "name": "Flappy Birds Example",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=435701",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-8",
+      "num": 8,
+      "title": "Graphics",
+      "intro": "",
+      "items": [
+        {
+          "name": "Cubemap Wizard",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=421084",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "num": 9,
+      "title": "Pathfinding",
+      "intro": "",
+      "items": [
+        {
+          "name": "Simple Patrol",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415453",
+          "completion": ""
+        },
+        {
+          "name": "Agent Helpers",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=502040",
+          "completion": ""
+        },
+        {
+          "name": "A* Pathfinding Project",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=421693",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-10",
+      "num": 10,
+      "title": "UI",
+      "intro": "",
+      "items": [
+        {
+          "name": "Animated UI Image",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415452",
+          "completion": ""
+        },
+        {
+          "name": "Drag &amp; Drop Examples",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415457",
+          "completion": ""
+        },
+        {
+          "name": "Custom Cursors",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=416664",
+          "completion": ""
+        },
+        {
+          "name": "Tooltip System",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=417935",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-11",
+      "num": 11,
+      "title": "Software Architecture",
+      "intro": "",
+      "items": [
+        {
+          "name": "Game Event System",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=415448",
+          "completion": ""
+        },
+        {
+          "name": "Mouse Event Examples",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=421083",
+          "completion": ""
+        },
+        {
+          "name": "Rock Paper Scissors Example",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=416487",
+          "completion": ""
+        },
+        {
+          "name": "Weighted Random Selection",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=422924",
+          "completion": ""
+        },
+        {
+          "name": "Delay Cache",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=435820",
+          "completion": ""
+        },
+        {
+          "name": "Scriptable Objects Introduction",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=455157",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-12",
+      "num": 12,
+      "title": "Unity Terrain",
+      "intro": "",
+      "items": [
+        {
+          "name": "More Brushes",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=435452",
+          "completion": ""
+        },
+        {
+          "name": "Sample Terrain Textures",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=435458",
+          "completion": ""
+        },
+        {
+          "name": "Sample Terrain Details",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=435460",
+          "completion": ""
+        }
+      ]
+    }
+  ]
+}

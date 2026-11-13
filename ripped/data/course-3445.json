@@ -1,0 +1,962 @@
+{
+  "url": "https://learningspace.falmouth.ac.uk/course/view.php?id=3445",
+  "id": "3445",
+  "title": "Course is starred Course name Falmouth Campus Technical Resources Falmouth Campus Technical Resources",
+  "sections": [
+    {
+      "id": "section-0",
+      "num": 0,
+      "title": "Overview",
+      "intro": "",
+      "items": [
+        {
+          "name": "Workshops and Studio Handbook 2026-27",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=13518",
+          "completion": ""
+        },
+        {
+          "name": "Staff and PhD Student Access to Facilities Request",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=450757",
+          "completion": ""
+        },
+        {
+          "name": "Materials supplier list",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=489802",
+          "completion": ""
+        },
+        {
+          "name": "MA Prosthetics Effects 26-27 presentation",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=561033",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "num": 1,
+      "title": "What are you looking for help with?",
+      "intro": "",
+      "items": [
+        {
+          "name": "workshop openings",
+          "type": "",
+          "url": "",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "num": 3,
+      "title": "Fine Wood",
+      "intro": "",
+      "items": [
+        {
+          "name": "Online technical tutorials starting point",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=134062",
+          "completion": ""
+        },
+        {
+          "name": "Online technical tutorials for Fine woodworking",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=133988",
+          "completion": ""
+        },
+        {
+          "name": "Online technical tutorials for woodworking - afternoon sessions",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=134032",
+          "completion": ""
+        },
+        {
+          "name": "Useful video links for working with wood in all its forms",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=134058",
+          "completion": ""
+        },
+        {
+          "name": "General Guide to the use of timber materials",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=143076",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "num": 4,
+      "title": "Finishing Rooms",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-5",
+      "num": 5,
+      "title": "Mould Making and Casting",
+      "intro": "",
+      "items": [
+        {
+          "name": "METAL CASTING - Bronze Pour 9/11/18",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=21027",
+          "completion": ""
+        },
+        {
+          "name": "Online introduction to Mould Making and Casting FA103",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=132139",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "num": 6,
+      "title": "Laser Cutting",
+      "intro": "",
+      "items": [
+        {
+          "name": "AutoCAD Laser cutting template",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=561285",
+          "completion": ""
+        },
+        {
+          "name": "Laser cutting for model making using AutoCAD",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=561505",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "num": 7,
+      "title": "Life Drawing",
+      "intro": "",
+      "items": [
+        {
+          "name": "Heavy Hitters",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=566089",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-8",
+      "num": 8,
+      "title": "Metal",
+      "intro": "",
+      "items": [
+        {
+          "name": "Online introduction to Metalworking",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=132089",
+          "completion": ""
+        },
+        {
+          "name": "metal fabrication tutorials",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=134608",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-9",
+      "num": 9,
+      "title": "Milling",
+      "intro": "",
+      "items": [
+        {
+          "name": "Risk assessments",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=10814",
+          "completion": ""
+        },
+        {
+          "name": "Safe Systems of Work",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=10817",
+          "completion": ""
+        },
+        {
+          "name": "Documents and handouts",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=10822",
+          "completion": ""
+        },
+        {
+          "name": "Materials",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=11166",
+          "completion": ""
+        },
+        {
+          "name": "Instructional videos",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=11388",
+          "completion": ""
+        },
+        {
+          "name": "Link to MDX540 milling from https://www.patrick-thorn.co.uk",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=64344",
+          "completion": ""
+        },
+        {
+          "name": "Top Ten Videos",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=65189",
+          "completion": ""
+        },
+        {
+          "name": "Milling and CNC router technical surgery",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=133412",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-11",
+      "num": 11,
+      "title": "3D Printing &amp; Scanning",
+      "intro": "",
+      "items": [
+        {
+          "name": "FDM/FFF 3D printing with Ultimaker",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Bambu Lab - X1C + AMS",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "SLA 3D Printing with Formlabs",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Trilab - DeltiQ2Plus",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "3D Scanning",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Oliver Hatfield - Staff Profile",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=10791",
+          "completion": ""
+        },
+        {
+          "name": "Top 10 Essential 3D printing and Scanning videos.",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=65176",
+          "completion": ""
+        },
+        {
+          "name": "MA Prosthetics Effects 3D scanning inductions - Signup",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=369330",
+          "completion": ""
+        },
+        {
+          "name": "1-1 Sessions - 3D printing and Scanning projects",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=370539",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-12",
+      "num": 12,
+      "title": "Welding",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-13",
+      "num": 13,
+      "title": "Woodworking workshop",
+      "intro": "",
+      "items": [
+        {
+          "name": "Ravi Bains - Staff Profile",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=10767",
+          "completion": ""
+        },
+        {
+          "name": "ravi.bains@falmouth.ac.ukWorking Hours: 9.00 am - ...",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Woodworking Workshop introductory video",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=131937",
+          "completion": ""
+        },
+        {
+          "name": "Useful videos that support workshop practice",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=65167",
+          "completion": ""
+        },
+        {
+          "name": "Formal workshops and helpful exercises available",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=65168",
+          "completion": ""
+        },
+        {
+          "name": "Online Wood workshop sessions",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=131770",
+          "completion": ""
+        },
+        {
+          "name": "Woodworking workshop online tech tutorial with Ravi Bains signups",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=131943",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-14",
+      "num": 14,
+      "title": "FALTR : DIGITAL",
+      "intro": "",
+      "items": [
+        {
+          "name": "TAHOE UPDATE 26/27",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=546820",
+          "completion": ""
+        },
+        {
+          "name": "SET-UP 26/27",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=184420",
+          "completion": ""
+        },
+        {
+          "name": "TOOLS/WORKSPACE LIST 26/27",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=184421",
+          "completion": ""
+        },
+        {
+          "name": "PHOTOSHOP 26/27",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=282297",
+          "completion": ""
+        },
+        {
+          "name": "ILLUSTRATOR 26/27",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=427116",
+          "completion": ""
+        },
+        {
+          "name": "ILLUSTRATOR BLENDS &amp; MASKS 26/27",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=554664",
+          "completion": ""
+        },
+        {
+          "name": "INDESIGN 26/27",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=316191",
+          "completion": ""
+        },
+        {
+          "name": "AFTER EFFECTS 26/27",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=427137",
+          "completion": ""
+        },
+        {
+          "name": "AFTER EFFECTS – MOTION GRAPHICS 26/27",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=538542",
+          "completion": ""
+        },
+        {
+          "name": "PREMIERE PRO 26/27",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=293120",
+          "completion": ""
+        },
+        {
+          "name": "PHOTOSHOP TO AFTER EFFECTS 26/27",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=537169",
+          "completion": ""
+        },
+        {
+          "name": "ILLUSTRATOR TO AFTER EFFECTS 26/27",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=537170",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-15",
+      "num": 15,
+      "title": "Digital Print Centre",
+      "intro": "",
+      "items": [
+        {
+          "name": "Welcome to the Digital Print Centre",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "Guide to the DPC (PDF Booklet)",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560033",
+          "completion": ""
+        },
+        {
+          "name": "Paper sizes",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=318035",
+          "completion": ""
+        },
+        {
+          "name": "Green Printer Tips (Video)",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=476748",
+          "completion": ""
+        },
+        {
+          "name": "White Printer Tips (Video)",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=476749",
+          "completion": ""
+        },
+        {
+          "name": "How to Scan (Zine)",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560029",
+          "completion": ""
+        },
+        {
+          "name": "How to make a Zine (Zine)",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560031",
+          "completion": ""
+        },
+        {
+          "name": "How to make Business Cards (Zine)",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560036",
+          "completion": ""
+        },
+        {
+          "name": "Business Card Template (InDesign)",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=560087",
+          "completion": ""
+        },
+        {
+          "name": "How to Use the RISO Printer",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=560997",
+          "completion": ""
+        },
+        {
+          "name": "Separating Channels for the RISO Printer",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=560998",
+          "completion": ""
+        },
+        {
+          "name": "Fake it till you make a real RISO",
+          "type": "url",
+          "url": "https://learningspace.falmouth.ac.uk/mod/url/view.php?id=561743",
+          "completion": ""
+        },
+        {
+          "name": "Interactive Scanning Support",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=360311",
+          "completion": ""
+        },
+        {
+          "name": "Printers Interactive Support",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=359434",
+          "completion": ""
+        },
+        {
+          "name": "ZINE TEMPLATES",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=563313",
+          "completion": ""
+        },
+        {
+          "name": "Price List",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=563359",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-16",
+      "num": 16,
+      "title": "Digital Skills, Illustration",
+      "intro": "",
+      "items": [
+        {
+          "name": "Photoshop Brushes",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=473306",
+          "completion": ""
+        },
+        {
+          "name": "Zines, Business Cards, Portfolios and Postcards - IDML templates and videos",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "I want to learn | General Digital Skills",
+          "type": "",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=165556",
+          "completion": ""
+        },
+        {
+          "name": "I want to learn | Photoshop",
+          "type": "",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=165546",
+          "completion": ""
+        },
+        {
+          "name": "I want to learn | InDesign",
+          "type": "",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=165551",
+          "completion": ""
+        },
+        {
+          "name": "I want to learn | Illustrator",
+          "type": "",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=165608",
+          "completion": ""
+        },
+        {
+          "name": "I want to learn | After Effects",
+          "type": "",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=165555",
+          "completion": ""
+        },
+        {
+          "name": "I want to learn | ProCreate",
+          "type": "",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=165703",
+          "completion": ""
+        },
+        {
+          "name": "I want to learn | Premiere",
+          "type": "",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=165554",
+          "completion": ""
+        },
+        {
+          "name": "All Handouts",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=327675",
+          "completion": ""
+        },
+        {
+          "name": "Week 2 Will It Blow Up? - ILLUSTRATION 2ND AND 3RD YR ONLY",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=482292",
+          "completion": ""
+        },
+        {
+          "name": "Week 2 Print Ready - ILLUSTRATION 2ND AND 3RD YR ONLY",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=482297",
+          "completion": ""
+        },
+        {
+          "name": "Week 3 Comic Game Workshop - ILLUSTRATION 2ND AND 3RD YR ONLY",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=546821",
+          "completion": ""
+        },
+        {
+          "name": "Week 3 Relative Tonal Value - ILLUSTRATION 2ND AND 3RD YR ONLY",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=476750",
+          "completion": ""
+        },
+        {
+          "name": "Week 5 Adobe Illustrator - ILLUSTRATION 2ND AND 3RD YR ONLY",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=482294",
+          "completion": ""
+        },
+        {
+          "name": "Week 7 Animated iPad 360 - ILLUSTRATION 2ND AND 3RD YR ONLY",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=476752",
+          "completion": ""
+        },
+        {
+          "name": "Week 8 Liminal Illustrator - ILLUSTRATION 2ND AND 3RD YR ONLY",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=476751",
+          "completion": ""
+        },
+        {
+          "name": "Week 6 Business Cards and Folios - ILLUSTRATION 2ND AND 3RD YR ONLY",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=502557",
+          "completion": ""
+        },
+        {
+          "name": "Cargo Sign-ups - MA Authorial and Fine Art",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=548220",
+          "completion": ""
+        },
+        {
+          "name": "A6 Riso Zine SIgn ups - MA Authorial Practice Students",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=548232",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-17",
+      "num": 17,
+      "title": "Graphic Design &amp; MA Communication Design",
+      "intro": "",
+      "items": [
+        {
+          "name": "Text and media area",
+          "type": "",
+          "url": "",
+          "completion": ""
+        },
+        {
+          "name": "InDesign",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=12874",
+          "completion": ""
+        },
+        {
+          "name": "Illustrator",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=21902",
+          "completion": ""
+        },
+        {
+          "name": "After Effects &amp; Premiere Pro",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=27468",
+          "completion": ""
+        },
+        {
+          "name": "Photoshop",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=25278",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-18",
+      "num": 18,
+      "title": "Architecture | Interior Design | Interior Architecture",
+      "intro": "",
+      "items": [
+        {
+          "name": "Interior Design &amp; Architecture Technical resources...",
+          "type": "",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=356169",
+          "completion": ""
+        },
+        {
+          "name": "1-2-1 Support",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=517816",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-19",
+      "num": 19,
+      "title": "Product Design: Computer Aided Design",
+      "intro": "",
+      "items": [
+        {
+          "name": "John Peters_Senior Technician CAD",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=93137",
+          "completion": ""
+        },
+        {
+          "name": "Carclew house CAD files",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=561996",
+          "completion": ""
+        },
+        {
+          "name": "ref Fusion file",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=514803",
+          "completion": ""
+        },
+        {
+          "name": "Rhino_example file",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=563419",
+          "completion": ""
+        },
+        {
+          "name": "Rhino_Laser cutting template file",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=563522",
+          "completion": ""
+        },
+        {
+          "name": "Fusion 360 Video channel",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=567501",
+          "completion": ""
+        },
+        {
+          "name": "Rhino 3D learning resources",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=40374",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-20",
+      "num": 20,
+      "title": "Audio Facilities",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-21",
+      "num": 21,
+      "title": "Photo Room",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-22",
+      "num": 22,
+      "title": "The Project Space",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-23",
+      "num": 23,
+      "title": "Time-Based Media - AV",
+      "intro": "",
+      "items": [
+        {
+          "name": "Risk Assessment for Fine Art Practice",
+          "type": "resource",
+          "url": "https://learningspace.falmouth.ac.uk/mod/resource/view.php?id=362030",
+          "completion": ""
+        },
+        {
+          "name": "Stores Technical Equipment Manuals",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=377421",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-24",
+      "num": 24,
+      "title": "Falmouth Campus Stores",
+      "intro": "",
+      "items": [
+        {
+          "name": "Inductions and Support for Falmouth Campus Stores equipment",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=387409",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-26",
+      "num": 26,
+      "title": "Etching, Monotype &amp; Relief",
+      "intro": "",
+      "items": [
+        {
+          "name": "Printmaking Centre Introduction",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=356523",
+          "completion": ""
+        },
+        {
+          "name": "Which Process?",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=392314",
+          "completion": ""
+        },
+        {
+          "name": "Quick guide to plate prep and etching",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=433826",
+          "completion": ""
+        },
+        {
+          "name": "A selection of ARTIST PRINTMAKERS to inspire your practice",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=66795",
+          "completion": ""
+        },
+        {
+          "name": "Useful suppliers for tools, paper and other etching equipment",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=339143",
+          "completion": ""
+        },
+        {
+          "name": "Letterpress sign-up for Postgraduate students",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=439397",
+          "completion": ""
+        },
+        {
+          "name": "Etching sign-up for Postgraduate Students",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=557887",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-27",
+      "num": 27,
+      "title": "Lithography",
+      "intro": "",
+      "items": [
+        {
+          "name": "Printmaking Centre Introduction",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=356524",
+          "completion": ""
+        },
+        {
+          "name": "A selection of ARTIST PRINTMAKERS to inspire your practice",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=66803",
+          "completion": ""
+        },
+        {
+          "name": "Useful suppliers for tools, paper and other printmaking equipment",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=339144",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-28",
+      "num": 28,
+      "title": "Screenprinting",
+      "intro": "",
+      "items": [
+        {
+          "name": "Printmaking Centre Introduction",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=356525",
+          "completion": ""
+        },
+        {
+          "name": "Making Positive Artwork for Screen Print",
+          "type": "page",
+          "url": "https://learningspace.falmouth.ac.uk/mod/page/view.php?id=457266",
+          "completion": ""
+        },
+        {
+          "name": "01 Screen Print - Introduction and positives-20200819_054901",
+          "type": "lti",
+          "url": "https://learningspace.falmouth.ac.uk/mod/lti/view.php?id=387476",
+          "completion": ""
+        },
+        {
+          "name": "t-shirt and tote printing",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=390678",
+          "completion": ""
+        },
+        {
+          "name": "A selection of ARTIST PRINTMAKERS to inspire your practice",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=66794",
+          "completion": ""
+        },
+        {
+          "name": "Useful suppliers for tools, paper and other screen equipment",
+          "type": "folder",
+          "url": "https://learningspace.falmouth.ac.uk/mod/folder/view.php?id=300827",
+          "completion": ""
+        },
+        {
+          "name": "Screenprint sign-up for Postgraduate Students",
+          "type": "scheduler",
+          "url": "https://learningspace.falmouth.ac.uk/mod/scheduler/view.php?id=557888",
+          "completion": ""
+        }
+      ]
+    },
+    {
+      "id": "section-29",
+      "num": 29,
+      "title": "Can't Find What You're Looking For?",
+      "intro": "",
+      "items": []
+    },
+    {
+      "id": "section-31",
+      "num": 31,
+      "title": "Topic 31",
+      "intro": "",
+      "items": []
+    }
+  ]
+}
